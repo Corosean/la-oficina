@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>La Oficina · Centro de mando</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fondo:#07090c; --pared:#0e1117; --carta:#121620; --carta2:#171c27; --linea:#222a36;
+  --texto:#ece7dc; --tenue:#8d96a3; --marca:#2f4bff; --cian:#2ee6ff;
+  --verde:#35d07f; --ambar:#ffb020; --rojo:#ff4d4f;
+  --madera:#7d5a3c; --madera2:#5f442d;
+  --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--fondo);color:var(--texto);font:14px/1.5 'Archivo',system-ui,sans-serif;min-height:100vh}
+a{color:var(--cian);text-decoration:none} a:hover{text-decoration:underline}
+.mono{font-family:'JetBrains Mono',monospace}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px 64px}
+
+/* ---------- barra superior ---------- */
+.top{position:sticky;top:0;z-index:20;background:rgba(7,9,12,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.top .wrap{display:flex;align-items:center;gap:18px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.logo{font-weight:900;letter-spacing:3px;font-size:18px}
+.logo i{color:var(--marca);font-style:normal}
+.sub{color:var(--tenue);font-size:11px;letter-spacing:2.5px;text-transform:uppercase}
+.estado-gen{display:flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid var(--linea);border-radius:999px;font-size:12px}
+.punto{width:9px;height:9px;border-radius:50%;flex:none}
+.p-verde{background:var(--verde);box-shadow:0 0 10px var(--verde)}
+.p-ambar{background:var(--ambar);box-shadow:0 0 10px var(--ambar)}
+.p-roja{background:var(--rojo);box-shadow:0 0 10px var(--rojo);animation:lat 1.2s infinite}
+.p-gris{background:#4b5563}
+@keyframes lat{50%{opacity:.35}}
+.reloj{margin-left:auto;text-align:right}
+.reloj b{font:600 20px 'JetBrains Mono',monospace;display:block}
+.reloj span{color:var(--tenue);font-size:11px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--marca);color:#fff;border:0;border-radius:10px;padding:10px 16px;font:700 13px 'Archivo';cursor:pointer;text-decoration:none!important}
+.btn:hover{filter:brightness(1.12)}
+.btn.sec{background:var(--carta2);border:1px solid var(--linea);color:var(--texto)}
+
+/* ---------- KPIs ---------- */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0 8px}
+.kpi{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:14px 16px}
+.kpi .n{font:600 26px 'JetBrains Mono',monospace}
+.kpi .t{color:var(--tenue);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+.aviso{margin-top:12px;padding:10px 14px;border-radius:10px;background:rgba(255,176,32,.08);border:1px solid rgba(255,176,32,.35);color:#ffd27a;font-size:13px}
+.aviso.err{background:rgba(255,77,79,.08);border-color:rgba(255,77,79,.4);color:#ff9b9c}
+
+/* ---------- salas ---------- */
+.sala{margin-top:36px}
+.cartel{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.cartel h2{font-size:13px;letter-spacing:3px;text-transform:uppercase;padding-left:12px;border-left:3px solid var(--marca)}
+.cartel small{color:var(--tenue);font-size:12px}
+.cartel .der{margin-left:auto}
+
+/* equipo: escritorios */
+.equipo{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;
+  background:linear-gradient(var(--pared) 0 58%,#141922 58%);border:1px solid var(--linea);border-radius:var(--r);padding:20px}
+.puesto{position:relative}
+.mesa{position:relative;height:118px}
+.monitor{position:absolute;left:50%;top:0;transform:translateX(-50%);width:128px;height:70px;background:#0b1020;border:3px solid #232c3d;border-radius:7px;overflow:hidden;box-shadow:0 0 22px rgba(47,75,255,.22)}
+.monitor:after{content:"";position:absolute;left:50%;bottom:-11px;transform:translateX(-50%);width:22px;height:9px;background:#232c3d}
+.monitor .l{height:4px;border-radius:2px;margin:5px 8px 0;background:linear-gradient(90deg,var(--marca),var(--cian));opacity:.75;animation:crece 2.8s ease-in-out infinite}
+.monitor .l:nth-child(2){animation-delay:.5s}.monitor .l:nth-child(3){animation-delay:1s;background:linear-gradient(90deg,var(--cian),var(--verde))}
+@keyframes crece{0%,100%{width:30%}50%{width:78%}}
+.monitor .tx{position:absolute;left:7px;right:7px;top:4px;font:9px 'JetBrains Mono';color:#7fd7a9;white-space:nowrap;overflow:hidden}
+.pj{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);animation:teclea 1.7s ease-in-out infinite}
+@keyframes teclea{50%{transform:translateX(-50%) translateY(2px)}}
+.pj .cab{width:24px;height:24px;border-radius:50%;background:var(--piel,#e1ad86);margin:0 auto;position:relative;z-index:2}
+.pj .cab:before{content:"";position:absolute;top:-4px;left:-2px;right:-2px;height:15px;border-radius:12px 12px 6px 6px;background:var(--pelo,#2b2018)}
+.pj .cue{width:44px;height:28px;border-radius:12px 12px 4px 4px;background:var(--ropa,#2f4bff);margin:-4px auto 0}
+.tablero{position:absolute;left:0;right:0;bottom:12px;height:9px;border-radius:3px;background:linear-gradient(var(--madera),var(--madera2));box-shadow:0 5px 10px rgba(0,0,0,.4)}
+.ficha{margin-top:8px;background:var(--carta);border:1px solid var(--linea);border-radius:10px;padding:9px 11px}
+.ficha .f1{display:flex;align-items:center;gap:7px}
+.ficha b{font-size:13px;flex:1}
+.ficha .rol{color:var(--tenue);font-size:11px}
+.ficha .que{font:11px 'JetBrains Mono';color:#b9c2cf;margin-top:4px;min-height:32px}
+.puesto.pausa .pj{animation:none;filter:grayscale(.7) brightness(.7)}
+.puesto.pausa .monitor{box-shadow:none}.puesto.pausa .monitor .l{animation:none;opacity:.2}
+
+/* sala de control: cuentas */
+.cuentas{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
+.cuenta{background:var(--carta);border:1px solid var(--linea);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:10px}
+.cuenta .h{display:flex;align-items:center;gap:10px}
+.cuenta .h b{font-size:15px}
+.cuenta .h small{color:var(--tenue);display:block;font-size:12px}
+.cuenta .chip{margin-left:auto;font:700 10px 'Archivo';letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+.c-verde{background:rgba(53,208,127,.14);color:var(--verde)}.c-ambar{background:rgba(255,176,32,.14);color:var(--ambar)}.c-roja{background:rgba(255,77,79,.14);color:var(--rojo)}
+.motivo{color:var(--tenue);font-size:12px}
+.datos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.dato{background:var(--carta2);border-radius:9px;padding:8px 10px}
+.dato .n{font:600 17px 'JetBrains Mono'}
+.dato .t{color:var(--tenue);font-size:10px;letter-spacing:1px;text-transform:uppercase}
+.ret .barra{height:8px;background:#1d2430;border-radius:5px;overflow:hidden;margin-top:6px}
+.ret .barra i{display:block;height:100%;border-radius:5px}
+.ret .fila{display:flex;justify-content:space-between;font-size:12px}
+.prox{font-size:12px;border-top:1px solid var(--linea);padding-top:9px;display:grid;gap:3px}
+.prox div{display:flex;justify-content:space-between;gap:10px}
+.prox span{color:var(--tenue)}
+.vacio{color:var(--tenue);font-size:12px;font-style:italic}
+
+/* banco de ideas */
+.filtros{display:flex;gap:6px;flex-wrap:wrap}
+.filtro{background:var(--carta2);border:1px solid var(--linea);color:var(--tenue);border-radius:999px;padding:4px 11px;font:500 12px 'Archivo';cursor:pointer}
+.filtro.on{background:var(--marca);border-color:var(--marca);color:#fff}
+.pizarra{display:grid;grid-template-columns:repeat(5,minmax(200px,1fr));gap:12px;overflow-x:auto;padding-bottom:6px}
+.col{background:var(--pared);border:1px solid var(--linea);border-radius:var(--r);padding:12px;min-height:160px;max-height:620px;overflow-y:auto}
+.col h3{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--tenue);display:flex;justify-content:space-between;margin-bottom:10px}
+.idea{position:relative;background:var(--carta);border:1px solid var(--linea);border-left:3px solid var(--area,#555);border-radius:9px;padding:9px 10px 9px 11px;margin-bottom:8px}
+.idea b{font-size:12.5px;display:block;padding-right:16px}
+.idea p{color:var(--tenue);font-size:11.5px;margin-top:3px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.idea .meta{display:flex;gap:6px;margin-top:6px;font:10px 'JetBrains Mono';color:var(--tenue)}
+.idea .pin{position:absolute;top:8px;right:9px;width:9px;height:9px;border-radius:50%;background:var(--rojo);box-shadow:0 0 0 2px rgba(255,77,79,.25)}
+
+footer{margin-top:40px;color:var(--tenue);font-size:12px;text-align:center;line-height:1.8}
+@media(max-width:640px){.reloj{margin-left:0}.datos{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="logo">LA OFICINA<i>▮</i></div><div class="sub">Centro de mando · Juan</div></div>
+  <div class="estado-gen" id="estadoGen"><span class="punto p-gris"></span><span>Cargando…</span></div>
+  <a class="btn" id="btnSubir" target="_blank" rel="noopener" title="Abre el workflow en GitHub: Run workflow → marca «ya» → Run">▲ Subir vídeo</a>
+  <div class="reloj"><b id="hora">--:--</b><span id="fecha"></span></div>
+</div></header>
+
+<main class="wrap">
+  <section class="kpis" id="kpis"></section>
+  <div id="avisos"></div>
+
+  <section class="sala">
+    <div class="cartel"><h2>Equipo</h2><small>quién trabaja en qué, ahora mismo</small></div>
+    <div class="equipo" id="equipo"></div>
+  </section>
+
+  <section class="sala">
+    <div class="cartel"><h2>Sala de control</h2><small>las 4 cuentas · publicación y retención</small>
+      <span class="der"><a class="btn sec" id="btnAnaliticas" target="_blank" rel="noopener">Medir ahora</a></span></div>
+    <div class="cuentas" id="cuentas"></div>
+  </section>
+
+  <section class="sala">
+    <div class="cartel"><h2>Banco de ideas</h2><small id="ideasResumen"></small>
+      <span class="der filtros" id="filtros"></span></div>
+    <div class="pizarra" id="pizarra"></div>
+  </section>
+
+  <footer>
+    Datos: <span class="mono">oficina/estado.json</span> e <span class="mono">oficina/ideas.json</span> del repo fabrica-contenido · se recarga cada 5 min.<br>
+    <span id="fuente"></span><br>
+    Esta página no guarda tokens ni publica nada sola: «Subir vídeo» abre GitHub y allí decides tú.
+  </footer>
+</main>
+
+<script>
+const REPO = "Corosean/fabrica-contenido";
+const FUENTES = [
+  ["./data/estado.json", "./data/ideas.json"],                                   // copia publicada junto a la web
+  ["./estado.json", "./ideas.json"],                                             // subida a mano en la raíz
+  [`https://raw.githubusercontent.com/${REPO}/main/oficina/estado.json`,
+   `https://raw.githubusercontent.com/${REPO}/main/oficina/ideas.json`]          // repo público
+];
+const AREA = {porque:["El Porqué","#2ee6ff"],historia:["Mejor Parte","#e8312f"],perros:["Patas Arriba","#e08a3c"],dios:["Dios en el Caos","#f2b443"],
+  fabrica:["Fábrica","#2f4bff"],oficina:["Oficina","#8a63ff"],agencia:["Agencia","#35d07f"],finanzas:["Finanzas","#14b8a6"],dropshipping:["Dropshipping","#f472b6"],corosean:["Corosean","#a3a3a3"]};
+const ESTADOS = [["nueva","Nuevas"],["aprobada","Aprobadas"],["en_curso","En curso"],["hecha","Hechas"],["descartada","Descartadas"]];
+const LUZ = {verde:"Todo en orden",ambar:"Atención",roja:"Problema"};
+let filtroArea = "todas", IDEAS = [];
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dia = f => { if(!f) return "—"; const d = new Date(f + "T12:00"); return d.toLocaleDateString("es-ES",{weekday:"short",day:"2-digit",month:"2-digit"}); };
+const num = n => n == null ? "—" : Number(n).toLocaleString("es-ES",{maximumFractionDigits:1});
+
+async function getJSON(url){ const r = await fetch(url + (url.includes("?")?"&":"?") + "t=" + Date.now(), {cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
+
+async function cargar(){
+  for(const [e,i] of FUENTES){
+    try{
+      const estado = await getJSON(e);
+      let ideas = null; try{ ideas = await getJSON(i); }catch(_){}
+      $("fuente").textContent = "Fuente: " + (e.startsWith("http") ? "repo (raw)" : "copia publicada") + " · actualizado " + (estado.actualizado||"").replace("T"," ");
+      pintar(estado, ideas); return;
+    }catch(_){}
+  }
+  $("estadoGen").innerHTML = '<span class="punto p-roja"></span><span>Sin datos</span>';
+  $("avisos").innerHTML = '<div class="aviso err">No puedo leer estado.json. Si el repo es privado, falta el paso que copia los datos junto a esta web (workflow «Oficina en GitHub Pages»).</div>';
+}
+
+function agentes(E, ideas){
+  const C = Object.values(E.cuentas||{});
+  const activas = C.filter(c=>c.instagram_automatico).length;
+  const banco = C.reduce((a,c)=>a+(c.banco||0),0);
+  const roja = C.find(c=>c.luz==="roja");
+  const sinMed = (E.analiticas_avisos||[]).length>0;
+  const ap = ideas.filter(x=>x.estado==="aprobada").length, cur = ideas.filter(x=>x.estado==="en_curso");
+  const nuevas = ideas.filter(x=>x.estado==="nueva").length;
+  return [
+    {n:"El Jefe", r:"Dirección · planifica la semana", q: cur.length ? "En curso: "+cur[0].titulo : `${ap} ideas aprobadas por repartir`, ok:true, ropa:"#b08a2e", pelo:"#151210"},
+    {n:"Publicador", r:"AGT-10 · Instagram en la nube", q: roja ? "⚠ "+roja.motivo : `${activas}/4 cuentas automáticas`, ok: !roja, ropa:"#e8312f"},
+    {n:"Analista", r:"Lee métricas y retención", q: sinMed ? "Esperando token con insights" : "Midiendo cada noche 00:15", ok: !sinMed, ropa:"#0e7490", piel:"#c98e62"},
+    {n:"Busca", r:"Tendencias y temas", q: `${nuevas} ideas nuevas en el banco`, ok:true, ropa:"#1f6f4a", pelo:"#3b2a1e"},
+    {n:"Escribe", r:"Guionista", q: `${banco} guiones en cola`, ok: banco>0, ropa:"#2f4bff", pelo:"#4a3015"},
+    {n:"Diseña", r:"Escenas e iconos del motor", q: "Kits: iconos, paisajes, historia, perros", ok:true, ropa:"#5a2d82", piel:"#8d5a3b"},
+    {n:"Revisa", r:"Control de calidad", q: "Valida cada guion antes de la cola", ok:true, ropa:"#374151", pelo:"#222"}
+  ];
+}
+
+function pintar(E, I){
+  IDEAS = (I && I.ideas) || [];
+  const C = E.cuentas || {};
+  // cabecera
+  const lg = E.luz_general || "ambar";
+  $("estadoGen").innerHTML = `<span class="punto p-${lg}"></span><span>${LUZ[lg]||lg}</span>`;
+  const en = E.enlaces || {};
+  $("btnSubir").href = en.publicar_ya || `https://github.com/${REPO}/actions/workflows/publicar.yml`;
+  $("btnAnaliticas").href = en.analiticas || `https://github.com/${REPO}/actions/workflows/analiticas.yml`;
+
+  // KPIs
+  const lista = Object.values(C);
+  const pub = lista.reduce((a,c)=>a+(c.publicados_ig||0),0);
+  const banco = lista.reduce((a,c)=>a+(c.banco||0),0);
+  const seg = lista.reduce((a,c)=>a+((c.analiticas&&c.analiticas.seguidores)||0),0);
+  const rets = lista.map(c=>c.analiticas&&c.analiticas.retencion_media_pct).filter(x=>x!=null);
+  const ret = rets.length ? rets.reduce((a,b)=>a+b,0)/rets.length : null;
+  const auto = lista.filter(c=>c.instagram_automatico).length;
+  $("kpis").innerHTML = [
+    [pub,"Reels publicados"],[banco,"Guiones en cola"],[auto+"/"+lista.length,"Cuentas automáticas"],
+    [seg?num(seg):"—","Seguidores"],[ret!=null?num(ret)+"%":"—","Retención media"],[(E.ideas&&E.ideas.total)||IDEAS.length,"Ideas en el banco"]
+  ].map(([n,t])=>`<div class="kpi"><div class="n">${n}</div><div class="t">${t}</div></div>`).join("");
+
+  // avisos
+  $("avisos").innerHTML = (E.analiticas_avisos||[]).map(a=>`<div class="aviso">${esc(a)}</div>`).join("");
+
+  // equipo
+  $("equipo").innerHTML = agentes(E, IDEAS).map(a=>`
+    <div class="puesto ${a.ok?"":"pausa"}" style="--ropa:${a.ropa};--pelo:${a.pelo||'#2b2018'};--piel:${a.piel||'#e1ad86'}">
+      <div class="mesa"><div class="monitor"><div style="height:14px"></div><div class="l"></div><div class="l"></div><div class="l"></div><div class="tx">&gt; ${esc(a.q)}</div></div>
+        <div class="pj"><div class="cab"></div><div class="cue"></div></div><div class="tablero"></div></div>
+      <div class="ficha"><div class="f1"><span class="punto ${a.ok?"p-verde":"p-ambar"}"></span><b>${esc(a.n)}</b></div>
+        <div class="rol">${esc(a.r)}</div><div class="que">${esc(a.q)}</div></div>
+    </div>`).join("");
+
+  // cuentas
+  $("cuentas").innerHTML = Object.entries(C).map(([h,c])=>{
+    const an = c.analiticas, r = an && an.retencion_media_pct;
+    const col = r==null ? "#4b5563" : r<35 ? "var(--rojo)" : r<50 ? "var(--ambar)" : "var(--verde)";
+    const ult = c.ultimo_publicado;
+    const prox = (c.proximas||[]).slice(0,3).map(p=>`<div><span>${dia(p.fecha)} · ${esc(p.hora)}</span><b class="mono">${esc(p.video)}</b></div>`).join("") || '<div class="vacio">Sin guiones en cola</div>';
+    return `<article class="cuenta">
+      <div class="h"><span style="font-size:22px">${esc(c.emoji||"")}</span><div><b>${esc(c.nombre||h)}</b><small>@${esc(h)} · ${c.instagram_automatico?"automática":"en pausa (a mano)"}</small></div>
+        <span class="chip c-${c.luz}">${esc(LUZ[c.luz]||c.luz)}</span></div>
+      <div class="motivo">${esc(c.motivo||"")}</div>
+      <div class="datos">
+        <div class="dato"><div class="n">${c.banco??"—"}</div><div class="t">Banco</div></div>
+        <div class="dato"><div class="n">${c.publicados_ig??0}</div><div class="t">Publicados</div></div>
+        <div class="dato"><div class="n">${an?num(an.seguidores):"—"}</div><div class="t">Seguidores</div></div>
+      </div>
+      <div class="ret"><div class="fila"><span>Retención media</span><b class="mono">${r!=null?num(r)+"%":"sin medir"}</b></div>
+        <div class="barra"><i style="width:${r!=null?Math.min(100,r):0}%;background:${col}"></i></div>
+        <div class="fila" style="margin-top:6px;color:var(--tenue)"><span>Vistas medias: ${an?num(an.vistas_media):"—"}</span>
+        ${an&&an.mejor_reel?`<a href="${esc(an.mejor_reel.enlace)}" target="_blank" rel="noopener">Mejor reel ↗</a>`:""}</div></div>
+      <div class="prox"><div><span>Último</span>${ult?`<span>${dia(ult.fecha)} · ${ult.enlace?`<a href="${esc(ult.enlace)}" target="_blank" rel="noopener">${esc(ult.video)} ↗</a>`:esc(ult.video)}</span>`:"<span>—</span>"}</div>${prox}</div>
+    </article>`;
+  }).join("");
+
+  pintarIdeas();
+}
+
+function pintarIdeas(){
+  const areas = [...new Set(IDEAS.map(i=>i.area))];
+  $("filtros").innerHTML = ["todas",...areas].map(a=>`<button class="filtro ${a===filtroArea?"on":""}" data-a="${a}">${a==="todas"?"Todas":esc((AREA[a]||[a])[0])}</button>`).join("");
+  $("filtros").querySelectorAll("button").forEach(b=>b.onclick=()=>{filtroArea=b.dataset.a;pintarIdeas();});
+  const vis = IDEAS.filter(i=>filtroArea==="todas"||i.area===filtroArea);
+  const p1 = vis.filter(i=>i.prioridad===1 && !["hecha","descartada"].includes(i.estado)).length;
+  $("ideasResumen").textContent = `${vis.length} ideas · ${p1} con prioridad 1`;
+  $("pizarra").innerHTML = ESTADOS.map(([k,t])=>{
+    const cs = vis.filter(i=>i.estado===k).sort((a,b)=>(a.prioridad||9)-(b.prioridad||9));
+    return `<div class="col"><h3><span>${t}</span><span>${cs.length}</span></h3>${cs.map(i=>`
+      <div class="idea" style="--area:${(AREA[i.area]||[0,"#555"])[1]}">${i.prioridad===1?'<span class="pin" title="Prioridad 1"></span>':""}
+        <b>${esc(i.titulo)}</b><p>${esc(i.descripcion)}</p>
+        <div class="meta"><span>${esc(i.id)}</span><span>${esc((AREA[i.area]||[i.area])[0])}</span><span>${esc(i.origen)}</span></div></div>`).join("") || '<div class="vacio">—</div>'}</div>`;
+  }).join("");
+}
+
+function reloj(){ const n=new Date(); $("hora").textContent=n.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});
+  $("fecha").textContent=n.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"}); }
+reloj(); setInterval(reloj, 15000);
+cargar(); setInterval(cargar, 5*60*1000);
+</script>
+</body>
+</html>
