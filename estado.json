@@ -1,9 +1,9 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-16T19:25",
+  "actualizado": "2026-11-16T19:54",
   "zona_horaria": "Europe/Madrid",
-  "luz_general": "ambar",
+  "luz_general": "verde",
   "cuentas": {
     "elporquesecreto": {
       "nombre": "El Porqué Secreto",
@@ -11,46 +11,51 @@
       "emoji": "🤔",
       "instagram_automatico": true,
       "hora_ig": "19:00",
-      "banco": 7,
+      "horas_ig": [
+        "09:00",
+        "14:00",
+        "20:00"
+      ],
+      "banco": 6,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_aviones",
-        "fecha": "2026-11-15",
-        "hora": "16:07",
-        "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
+        "video": "porque_cielo_azul",
+        "fecha": "2026-11-16",
+        "hora": "19:30",
+        "enlace": "https://www.instagram.com/reel/Df0ANjKDnwu/",
         "via": "api"
       },
-      "publicados_ig": 1,
+      "publicados_ig": 2,
       "proximas": [
-        {
-          "video": "porque_cielo_azul",
-          "fecha": "2026-11-16",
-          "hora": "19:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_ojos_rojos",
           "fecha": "2026-11-17",
-          "hora": "19:00",
+          "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "porque_cebolla",
-          "fecha": "2026-11-18",
-          "hora": "19:00",
+          "fecha": "2026-11-17",
+          "hora": "14:00",
           "via": "automatica"
         },
         {
           "video": "porque_dedos_arrugados",
-          "fecha": "2026-11-19",
-          "hora": "19:00",
+          "fecha": "2026-11-17",
+          "hora": "20:00",
           "via": "automatica"
         },
         {
           "video": "porque_mar_salado",
-          "fecha": "2026-11-20",
-          "hora": "19:00",
+          "fecha": "2026-11-18",
+          "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_ambulancia",
+          "fecha": "2026-11-18",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -63,46 +68,51 @@
       "emoji": "🐾",
       "instagram_automatico": true,
       "hora_ig": "19:45",
-      "banco": 7,
+      "horas_ig": [
+        "09:00",
+        "14:00",
+        "20:00"
+      ],
+      "banco": 6,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "perros_max_sofa",
-        "fecha": "2026-11-15",
-        "hora": "23:00",
-        "enlace": null,
-        "via": "manual"
+        "video": "perros_suenan",
+        "fecha": "2026-11-16",
+        "hora": "19:31",
+        "enlace": "https://www.instagram.com/reel/Df0ARcyjkwb/",
+        "via": "api"
       },
-      "publicados_ig": 1,
+      "publicados_ig": 2,
       "proximas": [
-        {
-          "video": "perros_suenan",
-          "fecha": "2026-11-16",
-          "hora": "19:45",
-          "via": "automatica"
-        },
         {
           "video": "perros_nariz",
           "fecha": "2026-11-17",
-          "hora": "19:45",
+          "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "perros_luna_espera",
-          "fecha": "2026-11-18",
-          "hora": "19:45",
+          "fecha": "2026-11-17",
+          "hora": "14:00",
           "via": "automatica"
         },
         {
           "video": "perros_vueltas",
-          "fecha": "2026-11-19",
-          "hora": "19:45",
+          "fecha": "2026-11-17",
+          "hora": "20:00",
           "via": "automatica"
         },
         {
           "video": "perros_edad_senior",
-          "fecha": "2026-11-20",
-          "hora": "19:45",
+          "fecha": "2026-11-18",
+          "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_suelo_resbala",
+          "fecha": "2026-11-18",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -115,46 +125,51 @@
       "emoji": "📱",
       "instagram_automatico": true,
       "hora_ig": "20:30",
-      "banco": 7,
+      "horas_ig": [
+        "09:00",
+        "14:00",
+        "20:00"
+      ],
+      "banco": 6,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_llamada_p1",
-        "fecha": "2026-11-15",
-        "hora": "22:57",
-        "enlace": null,
-        "via": "manual"
+        "video": "historia_llamada_p2",
+        "fecha": "2026-11-16",
+        "hora": "19:31",
+        "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
+        "via": "api"
       },
-      "publicados_ig": 1,
+      "publicados_ig": 2,
       "proximas": [
-        {
-          "video": "historia_llamada_p2",
-          "fecha": "2026-11-16",
-          "hora": "20:30",
-          "via": "automatica"
-        },
         {
           "video": "historia_llamada_p3",
           "fecha": "2026-11-17",
-          "hora": "20:30",
+          "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "historia_llamada_p4",
-          "fecha": "2026-11-18",
-          "hora": "20:30",
+          "fecha": "2026-11-17",
+          "hora": "14:00",
           "via": "automatica"
         },
         {
           "video": "historia_llamada_p5",
-          "fecha": "2026-11-19",
-          "hora": "20:30",
+          "fecha": "2026-11-17",
+          "hora": "20:00",
           "via": "automatica"
         },
         {
           "video": "historia_mirilla_p1",
-          "fecha": "2026-11-20",
-          "hora": "20:30",
+          "fecha": "2026-11-18",
+          "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_mirilla_p2",
+          "fecha": "2026-11-18",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -165,49 +180,54 @@
       "nombre": "Dios en el Caos",
       "estilo": "dios",
       "emoji": "🕊️",
-      "instagram_automatico": false,
+      "instagram_automatico": true,
       "hora_ig": "21:00",
-      "banco": 7,
-      "luz": "ambar",
-      "motivo": "En pausa: se sube a mano hasta que el token nuevo la cubra.",
+      "horas_ig": [
+        "09:00",
+        "14:00",
+        "20:00"
+      ],
+      "banco": 6,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "dios_r1_cansado",
-        "fecha": "2026-11-15",
-        "hora": "23:05",
+        "video": "dios_r7_nuevo",
+        "fecha": "2026-11-16",
+        "hora": "19:31",
         "enlace": null,
         "via": "manual"
       },
-      "publicados_ig": 1,
+      "publicados_ig": 2,
       "proximas": [
-        {
-          "video": "dios_r7_nuevo",
-          "fecha": "2026-11-16",
-          "hora": "21:00",
-          "via": "manual"
-        },
         {
           "video": "dios_r2_ansiedad",
           "fecha": "2026-11-17",
-          "hora": "21:00",
-          "via": "manual"
+          "hora": "09:00",
+          "via": "automatica"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-18",
-          "hora": "21:00",
-          "via": "manual"
+          "fecha": "2026-11-17",
+          "hora": "14:00",
+          "via": "automatica"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-19",
-          "hora": "21:00",
-          "via": "manual"
+          "fecha": "2026-11-17",
+          "hora": "20:00",
+          "via": "automatica"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-20",
-          "hora": "21:00",
-          "via": "manual"
+          "fecha": "2026-11-18",
+          "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "dios_r6_puertas",
+          "fecha": "2026-11-18",
+          "hora": "14:00",
+          "via": "automatica"
         }
       ],
       "tiktok_programado_hasta": "2026-11-21",

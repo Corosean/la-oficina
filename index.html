@@ -124,13 +124,15 @@ footer{margin-top:40px;color:var(--tenue);font-size:12px;text-align:center;line-
 <header class="top"><div class="wrap">
   <div><div class="logo">LA OFICINA<i>▮</i></div><div class="sub">Centro de mando · Juan</div></div>
   <div class="estado-gen" id="estadoGen"><span class="punto p-gris"></span><span>Cargando…</span></div>
-  <a class="btn" id="btnSubir" target="_blank" rel="noopener" title="Abre el workflow en GitHub: Run workflow → marca «ya» → Run">▲ Subir vídeo</a>
+  <button class="btn" id="btnFabricar" style="background:#35d07f;color:#06210f" title="Copia la orden para el equipo y abre Claude: pega y envía">✦ Fabricar contenido</button>
+  <a class="btn" id="btnSubir" target="_blank" rel="noopener" title="Abre el workflow en GitHub: Run workflow → marca «ya» → Run">▲ Subir vídeo ya</a>
   <div class="reloj"><b id="hora">--:--</b><span id="fecha"></span></div>
 </div></header>
 
 <main class="wrap">
   <section class="kpis" id="kpis"></section>
   <div id="avisos"></div>
+  <div id="ordenFab" class="aviso" style="display:none;background:rgba(53,208,127,.08);border-color:rgba(53,208,127,.4);color:#bff3d6"></div>
 
   <section class="sala">
     <div class="cartel"><h2>Equipo</h2><small>quién trabaja en qué, ahora mismo</small></div>
@@ -210,6 +212,7 @@ function agentes(E, ideas){
 }
 
 function pintar(E, I){
+  ESTADO = E;
   IDEAS = (I && I.ideas) || [];
   const C = E.cuentas || {};
   // cabecera
@@ -285,6 +288,29 @@ function pintarIdeas(){
         <div class="meta"><span>${esc(i.id)}</span><span>${esc((AREA[i.area]||[i.area])[0])}</span><span>${esc(i.origen)}</span></div></div>`).join("") || '<div class="vacio">—</div>'}</div>`;
   }).join("");
 }
+
+/* ---------- Fabricar contenido: el equipo de Claude escribe los guiones que faltan ---------- */
+let ESTADO = null;
+function ordenFabricar(){
+  const C = (ESTADO && ESTADO.cuentas) || {};
+  const linea = Object.entries(C).map(([h,c])=>`@${h}: ${c.banco ?? "?"} en cola`).join(" · ");
+  return `FABRICAR CONTENIDO (botón de La Oficina, ${new Date().toLocaleString("es-ES")}).
+Jefe de la Fábrica: en el repo Corosean/fabrica-contenido mira oficina/estado.json y la cola de cada cuenta (${linea || "estado sin cargar"}).
+1. Elige temas del banco de ideas (aprobadas primero; si faltan, que busca proponga y apúntalas).
+2. Que escribe haga los guiones que faltan para cubrir los próximos 3 días de las 4 cuentas: 3 Reels al día por cuenta, 40-60 s, skill fabrica-guiones.
+3. Que revisa los compruebe (datos verificables, anti-IA, JSON válido).
+4. Súbelos a motor/guiones/ en el repo y dime en 5 líneas qué has hecho y hasta qué día está cubierta cada cuenta.`;
+}
+$("btnFabricar").onclick = async () => {
+  const t = ordenFabricar(), caja = $("ordenFab");
+  let ok = false;
+  try { await navigator.clipboard.writeText(t); ok = true; } catch(_){}
+  caja.style.display = "block";
+  caja.innerHTML = (ok ? "<b>Orden copiada.</b> Se abre Claude: pégala (Ctrl+V) en el proyecto «FÁBRICA DE CONTENIDO» y envía."
+                       : "<b>Copia esta orden</b> y pégala en Claude, en el proyecto «FÁBRICA DE CONTENIDO»:") +
+    `<pre style="white-space:pre-wrap;margin-top:8px;font:12px 'JetBrains Mono',monospace;color:#e6fff1">${esc(t)}</pre>`;
+  window.open("https://claude.ai/projects", "_blank", "noopener");
+};
 
 function reloj(){ const n=new Date(); $("hora").textContent=n.toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});
   $("fecha").textContent=n.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"}); }
