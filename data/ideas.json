@@ -470,6 +470,16 @@
       "origen": "claude",
       "estado": "en_curso",
       "prioridad": 2
+    },
+    {
+      "id": "I-048",
+      "fecha": "2026-11-19",
+      "area": "fabrica",
+      "titulo": "Salto de calidad: Director Creativo + historias, animación y sonido",
+      "descripcion": "Empezar cuando se acabe la cola actual (33 guiones al estilo antiguo, dejarlos salir). 1) Agente Director Creativo (showrunner) por encima de escribe/revisa: 3 ganchos por vídeo con nota, re-gancho cada 8-10 s, final que paga, mira analíticas semanales. 2) Participación: Porqué 'adivina antes del segundo 5' + cuenta atrás; Mejor Parte en 2.ª persona y los comentarios eligen A/B el siguiente capítulo; Patas Arriba historia + test '¿tu perro hace esto?'; Dios (TikTok) 'esto es para ti si hoy…'. 3) Animación del motor: cámara viva, personajes que gesticulan, transiciones (chat aparte, por partes). Decidir: motor propio o imágenes IA gratis. 4) Música y efectos: diseño de sonido por escena en el guion, efectos CC0 (Kenney/Freesound), tema propio por cuenta; en TikTok sonidos en tendencia a mano. 5) Medir: retención nueva vs 32 % actual, objetivo 45 %.",
+      "origen": "juan",
+      "estado": "aprobada",
+      "prioridad": 1
     }
   ]
 }
