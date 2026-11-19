@@ -1,9 +1,9 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T10:39",
+  "actualizado": "2026-11-19T15:31",
   "zona_horaria": "Europe/Madrid",
-  "luz_general": "verde",
+  "luz_general": "roja",
   "cuentas": {
     "elporquesecreto": {
       "nombre": "El Porqué Secreto",
@@ -17,8 +17,8 @@
         "20:00"
       ],
       "banco": 10,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "porque_arcoiris_curvo",
         "fecha": "2026-11-19",
@@ -113,8 +113,8 @@
         "20:00"
       ],
       "banco": 10,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "perros_bebe_agua",
         "fecha": "2026-11-19",
@@ -209,8 +209,8 @@
         "20:00"
       ],
       "banco": 10,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "historia_audio_p1",
         "fecha": "2026-11-19",
