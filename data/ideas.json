@@ -1,0 +1,475 @@
+{
+  "_nota": "Banco de Ideas de La Oficina. Se edita con la skill banco-ideas o con python oficina/ideas.py. IDEAS.md se genera desde aquí. Sin datos privados.",
+  "ideas": [
+    {
+      "id": "I-001",
+      "fecha": "2026-11-16",
+      "area": "porque",
+      "titulo": "¿Por qué el piloto y el copiloto no comen lo mismo?",
+      "descripcion": "Gancho de miedo suave: si la comida sienta mal, que no caigan los dos. Norma habitual de las aerolíneas. Citar fuente antes de grabar.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-002",
+      "fecha": "2026-11-16",
+      "area": "porque",
+      "titulo": "¿Por qué el teclado no va en orden alfabético?",
+      "descripcion": "QWERTY nació en las máquinas de escribir del s. XIX para separar letras que se atascaban. Icono: mano.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-003",
+      "fecha": "2026-11-16",
+      "area": "porque",
+      "titulo": "¿Por qué la Luna parece enorme en el horizonte?",
+      "descripcion": "Es una ilusión óptica: mide lo mismo. Truco final: mírala con un tubo de papel y 'encoge'.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-004",
+      "fecha": "2026-11-16",
+      "area": "porque",
+      "titulo": "¿Por qué explotan las palomitas?",
+      "descripcion": "El agua del grano se convierte en vapor y revienta la cáscara. Serie 'Ciencia en tu cocina' (cebolla, palomitas, hielo).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-005",
+      "fecha": "2026-11-16",
+      "area": "historia",
+      "titulo": "Serie 'El último bus' (5 capítulos)",
+      "descripcion": "El conductor no para en tu parada y los demás pasajeros no se mueven. Cliffhanger en cada capítulo.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-006",
+      "fecha": "2026-11-16",
+      "area": "historia",
+      "titulo": "Serie 'Audio de las 3:07'",
+      "descripcion": "Te llega un audio de WhatsApp a las 3:07… y la voz es la tuya. Encaja con la escena 'movil' del motor.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-007",
+      "fecha": "2026-11-16",
+      "area": "historia",
+      "titulo": "Serie 'La vecina del cuarto'",
+      "descripcion": "Llegan paquetes a tu nombre que no has pedido, siempre del 4º. Usa escalera, puerta y mirilla.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-008",
+      "fecha": "2026-11-16",
+      "area": "perros",
+      "titulo": "5 señales de dolor que tu perro mayor esconde",
+      "descripcion": "Lamerse una pata, levantarse despacio, evitar escaleras… Cierre: 'consúltalo con tu veterinario'. Alto potencial de guardados.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-009",
+      "fecha": "2026-11-16",
+      "area": "perros",
+      "titulo": "¿Por qué tu perro mayor bebe más agua?",
+      "descripcion": "Puede ser calor o ejercicio, pero si es de golpe hay que ir al veterinario. Útil y compartible.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-010",
+      "fecha": "2026-11-16",
+      "area": "perros",
+      "titulo": "Juegos de olfato: cansan la cabeza, no las patas",
+      "descripcion": "Alfombra olfativa casera con una toalla. Puente natural a afiliados/dropshipping (I-027).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-011",
+      "fecha": "2026-11-16",
+      "area": "perros",
+      "titulo": "Serie 'Abuelitos con historia'",
+      "descripcion": "Historias tiernas de perros mayores adoptados (inventadas y marcadas como ficción, o enviadas por seguidores con permiso).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-012",
+      "fecha": "2026-11-16",
+      "area": "dios",
+      "titulo": "Serie '7 días contra la ansiedad'",
+      "descripcion": "Un versículo por día (Filipenses 4:6-7, Mateo 6:34, 1 Pedro 5:7…), cita literal y referencia al final.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-013",
+      "fecha": "2026-11-16",
+      "area": "dios",
+      "titulo": "Salmo 23, frase a frase",
+      "descripcion": "Serie de 6 capítulos: cada Reel explica una línea del salmo más buscado.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-014",
+      "fecha": "2026-11-16",
+      "area": "dios",
+      "titulo": "'Cuando Dios calla'",
+      "descripcion": "Salmo 13: '¿Hasta cuándo, Señor?'. Gancho para quien está en un mal momento; tono de compañía, no de sermón.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-015",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Versión de 61+ s para TikTok",
+      "descripcion": "Unir 2 capítulos o añadir escenas de 'dato extra' para pasar del minuto (requisito de Creator Rewards y premia retención larga). · HECHO 17 nov: workflow \"TikTok semana\" (domingos) une 2-3 guiones en vídeos de 61+ s, 1/día por cuenta, incluida Dios en el Caos para TikTok.",
+      "origen": "claude",
+      "estado": "hecha",
+      "prioridad": 1
+    },
+    {
+      "id": "I-016",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Series por capítulos en las 4 cuentas",
+      "descripcion": "No solo En La Mejor Parte: 'Parte 2 mañana' hace volver al perfil y sube seguidores.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-017",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "A/B de ganchos",
+      "descripcion": "Mismo vídeo con 2 primeras frases distintas (IG un día, TikTok otro); el analista compara retención y vistas.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-018",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Agente de Analíticas",
+      "descripcion": "Cada noche: vistas, guardados, compartidos, seguidores y retención → analiticas.json. Código hecho; falta el token con instagram_manage_insights.",
+      "origen": "juan",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-019",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Subir también a YouTube Shorts gratis",
+      "descripcion": "La API de YouTube permite subir vídeos sin coste dentro de su cuota diaria. Mismos vídeos, tercera plataforma.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-020",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Portadas automáticas coherentes",
+      "descripcion": "Que el motor saque una portada por Reel con el mismo estilo para que el perfil parezca una marca.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 3
+    },
+    {
+      "id": "I-021",
+      "fecha": "2026-11-16",
+      "area": "oficina",
+      "titulo": "Jarvis por Telegram",
+      "descripcion": "Hermes con cerebro gratis: 'apunta esta idea', '¿cómo va el banco?', 'publica ya'. Instalador listo en el PC.",
+      "origen": "juan",
+      "estado": "aprobada",
+      "prioridad": 1
+    },
+    {
+      "id": "I-022",
+      "fecha": "2026-11-16",
+      "area": "oficina",
+      "titulo": "Oficina 3D 24/7 en GitHub Pages",
+      "descripcion": "Corosean/la-oficina leyendo oficina/estado.json. Prototipo ya hecho en el chat 'Oficina 3D'.",
+      "origen": "juan",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-023",
+      "fecha": "2026-11-16",
+      "area": "oficina",
+      "titulo": "Mega Cerebro",
+      "descripcion": "Un sitio con todo lo que sabe La Oficina (reglas, ideas, analíticas, decisiones) para que cualquier herramienta lo lea sin repetirlo.",
+      "origen": "juan",
+      "estado": "en_curso",
+      "prioridad": 1
+    },
+    {
+      "id": "I-024",
+      "fecha": "2026-11-16",
+      "area": "oficina",
+      "titulo": "Sala 'Banco de Ideas' en la Oficina 3D",
+      "descripcion": "Pizarra con las ideas por estado y prioridad, leída de estado.json.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-025",
+      "fecha": "2026-11-16",
+      "area": "oficina",
+      "titulo": "Rutina de domingo en 20 minutos",
+      "descripcion": "Dirección: leer analíticas, aprobar 7 ideas por cuenta, programar TikTok. Ver Plan Maestro.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-026",
+      "fecha": "2026-11-16",
+      "area": "finanzas",
+      "titulo": "Despacho de Finanzas",
+      "descripcion": "Hoja de ingresos y gastos por vía (agencia, afiliados, plataformas), objetivo del mes y alerta si alguna herramienta empieza a cobrar.",
+      "origen": "juan",
+      "estado": "aprobada",
+      "prioridad": 2
+    },
+    {
+      "id": "I-027",
+      "fecha": "2026-11-16",
+      "area": "dropshipping",
+      "titulo": "Despacho de Dropshipping: perros mayores",
+      "descripcion": "Rampas, camas ortopédicas, alfombrillas antideslizantes, arneses de apoyo. Empezar con afiliados (sin stock) y validar antes de abrir tienda.",
+      "origen": "juan",
+      "estado": "aprobada",
+      "prioridad": 2
+    },
+    {
+      "id": "I-028",
+      "fecha": "2026-11-16",
+      "area": "dropshipping",
+      "titulo": "Test de 3 vídeos 'producto útil' en Patas Arriba",
+      "descripcion": "Problema real (suelo resbala, sofá alto) → solución → enlace en bio. Medir clics antes de invertir nada.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-029",
+      "fecha": "2026-11-16",
+      "area": "agencia",
+      "titulo": "Pack 'Reels con IA' para restaurantes de Valencia",
+      "descripcion": "12 Reels/mes hechos con la Fábrica (plato, local, reseñas). Oferta piloto: primer mes a precio reducido a cambio de caso de estudio.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-030",
+      "fecha": "2026-11-16",
+      "area": "agencia",
+      "titulo": "Auditoría de marca + IA en 48 h",
+      "descripcion": "Producto de entrada de Juan como consultor de marca: diagnóstico, 10 mejoras y 3 automatizaciones. Abre la puerta a la cuota mensual.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-031",
+      "fecha": "2026-11-16",
+      "area": "agencia",
+      "titulo": "Respuestas a reseñas de Google para clínicas y fisios",
+      "descripcion": "Borradores con su tono, Juan o el cliente aprueban. Barato de producir, se nota en la ficha.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-032",
+      "fecha": "2026-11-16",
+      "area": "agencia",
+      "titulo": "WhatsApp de citas para peluquerías",
+      "descripcion": "Mensajes de recordatorio y respuestas frecuentes. Validar con 2 peluquerías del barrio.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 3
+    },
+    {
+      "id": "I-033",
+      "fecha": "2026-11-16",
+      "area": "corosean",
+      "titulo": "Caso de estudio: 'Fábrica de contenido con IA a 0 €'",
+      "descripcion": "La propia Fábrica como portfolio de Corosean para vender a negocios: cifras reales de las 4 cuentas.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-034",
+      "fecha": "2026-11-16",
+      "area": "corosean",
+      "titulo": "Diario semanal en LinkedIn de Juan",
+      "descripcion": "Un post por semana contando qué aprende la Fábrica. Trae clientes de agencia sin pagar anuncios.",
+      "origen": "claude",
+      "estado": "nueva",
+      "prioridad": 3
+    },
+    {
+      "id": "I-035",
+      "fecha": "2026-11-16",
+      "area": "fabrica",
+      "titulo": "Analista: repetir lo que funciona",
+      "descripcion": "Cada domingo el analista propone 3 'repetir' y 3 'quitar' y los apunta aquí con origen analista.",
+      "origen": "claude",
+      "estado": "aprobada",
+      "prioridad": 2
+    },
+    {
+      "id": "I-036",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué el hielo flota?",
+      "descripcion": "Guion porque_hielo_flota (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-037",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué vemos el rayo antes del trueno?",
+      "descripcion": "Guion porque_rayo_trueno (18 nov). Regla: segundos/3 = km.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-038",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué el arcoíris es curvo?",
+      "descripcion": "Guion porque_arcoiris_curvo (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-039",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué se oye el mar en una caracola?",
+      "descripcion": "Guion porque_caracola_mar (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-040",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué tu voz grabada suena rara?",
+      "descripcion": "Guion porque_voz_grabada (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-041",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué se duerme la pierna?",
+      "descripcion": "Guion porque_pierna_dormida (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-042",
+      "fecha": "2026-11-18",
+      "area": "porque",
+      "titulo": "¿Por qué el atardecer es rojo?",
+      "descripcion": "Guion porque_atardecer_rojo (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-043",
+      "fecha": "2026-11-18",
+      "area": "perros",
+      "titulo": "Perros mayores y el frío",
+      "descripcion": "Guion perros_frio_mayor (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-044",
+      "fecha": "2026-11-18",
+      "area": "perros",
+      "titulo": "Canas en el hocico",
+      "descripcion": "Guion perros_canas_hocico (18 nov). Estudio 2016 canas tempranas y estrés.",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-045",
+      "fecha": "2026-11-18",
+      "area": "perros",
+      "titulo": "Por qué duerme tanto (y cuándo preocuparse)",
+      "descripcion": "Guion perros_dormir_mas (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-046",
+      "fecha": "2026-11-18",
+      "area": "perros",
+      "titulo": "Paseos cortos mejor que uno largo",
+      "descripcion": "Guion perros_paseos_cortos (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    },
+    {
+      "id": "I-047",
+      "fecha": "2026-11-18",
+      "area": "perros",
+      "titulo": "Ojos azulados: esclerosis nuclear o cataratas",
+      "descripcion": "Guion perros_ojos_azulados (18 nov).",
+      "origen": "claude",
+      "estado": "en_curso",
+      "prioridad": 2
+    }
+  ]
+}
