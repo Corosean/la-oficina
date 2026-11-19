@@ -1,9 +1,9 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-16T19:54",
+  "actualizado": "2026-11-19T02:14",
   "zona_horaria": "Europe/Madrid",
-  "luz_general": "verde",
+  "luz_general": "roja",
   "cuentas": {
     "elporquesecreto": {
       "nombre": "El Porqué Secreto",
@@ -16,51 +16,61 @@
         "14:00",
         "20:00"
       ],
-      "banco": 6,
+      "banco": 11,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_cielo_azul",
-        "fecha": "2026-11-16",
-        "hora": "19:30",
-        "enlace": "https://www.instagram.com/reel/Df0ANjKDnwu/",
+        "video": "porque_etiqueta_pica",
+        "fecha": "2026-11-18",
+        "hora": "21:03",
+        "enlace": "https://www.instagram.com/reel/Df5UZjEka4m/",
         "via": "api"
       },
-      "publicados_ig": 2,
+      "publicados_ig": 8,
       "proximas": [
         {
-          "video": "porque_ojos_rojos",
-          "fecha": "2026-11-17",
+          "video": "porque_arcoiris_curvo",
+          "fecha": "2026-11-19",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "porque_cebolla",
-          "fecha": "2026-11-17",
+          "video": "porque_atardecer_rojo",
+          "fecha": "2026-11-19",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "porque_dedos_arrugados",
-          "fecha": "2026-11-17",
+          "video": "porque_caracola_mar",
+          "fecha": "2026-11-19",
           "hora": "20:00",
           "via": "automatica"
         },
         {
-          "video": "porque_mar_salado",
-          "fecha": "2026-11-18",
+          "video": "porque_hielo_flota",
+          "fecha": "2026-11-20",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "porque_ambulancia",
-          "fecha": "2026-11-18",
+          "video": "porque_luna_horizonte",
+          "fecha": "2026-11-20",
           "hora": "14:00",
           "via": "automatica"
         }
       ],
       "tiktok_programado_hasta": "2026-11-21",
-      "analiticas": null
+      "analiticas": {
+        "seguidores": 5,
+        "vistas_media": 176,
+        "retencion_media_pct": 33.6,
+        "mejor_reel": {
+          "video": "porque_aviones",
+          "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
+          "views": 306
+        },
+        "medido": "2026-11-19T02:11"
+      }
     },
     "patasarriba.historias": {
       "nombre": "Patas Arriba",
@@ -73,51 +83,61 @@
         "14:00",
         "20:00"
       ],
-      "banco": 6,
+      "banco": 11,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "perros_suenan",
-        "fecha": "2026-11-16",
-        "hora": "19:31",
-        "enlace": "https://www.instagram.com/reel/Df0ARcyjkwb/",
+        "video": "perros_lametones",
+        "fecha": "2026-11-18",
+        "hora": "21:04",
+        "enlace": "https://www.instagram.com/reel/Df5UkKvEWfW/",
         "via": "api"
       },
-      "publicados_ig": 2,
+      "publicados_ig": 8,
       "proximas": [
         {
-          "video": "perros_nariz",
-          "fecha": "2026-11-17",
+          "video": "perros_bebe_agua",
+          "fecha": "2026-11-19",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "perros_luna_espera",
-          "fecha": "2026-11-17",
+          "video": "perros_bruno_p1",
+          "fecha": "2026-11-19",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "perros_vueltas",
-          "fecha": "2026-11-17",
+          "video": "perros_bruno_p2",
+          "fecha": "2026-11-19",
           "hora": "20:00",
           "via": "automatica"
         },
         {
-          "video": "perros_edad_senior",
-          "fecha": "2026-11-18",
+          "video": "perros_bruno_p3",
+          "fecha": "2026-11-20",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "perros_suelo_resbala",
-          "fecha": "2026-11-18",
+          "video": "perros_canas_hocico",
+          "fecha": "2026-11-20",
           "hora": "14:00",
           "via": "automatica"
         }
       ],
       "tiktok_programado_hasta": "2026-11-21",
-      "analiticas": null
+      "analiticas": {
+        "seguidores": 2,
+        "vistas_media": 162,
+        "retencion_media_pct": 32.0,
+        "mejor_reel": {
+          "video": "perros_luna_espera",
+          "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
+          "views": 212
+        },
+        "medido": "2026-11-19T02:11"
+      }
     },
     "enlamejorparte": {
       "nombre": "En La Mejor Parte",
@@ -130,57 +150,67 @@
         "14:00",
         "20:00"
       ],
-      "banco": 6,
+      "banco": 11,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_llamada_p2",
-        "fecha": "2026-11-16",
-        "hora": "19:31",
-        "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
+        "video": "historia_mirilla_p3",
+        "fecha": "2026-11-18",
+        "hora": "21:07",
+        "enlace": "https://www.instagram.com/reel/Df5U0cwkYj4/",
         "via": "api"
       },
-      "publicados_ig": 2,
+      "publicados_ig": 8,
       "proximas": [
         {
-          "video": "historia_llamada_p3",
-          "fecha": "2026-11-17",
+          "video": "historia_audio_p1",
+          "fecha": "2026-11-19",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "historia_llamada_p4",
-          "fecha": "2026-11-17",
+          "video": "historia_audio_p2",
+          "fecha": "2026-11-19",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "historia_llamada_p5",
-          "fecha": "2026-11-17",
+          "video": "historia_audio_p3",
+          "fecha": "2026-11-19",
           "hora": "20:00",
           "via": "automatica"
         },
         {
-          "video": "historia_mirilla_p1",
-          "fecha": "2026-11-18",
+          "video": "historia_audio_p4",
+          "fecha": "2026-11-20",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "historia_mirilla_p2",
-          "fecha": "2026-11-18",
+          "video": "historia_audio_p5",
+          "fecha": "2026-11-20",
           "hora": "14:00",
           "via": "automatica"
         }
       ],
       "tiktok_programado_hasta": "2026-11-19",
-      "analiticas": null
+      "analiticas": {
+        "seguidores": 5,
+        "vistas_media": 164,
+        "retencion_media_pct": 31.5,
+        "mejor_reel": {
+          "video": "historia_llamada_p2",
+          "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
+          "views": 217
+        },
+        "medido": "2026-11-19T02:11"
+      }
     },
     "diosenelcaos": {
       "nombre": "Dios en el Caos",
       "estilo": "dios",
       "emoji": "🕊️",
-      "instagram_automatico": true,
+      "instagram_automatico": false,
       "hora_ig": "21:00",
       "horas_ig": [
         "09:00",
@@ -188,8 +218,8 @@
         "20:00"
       ],
       "banco": 6,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "El token no da acceso a @diosenelcaos. ¿Está vinculada a su Página y la marcaste al generar el token?",
       "ultimo_publicado": {
         "video": "dios_r7_nuevo",
         "fecha": "2026-11-16",
@@ -201,33 +231,33 @@
       "proximas": [
         {
           "video": "dios_r2_ansiedad",
-          "fecha": "2026-11-17",
+          "fecha": "2026-11-19",
           "hora": "09:00",
-          "via": "automatica"
+          "via": "manual"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-17",
+          "fecha": "2026-11-19",
           "hora": "14:00",
-          "via": "automatica"
+          "via": "manual"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-17",
+          "fecha": "2026-11-19",
           "hora": "20:00",
-          "via": "automatica"
+          "via": "manual"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-18",
+          "fecha": "2026-11-20",
           "hora": "09:00",
-          "via": "automatica"
+          "via": "manual"
         },
         {
           "video": "dios_r6_puertas",
-          "fecha": "2026-11-18",
+          "fecha": "2026-11-20",
           "hora": "14:00",
-          "via": "automatica"
+          "via": "manual"
         }
       ],
       "tiktok_programado_hasta": "2026-11-21",
@@ -235,16 +265,17 @@
     }
   },
   "ideas": {
-    "total": 35,
+    "total": 47,
     "por_estado": {
-      "nueva": 27,
-      "aprobada": 5,
-      "en_curso": 3
+      "en_curso": 25,
+      "nueva": 17,
+      "hecha": 1,
+      "aprobada": 4
     },
     "por_area": {
-      "porque": 4,
+      "porque": 11,
       "historia": 3,
-      "perros": 4,
+      "perros": 9,
       "dios": 3,
       "fabrica": 7,
       "oficina": 5,
@@ -254,6 +285,41 @@
       "corosean": 2
     },
     "top": [
+      {
+        "id": "I-001",
+        "area": "porque",
+        "titulo": "¿Por qué el piloto y el copiloto no comen lo mismo?",
+        "estado": "en_curso",
+        "prioridad": 1
+      },
+      {
+        "id": "I-002",
+        "area": "porque",
+        "titulo": "¿Por qué el teclado no va en orden alfabético?",
+        "estado": "en_curso",
+        "prioridad": 1
+      },
+      {
+        "id": "I-006",
+        "area": "historia",
+        "titulo": "Serie 'Audio de las 3:07'",
+        "estado": "en_curso",
+        "prioridad": 1
+      },
+      {
+        "id": "I-008",
+        "area": "perros",
+        "titulo": "5 señales de dolor que tu perro mayor esconde",
+        "estado": "en_curso",
+        "prioridad": 1
+      },
+      {
+        "id": "I-010",
+        "area": "perros",
+        "titulo": "Juegos de olfato: cansan la cabeza, no las patas",
+        "estado": "en_curso",
+        "prioridad": 1
+      },
       {
         "id": "I-018",
         "area": "fabrica",
@@ -274,47 +340,10 @@
         "titulo": "Mega Cerebro",
         "estado": "en_curso",
         "prioridad": 1
-      },
-      {
-        "id": "I-015",
-        "area": "fabrica",
-        "titulo": "Versión de 61+ s para TikTok",
-        "estado": "aprobada",
-        "prioridad": 1
-      },
-      {
-        "id": "I-021",
-        "area": "oficina",
-        "titulo": "Jarvis por Telegram",
-        "estado": "aprobada",
-        "prioridad": 1
-      },
-      {
-        "id": "I-001",
-        "area": "porque",
-        "titulo": "¿Por qué el piloto y el copiloto no comen lo mismo?",
-        "estado": "nueva",
-        "prioridad": 1
-      },
-      {
-        "id": "I-002",
-        "area": "porque",
-        "titulo": "¿Por qué el teclado no va en orden alfabético?",
-        "estado": "nueva",
-        "prioridad": 1
-      },
-      {
-        "id": "I-005",
-        "area": "historia",
-        "titulo": "Serie 'El último bus' (5 capítulos)",
-        "estado": "nueva",
-        "prioridad": 1
       }
     ]
   },
-  "analiticas_avisos": [
-    "No hay token de Meta válido: no mido nada esta noche (No encuentro publicador\\secretos\\token_meta.txt. Sigue la GUIA_AGT10_PUBLICADOR.txt.)."
-  ],
+  "analiticas_avisos": [],
   "enlaces": {
     "publicar_ya": "https://github.com/Corosean/fabrica-contenido/actions/workflows/publicar.yml",
     "analiticas": "https://github.com/Corosean/fabrica-contenido/actions/workflows/analiticas.yml",
