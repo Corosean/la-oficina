@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T23:23",
+  "actualizado": "2026-11-20T00:52",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -61,41 +61,41 @@
       ],
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
-        "seguidores": 5,
-        "vistas_media": 176,
-        "retencion_media_pct": 33.6,
+        "seguidores": 6,
+        "vistas_media": 168,
+        "retencion_media_pct": 30.7,
         "mejor_reel": {
           "video": "porque_aviones",
           "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-          "views": 306
+          "views": 307
         },
-        "medido": "2026-11-19T02:11",
-        "reels_medidos": 8,
-        "vistas_total": 1405,
-        "likes": 50,
-        "compartidos": 35,
+        "medido": "2026-11-20T00:52",
+        "reels_medidos": 11,
+        "vistas_total": 1852,
+        "likes": 65,
+        "compartidos": 45,
         "guardados": 4,
         "comentarios": 0,
         "top": [
           {
             "video": "porque_aviones",
             "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-            "vistas": 306,
-            "retencion": 49.8,
+            "vistas": 307,
+            "retencion": 49.6,
             "compartidos": 8
           },
           {
             "video": "porque_ojos_rojos",
             "enlace": "https://www.instagram.com/reel/Df1j6a3DDh0/",
-            "vistas": 237,
-            "retencion": 42.9,
+            "vistas": 239,
+            "retencion": 43.0,
             "compartidos": 1
           },
           {
             "video": "porque_etiqueta_pica",
             "enlace": "https://www.instagram.com/reel/Df5UZjEka4m/",
-            "vistas": 165,
-            "retencion": 31.6,
+            "vistas": 176,
+            "retencion": 32.4,
             "compartidos": 10
           }
         ]
@@ -126,49 +126,49 @@
       "proximas": [
         {
           "video": "perros_bruno_p1",
-          "fecha": "2026-11-19",
-          "hora": "14:00",
-          "via": "automatica"
-        },
-        {
-          "video": "perros_bruno_p2",
-          "fecha": "2026-11-19",
-          "hora": "20:00",
-          "via": "automatica"
-        },
-        {
-          "video": "perros_bruno_p3",
           "fecha": "2026-11-20",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "perros_canas_hocico",
+          "video": "perros_bruno_p2",
           "fecha": "2026-11-20",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "perros_dolor_senales",
+          "video": "perros_bruno_p3",
           "fecha": "2026-11-20",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_canas_hocico",
+          "fecha": "2026-11-21",
+          "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_dolor_senales",
+          "fecha": "2026-11-21",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
-        "seguidores": 2,
-        "vistas_media": 162,
-        "retencion_media_pct": 32.0,
+        "seguidores": 3,
+        "vistas_media": 159,
+        "retencion_media_pct": 30.4,
         "mejor_reel": {
           "video": "perros_luna_espera",
           "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
-          "views": 212
+          "views": 213
         },
-        "medido": "2026-11-19T02:11",
-        "reels_medidos": 8,
-        "vistas_total": 1292,
-        "likes": 47,
+        "medido": "2026-11-20T00:52",
+        "reels_medidos": 9,
+        "vistas_total": 1430,
+        "likes": 56,
         "compartidos": 7,
         "guardados": 5,
         "comentarios": 0,
@@ -176,22 +176,22 @@
           {
             "video": "perros_luna_espera",
             "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
-            "vistas": 212,
-            "retencion": 51.1,
+            "vistas": 213,
+            "retencion": 50.9,
             "compartidos": 0
           },
           {
             "video": "subido a mano",
             "enlace": "https://www.instagram.com/reel/DfxzDsMtJe3/",
-            "vistas": 200,
+            "vistas": 201,
             "retencion": null,
             "compartidos": 1
           },
           {
             "video": "perros_nariz",
             "enlace": "https://www.instagram.com/reel/Df1j-Q8DJMN/",
-            "vistas": 166,
-            "retencion": 40.8,
+            "vistas": 167,
+            "retencion": 40.7,
             "compartidos": 0
           }
         ]
@@ -253,41 +253,41 @@
       ],
       "tiktok_programado_hasta": "2026-11-19",
       "analiticas": {
-        "seguidores": 5,
-        "vistas_media": 164,
-        "retencion_media_pct": 31.5,
+        "seguidores": 6,
+        "vistas_media": 160,
+        "retencion_media_pct": 28.4,
         "mejor_reel": {
           "video": "historia_llamada_p2",
           "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
-          "views": 217
+          "views": 221
         },
-        "medido": "2026-11-19T02:11",
-        "reels_medidos": 8,
-        "vistas_total": 1316,
-        "likes": 44,
-        "compartidos": 22,
+        "medido": "2026-11-20T00:52",
+        "reels_medidos": 11,
+        "vistas_total": 1756,
+        "likes": 53,
+        "compartidos": 27,
         "guardados": 0,
-        "comentarios": 0,
+        "comentarios": 1,
         "top": [
           {
             "video": "historia_llamada_p2",
             "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
-            "vistas": 217,
-            "retencion": 37.8,
+            "vistas": 221,
+            "retencion": 37.5,
             "compartidos": 0
           },
           {
             "video": "historia_llamada_p4",
             "enlace": "https://www.instagram.com/reel/Df2IcgECJMu/",
-            "vistas": 207,
-            "retencion": 38.9,
+            "vistas": 211,
+            "retencion": 38.5,
             "compartidos": 0
           },
           {
             "video": "historia_mirilla_p1",
             "enlace": "https://www.instagram.com/reel/Df4JoAvCX_E/",
-            "vistas": 186,
-            "retencion": 28.8,
+            "vistas": 194,
+            "retencion": 29.8,
             "compartidos": 6
           }
         ]
@@ -318,31 +318,31 @@
       "proximas": [
         {
           "video": "dios_r2_ansiedad",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-20",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-20",
           "hora": "14:00",
           "via": "manual"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-19",
+          "fecha": "2026-11-20",
           "hora": "20:00",
           "via": "manual"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-21",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r6_puertas",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-21",
           "hora": "14:00",
           "via": "manual"
         }
