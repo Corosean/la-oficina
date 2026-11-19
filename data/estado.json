@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T21:19",
+  "actualizado": "2026-11-19T21:37",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 9,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 8,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_audio_p2",
+        "video": "historia_audio_p3",
         "fecha": "2026-11-19",
-        "hora": "15:43",
-        "enlace": "https://www.instagram.com/reel/Df7UpR6iZSH/",
+        "hora": "21:37",
+        "enlace": "https://www.instagram.com/reel/Df79DHGj-Oy/",
         "via": "api"
       },
-      "publicados_ig": 10,
+      "publicados_ig": 11,
       "proximas": [
-        {
-          "video": "historia_audio_p3",
-          "fecha": "2026-11-19",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_audio_p4",
           "fecha": "2026-11-20",
@@ -248,6 +242,12 @@
           "video": "historia_vecina_p1",
           "fecha": "2026-11-21",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_vecina_p2",
+          "fecha": "2026-11-21",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
