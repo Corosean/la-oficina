@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T15:31",
+  "actualizado": "2026-11-19T15:43",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 10,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 9,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_arcoiris_curvo",
+        "video": "porque_atardecer_rojo",
         "fecha": "2026-11-19",
-        "hora": "10:10",
-        "enlace": "https://www.instagram.com/reel/Df6udcJlak7/",
+        "hora": "15:40",
+        "enlace": "https://www.instagram.com/reel/Df7UPYHiS48/",
         "via": "api"
       },
-      "publicados_ig": 9,
+      "publicados_ig": 10,
       "proximas": [
-        {
-          "video": "porque_atardecer_rojo",
-          "fecha": "2026-11-19",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_caracola_mar",
           "fecha": "2026-11-19",
@@ -56,6 +50,12 @@
           "video": "porque_palomitas",
           "fecha": "2026-11-20",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_pierna_dormida",
+          "fecha": "2026-11-21",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 10,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 9,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_audio_p1",
+        "video": "historia_audio_p2",
         "fecha": "2026-11-19",
-        "hora": "10:14",
-        "enlace": "https://www.instagram.com/reel/Df6u5fhjXrm/",
+        "hora": "15:43",
+        "enlace": "https://www.instagram.com/reel/Df7UpR6iZSH/",
         "via": "api"
       },
-      "publicados_ig": 9,
+      "publicados_ig": 10,
       "proximas": [
-        {
-          "video": "historia_audio_p2",
-          "fecha": "2026-11-19",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_audio_p3",
           "fecha": "2026-11-19",
@@ -248,6 +242,12 @@
           "video": "historia_audio_p6",
           "fecha": "2026-11-20",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_vecina_p1",
+          "fecha": "2026-11-21",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
