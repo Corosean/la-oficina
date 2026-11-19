@@ -1,9 +1,9 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T02:12",
+  "actualizado": "2026-11-19T02:32",
   "zona_horaria": "Europe/Madrid",
-  "luz_general": "roja",
+  "luz_general": "verde",
   "cuentas": {
     "elporquesecreto": {
       "nombre": "El Porqué Secreto",
@@ -69,7 +69,36 @@
           "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
           "views": 306
         },
-        "medido": "2026-11-19T02:11"
+        "medido": "2026-11-19T02:11",
+        "reels_medidos": 8,
+        "vistas_total": 1405,
+        "likes": 50,
+        "compartidos": 35,
+        "guardados": 4,
+        "comentarios": 0,
+        "top": [
+          {
+            "video": "porque_aviones",
+            "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
+            "vistas": 306,
+            "retencion": 49.8,
+            "compartidos": 8
+          },
+          {
+            "video": "porque_ojos_rojos",
+            "enlace": "https://www.instagram.com/reel/Df1j6a3DDh0/",
+            "vistas": 237,
+            "retencion": 42.9,
+            "compartidos": 1
+          },
+          {
+            "video": "porque_etiqueta_pica",
+            "enlace": "https://www.instagram.com/reel/Df5UZjEka4m/",
+            "vistas": 165,
+            "retencion": 31.6,
+            "compartidos": 10
+          }
+        ]
       }
     },
     "patasarriba.historias": {
@@ -136,7 +165,36 @@
           "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
           "views": 212
         },
-        "medido": "2026-11-19T02:11"
+        "medido": "2026-11-19T02:11",
+        "reels_medidos": 8,
+        "vistas_total": 1292,
+        "likes": 47,
+        "compartidos": 7,
+        "guardados": 5,
+        "comentarios": 0,
+        "top": [
+          {
+            "video": "perros_luna_espera",
+            "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
+            "vistas": 212,
+            "retencion": 51.1,
+            "compartidos": 0
+          },
+          {
+            "video": "subido a mano",
+            "enlace": "https://www.instagram.com/reel/DfxzDsMtJe3/",
+            "vistas": 200,
+            "retencion": null,
+            "compartidos": 1
+          },
+          {
+            "video": "perros_nariz",
+            "enlace": "https://www.instagram.com/reel/Df1j-Q8DJMN/",
+            "vistas": 166,
+            "retencion": 40.8,
+            "compartidos": 0
+          }
+        ]
       }
     },
     "enlamejorparte": {
@@ -203,7 +261,36 @@
           "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
           "views": 217
         },
-        "medido": "2026-11-19T02:11"
+        "medido": "2026-11-19T02:11",
+        "reels_medidos": 8,
+        "vistas_total": 1316,
+        "likes": 44,
+        "compartidos": 22,
+        "guardados": 0,
+        "comentarios": 0,
+        "top": [
+          {
+            "video": "historia_llamada_p2",
+            "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
+            "vistas": 217,
+            "retencion": 37.8,
+            "compartidos": 0
+          },
+          {
+            "video": "historia_llamada_p4",
+            "enlace": "https://www.instagram.com/reel/Df2IcgECJMu/",
+            "vistas": 207,
+            "retencion": 38.9,
+            "compartidos": 0
+          },
+          {
+            "video": "historia_mirilla_p1",
+            "enlace": "https://www.instagram.com/reel/Df4JoAvCX_E/",
+            "vistas": 186,
+            "retencion": 28.8,
+            "compartidos": 6
+          }
+        ]
       }
     },
     "diosenelcaos": {
@@ -218,8 +305,8 @@
         "20:00"
       ],
       "banco": 6,
-      "luz": "roja",
-      "motivo": "El token no da acceso a @diosenelcaos. ¿Está vinculada a su Página y la marcaste al generar el token?",
+      "luz": "retirada",
+      "motivo": "Retirada de Instagram (inhabilitada el 17 nov). Sus guiones van a TikTok.",
       "ultimo_publicado": {
         "video": "dios_r7_nuevo",
         "fecha": "2026-11-16",

@@ -47,6 +47,25 @@ nav.tabs button:hover:not(.on){background:#151c2e}
 #log h4,.side h4{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tenue);margin-bottom:5px;font-weight:700}
 #log div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:'JetBrains Mono',monospace}
 #log a{color:#9fb4ff}
+#ana{position:fixed;right:12px;bottom:52px;width:min(380px,calc(100vw - 24px));padding:12px 14px;z-index:4;font-size:12px;max-height:calc(100vh - var(--top,110px) - 70px);overflow:auto}
+#ana h4{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#cfd6e4;margin-bottom:8px;font-weight:800}
+#ana h4 button{background:#1b2133;border:1px solid var(--linea);border-radius:6px;width:24px;height:22px;color:#cfd6e4}
+#ana.min #ana-l{display:none}
+#ana .tot{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
+#ana .tot div{background:#121726;border:1px solid var(--linea);border-radius:9px;padding:7px 8px}
+#ana .tot b{display:block;font:700 18px 'JetBrains Mono',monospace;color:#fff}
+#ana .tot small{color:var(--tenue);font-size:9.5px;text-transform:uppercase;letter-spacing:.8px}
+#ana .cta{border-top:1px solid var(--linea);padding:8px 0 6px}
+#ana .cta .h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+#ana .cta .h b{font-size:13px}
+#ana .cta .h span{color:var(--tenue);font:11px 'JetBrains Mono',monospace}
+#ana .bar{height:7px;background:#1c2232;border-radius:5px;overflow:hidden;margin:6px 0 4px}
+#ana .bar i{display:block;height:100%;border-radius:5px}
+#ana .nums{display:flex;gap:10px;flex-wrap:wrap;color:#b9c1d0;font:11px 'JetBrains Mono',monospace}
+#ana .top{margin-top:4px;color:var(--tenue);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#ana a{color:#9fb4ff}
+#ana .vacio{color:var(--tenue)}
+@media(max-width:900px){#ana{bottom:auto;top:calc(var(--top,110px) + 8px);width:calc(100vw - 24px)}#ana:not(.open-m) #ana-l{display:none}}
 #fresh{position:fixed;right:12px;bottom:12px;padding:8px 12px;z-index:4;font-size:11px;color:var(--tenue);font-family:'JetBrains Mono',monospace;display:flex;gap:8px;align-items:center}
 #follow{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);display:none;align-items:center;gap:12px;padding:9px 10px 9px 14px;z-index:6}
 #follow.on{display:flex}
@@ -128,6 +147,7 @@ td small{color:var(--tenue);display:block;font-size:10.5px;margin-top:2px}
 <div id="toast"></div>
 <div id="follow" class="glass"><span class="dot" id="f-dot" style="width:12px;height:12px"></span><div><b id="f-name"></b><small id="f-role"></small></div><button class="ghost" id="f-x">Volver a planta</button></div>
 <div id="log" class="glass"><h4>Últimos movimientos</h4><div id="log-l"><div>Cargando datos…</div></div></div>
+<div id="ana" class="glass"><h4><span>📊 Analíticas · Instagram</span><button id="ana-x" title="Plegar">–</button></h4><div id="ana-l"><div class="vacio">Cargando…</div></div></div>
 <div id="fresh" class="glass"><span class="dot" id="fr-dot"></span><span id="fr-t">sin datos</span></div>
 
 <section id="control" class="panel glass">
@@ -158,7 +178,7 @@ const CTA = {
   'patasarriba.historias': { short:'Patas Arriba',color:'#f08a2c' },
   'diosenelcaos':          { short:'Dios',        color:'#d9b44a' },
 };
-const LUZ = { verde:'#35d07f', ambar:'#ffb020', roja:'#ff4d4d' };
+const LUZ = { verde:'#35d07f', ambar:'#ffb020', roja:'#ff4d4d', retirada:'#4b5563' };
 const AREA = { porque:'#2f7bff', historia:'#e0443e', perros:'#f08a2c', dios:'#d9b44a', fabrica:'#7a4cff', oficina:'#14a39a', agencia:'#ff8a1f', finanzas:'#35d07f', dropshipping:'#b98a5a', corosean:'#9aa3ad' };
 const ESTADOS = [['nueva','Nuevas'],['aprobada','Aprobadas'],['en_curso','En curso'],['hecha','Hechas'],['descartada','Descartadas']];
 
@@ -239,7 +259,7 @@ scene.fog = new THREE.Fog('#0b1020', 95, 175);
 const camera = new THREE.PerspectiveCamera(32, innerWidth/innerHeight, .1, 400);
 camera.position.set(26,38,40);
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true; controls.maxPolarAngle = 1.38; controls.minDistance = 3; controls.maxDistance = 130;
+controls.enableDamping = true; controls.dampingFactor = .07; controls.rotateSpeed = .6; controls.zoomSpeed = .8; controls.maxPolarAngle = 1.38; controls.minDistance = 3; controls.maxDistance = 130;
 
 scene.add(new THREE.HemisphereLight('#e8edf7', '#3a3430', 1.05));
 const sun = new THREE.DirectionalLight('#fff1e0', 1.75);
@@ -505,7 +525,7 @@ class Agent {
     this.tag = makeLabel(this.name, { h:.26, fs:40, accent:this.shirt }); this.tag.position.y = 1.98; this.v.root.add(this.tag);
     this.pos = V3(0,FLOOR,0); this.face = 0; this.tface = 0; this.queue = []; this.path = []; this.cur = null;
     this.sitting = false; this.onSeat = false; this.act = null; this.phase = Math.random()*10; this.lane = (Math.random()-.5)*1.3;
-    this.pose = { y:0, l0:0, l1:0, a0:0, a1:0 }; this.sayIdx = Math.floor(Math.random()*9);
+    this.pose = { y:0, l0:0, l1:0, a0:0, a1:0 }; this.spd = 0; this.stride = 0; this.sayIdx = Math.floor(Math.random()*9);
     const s = SEATS[this.seat]; this.home = s; this.pos.set(s.x, FLOOR, s.z);
     this.queue.push({ t:'sit', seat:s, act:this.work, dur:2+Math.random()*10 });
     AG[this.id] = this; AGENTS.push(this);
@@ -534,7 +554,7 @@ class Agent {
       const from = pts.length ? pts[pts.length-1] : this.pos;
       pts.push(...route(from, chain[0], this.lane), ...chain.slice(1)); this.path = pts;
     } else if (a.t === 'sit') {
-      this.pos.set(a.seat.x, FLOOR, a.seat.z); this.tface = a.seat.face; this.sitting = true; this.onSeat = true; this.seatNow = a.seat; this.seatH = a.seat.h;
+      this.seatTo = { x:a.seat.x, z:a.seat.z }; this.tface = a.seat.face; this.sitting = true; this.onSeat = true; this.seatNow = a.seat; this.seatH = a.seat.h;
       this.act = a.act; this.leaveVia = a.seat.via ? [...a.seat.via].reverse() : null;
     } else if (a.t === 'coffee') { this.tface = a.spot.face; this.act = 'coffee'; this.v.cup.visible = true; this.bub.set('☕ café'); }
     else if (a.t === 'stand') { this.tface = a.face ?? this.tface; this.act = a.act || 'talk'; }
@@ -548,19 +568,32 @@ class Agent {
     else { a.time = (a.time || 0) + dt; if (a.time >= a.dur) done = true;
       if (a.urgent) { const u = this.urgent(); if (!u) done = true; else { this.act = u.act; this.bub.set(u.say); } } }
     if (done) { this.end(a); this.cur = null; }
+    if (this.seatTo) { const kk = 1 - Math.exp(-dt*8); this.pos.x += (this.seatTo.x-this.pos.x)*kk; this.pos.z += (this.seatTo.z-this.pos.z)*kk; if (Math.hypot(this.seatTo.x-this.pos.x, this.seatTo.z-this.pos.z) < .005 || !this.sitting) this.seatTo = null; }
     this.animate(dt, t);
   }
   walk(dt) {
-    const p = this.path[0]; if (!p) return true;
-    const dx = p.x - this.pos.x, dz = p.z - this.pos.z, d = Math.hypot(dx,dz), st = SPEED*dt;
-    this.walking = true; if (d > .01) this.tface = Math.atan2(dx,dz);
-    if (d <= st) { this.pos.x = p.x; this.pos.z = p.z; this.path.shift(); return !this.path.length; }
-    this.pos.x += dx/d*st; this.pos.z += dz/d*st; return false;
+    const p = this.path[0]; if (!p) { this.spd = 0; return true; }
+    const dx = p.x - this.pos.x, dz = p.z - this.pos.z, d = Math.hypot(dx,dz);
+    const ult = this.path.length === 1;
+    // distancia que queda hasta el destino final (para frenar suave al llegar)
+    let resto = d; for (let i = 1; i < this.path.length; i++) resto += Math.hypot(this.path[i].x-this.path[i-1].x, this.path[i].z-this.path[i-1].z);
+    const objetivo = Math.min(SPEED, .35 + resto*2.2);
+    this.spd = (this.spd || 0) + (objetivo - (this.spd || 0)) * Math.min(1, dt*(objetivo > (this.spd||0) ? 3.2 : 6));
+    this.walking = true;
+    // recorta esquinas: si ya está cerca de un punto intermedio, apunta al siguiente
+    if (!ult && d < .55) { this.path.shift(); return false; }
+    const st = this.spd*dt;
+    if (d > .01) this.tface = Math.atan2(dx,dz);
+    if (d <= st) { this.pos.x = p.x; this.pos.z = p.z; this.path.shift(); this.stride += d/.42; if (!this.path.length) { this.spd = 0; return true; } return false; }
+    // gira antes de avanzar a tope: si mira muy de lado, avanza más despacio
+    let df = this.tface - this.face; df = Math.abs(Math.atan2(Math.sin(df), Math.cos(df)));
+    const giro = df > 1.2 ? .35 : df > .6 ? .7 : 1;
+    this.pos.x += dx/d*st*giro; this.pos.z += dz/d*st*giro; this.stride += st*giro/.42; return false;
   }
   animate(dt, t) {
-    const v = this.v, P = this.pose, ph = t*9 + this.phase, k = Math.min(1, dt*10);
+    const v = this.v, P = this.pose, ph = t*9 + this.phase, k = 1 - Math.exp(-dt*9);
     let y = 0, l0 = 0, l1 = 0, a0 = 0, a1 = 0, hy = Math.sin(t*.6+this.phase)*.25, hx = 0;
-    if (this.walking) { const s = Math.sin(ph); l0 = s*.6; l1 = -s*.6; a0 = -s*.45; a1 = s*.45; y = Math.abs(Math.cos(ph))*.05; hy = 0; }
+    if (this.walking) { const amp = Math.min(1, (this.spd||0)/SPEED)*.9 + .1, s = Math.sin(this.stride*Math.PI); l0 = s*.6*amp; l1 = -s*.6*amp; a0 = -s*.45*amp; a1 = s*.45*amp; y = Math.abs(Math.cos(this.stride*Math.PI))*.045*amp; hy = 0; }
     else if (this.sitting) {
       y = (this.seatH ?? .53) - .45; l0 = l1 = -1.5;
       const A = this.act;
@@ -574,7 +607,7 @@ class Agent {
     v.legs[0].rotation.x = P.l0; v.legs[1].rotation.x = P.l1; v.arms[0].rotation.x = P.a0; v.arms[1].rotation.x = P.a1;
     v.head.rotation.y += (hy - v.head.rotation.y)*k; v.head.rotation.x += (hx - v.head.rotation.x)*k;
     v.body.position.y = P.y;
-    let df = this.tface - this.face; df = Math.atan2(Math.sin(df), Math.cos(df)); this.face += df*Math.min(1, dt*8);
+    let df = this.tface - this.face; df = Math.atan2(Math.sin(df), Math.cos(df)); this.face += df*(1 - Math.exp(-dt*7));
     v.root.position.copy(this.pos); v.root.rotation.y = this.face;
   }
 }
@@ -718,13 +751,13 @@ function hud() {
   const C = cuentas(), g = D.E?.luz_general, p = proxima(), age = antiguedadMin(), viejo = age != null && age > 8*60;
   $('#kpis').innerHTML = !D.ok ? `<div class="kpi"><span class="dot" style="background:#6b7280"></span>sin datos</div>` :
     `<div class="kpi"><span class="dot ${g==='roja'?'blink':''}" style="background:${colLuz(g)}"></span><b>${g === 'verde' ? 'Todo en verde' : g === 'ambar' ? 'Atención' : 'Problema'}</b></div>
-     ${C.map(c => `<div class="kpi" title="${esc(c.motivo)}"><span class="dot ${c.luz==='roja'?'blink':''}" style="background:${colLuz(c.luz)}"></span>${esc(c.short)} <b>${n(c.banco)}</b></div>`).join('')}
+     ${C.filter(c => c.luz !== 'retirada').map(c => `<div class="kpi" title="${esc(c.motivo)}"><span class="dot ${c.luz==='roja'?'blink':''}" style="background:${colLuz(c.luz)}"></span>${esc(c.short)} <b>${n(c.banco)}</b></div>`).join('')}
      <div class="kpi"><small>IG</small><b>${totalPub()}</b></div>
      <div class="kpi"><small>próx.</small><b>${p ? p.p.hora : '--:--'}</b></div>`;
   const al = [];
   if (D.error) al.push(['r', `✖ ${D.error}: la oficina muestra la última copia que tenga`]);
   if (viejo) al.push(['a', `⚠ Los datos tienen ${rel(age)}: revisa que el workflow «Oficina en GitHub Pages» tenga su token`]);
-  for (const c of C) if (c.luz && c.luz !== 'verde') al.push([c.luz === 'roja' ? 'r' : 'a', `${c.luz === 'roja' ? '✖' : '⚠'} ${c.nombre}: ${c.motivo || c.luz}`]);
+  for (const c of C) if (c.luz && c.luz !== 'verde' && c.luz !== 'retirada') al.push([c.luz === 'roja' ? 'r' : 'a', `${c.luz === 'roja' ? '✖' : '⚠'} ${c.nombre}: ${c.motivo || c.luz}`]);
   if (D.run?.error) al.push(['a', `⚠ El botón directo no puede leer GitHub (${D.run.error}): revisa el token en ⚙`]);
   $('#toast').innerHTML = al.slice(0,3).map(([k,t]) => `<div class="${k}">${esc(t)}</div>`).join('');
   $('#fr-dot').style.background = !D.ok ? '#6b7280' : viejo ? LUZ.ambar : LUZ.verde;
@@ -735,9 +768,31 @@ function hud() {
   ev.sort((a,b) => b.t.localeCompare(a.t));
   $('#log-l').innerHTML = ev.length ? ev.slice(0,7).map(e => `<div>${e.h}</div>`).join('') : '<div>Sin movimientos todavía.</div>';
   if (followAg) { const b = followAg.bub.sp.userData.text; $('#f-role').textContent = followAg.role + (b ? ' — ' + b : ''); }
+  renderAna();
   if (mode === 'control') renderControl();
   setTop();
 }
+function renderAna() {
+  const C = cuentas().filter(c => c.luz !== 'retirada' && c.analiticas);
+  if (!C.length) { $('#ana-l').innerHTML = '<div class="vacio">Sin analíticas todavía (se miden cada noche).</div>'; return; }
+  const sum = k => C.reduce((s,c) => s + (c.analiticas[k] || 0), 0);
+  const rets = C.map(c => c.analiticas.retencion_media_pct).filter(x => typeof x === 'number');
+  const ret = rets.length ? rets.reduce((a,b) => a+b, 0)/rets.length : null;
+  const f = v => v == null ? '—' : Number(v).toLocaleString('es-ES', { maximumFractionDigits:0 });
+  const colR = r => r == null ? '#4b5563' : r < 35 ? '#ff4d4d' : r < 50 ? '#ffb020' : '#35d07f';
+  const med = C.map(c => c.analiticas.medido).filter(Boolean).sort().pop();
+  $('#ana-l').innerHTML = `<div class="tot">
+      <div><b>${f(sum('vistas_total'))}</b><small>Vistas</small></div>
+      <div><b style="color:${colR(ret)}">${ret == null ? '—' : ret.toFixed(0)+' %'}</b><small>Retención</small></div>
+      <div><b>${f(sum('seguidores'))}</b><small>Seguidores</small></div></div>` +
+    C.map(c => { const a = c.analiticas, r = a.retencion_media_pct, t = (a.top||[])[0];
+      return `<div class="cta"><div class="h"><b style="color:${c.color}">${esc(c.short)}</b><span>${f(a.vistas_total)} vistas · ${f(a.vistas_media)}/reel</span></div>
+        <div class="bar"><i style="width:${Math.min(100, r||0)}%;background:${colR(r)}"></i></div>
+        <div class="nums"><span>⏱ ${r == null ? '—' : r.toFixed(0)+' %'}</span><span>👥 ${f(a.seguidores)}</span><span>↗ ${f(a.compartidos)}</span><span>🔖 ${f(a.guardados)}</span><span>♥ ${f(a.likes)}</span></div>
+        ${t ? `<div class="top">🏆 <a href="${esc(t.enlace)}" target="_blank" rel="noopener">${esc(t.video)}</a> · ${f(t.vistas)} vistas${t.retencion != null ? ' · '+Number(t.retencion).toFixed(0)+' %' : ''}</div>` : ''}</div>`; }).join('') +
+    `<div class="top" style="margin-top:6px">Medido ${med ? med.replace('T',' ') : '—'} · ⏱ retención: rojo &lt;35 %, ámbar &lt;50 %, verde ≥50 %</div>`;
+}
+$('#ana-x').onclick = () => { const a = $('#ana'); a.classList.toggle('min'); a.classList.toggle('open-m'); $('#ana-x').textContent = a.classList.contains('min') ? '+' : '–'; };
 function renderControl() {
   const C = cuentas(), dias = Math.max(0, Math.ceil((FIN - new Date())/864e5)), en = D.E?.enlaces || {};
   const filas = C.map(c => { const u = c.ultimo_publicado, p = (c.proximas||[])[0];
@@ -824,7 +879,7 @@ $('#b-ajustes').onclick = () => {
 /* ================= CÁMARA / VISTAS ================= */
 let mode = 'planta', followAg = null, fly = null;
 const lastFollow = V3();
-function flyTo(p, t, ms = 1300) { fly = { p0:camera.position.clone(), t0:controls.target.clone(), p1:p, t1:t, s:performance.now(), d:ms }; }
+function flyTo(p, t, ms = 1700) { fly = { p0:camera.position.clone(), t0:controls.target.clone(), p1:p, t1:t, s:performance.now(), d:ms }; }
 controls.addEventListener('start', () => { fly = null; });
 function setTab(v) { document.querySelectorAll('nav.tabs button').forEach(b => b.classList.toggle('on', b.dataset.v === v || b.dataset.dd === v)); }
 function cerrarPaneles() { document.querySelectorAll('.panel').forEach(p => p.classList.remove('on')); }
@@ -863,8 +918,8 @@ function spawnCard() { const c = publicando(); const m = new THREE.MeshBasicMate
 
 /* ================= BUCLE ================= */
 function alActualizar() { drawBoard(); drawDir(); drawIdeasBoard(); drawRet(); hud(); if (mode === 'ideas') renderIdeas(); }
-const clock = new THREE.Clock(); let scrT = 0, hudT = 0;
-const ease = k => k < .5 ? 2*k*k : 1 - Math.pow(-2*k+2, 2)/2;
+const clock = new THREE.Clock(); let scrT = 0, hudT = 0, scrI = 0, fpsT = 0, fpsN = 0, calidad = renderer.getPixelRatio();
+const ease = k => k < .5 ? 4*k*k*k : 1 - Math.pow(-2*k+2, 3)/2;
 viewPlanta(); camera.position.copy(fly.p1); controls.target.copy(fly.t1); fly = null;
 alActualizar();
 function loop() {
@@ -886,8 +941,12 @@ function loop() {
   pin.position.y = 2.2 + Math.sin(t*2)*.18; pin.rotation.y = t; prioRing.material.opacity = .25 + .25*Math.sin(t*3);
   if (pub && AG['AGT-10'].act === 'publicando') { flyT += dt; if (flyT > .8) { flyT = 0; spawnCard(); } }
   for (let i = FLY.length-1; i >= 0; i--) { const f = FLY[i]; f.t += dt/1.5; f.card.position.lerpVectors(PUBMON, cloud.position, f.t); f.card.position.y += Math.sin(f.t*Math.PI)*.8; f.card.rotation.y = f.t*6; f.m.opacity = 1 - f.t*f.t; if (f.t >= 1) { scene.remove(f.card); f.card.geometry.dispose(); f.m.dispose(); FLY.splice(i,1); } }
-  scrT += dt; if (scrT > .2) { scrT = 0; for (const s of SCREENS) drawScreen(s, t); }
+  scrT += dt; if (scrT > .07 && SCREENS.length) { scrT = 0; scrI = (scrI + 1) % SCREENS.length; drawScreen(SCREENS[scrI], t); }
   hudT += dt; if (hudT > 15) { hudT = 0; hud(); drawDir(); }
+  fpsN++;
+  if (fpsN >= 90) { const fps = fpsN / ((performance.now() - (loop.t0 || performance.now())) / 1000 || 1); loop.t0 = performance.now(); fpsN = 0;
+    if (fps < 42 && calidad > 1) { calidad = Math.max(1, calidad - .25); renderer.setPixelRatio(calidad); }
+    if (fps < 32 && sun.shadow.mapSize.x > 1024) { sun.shadow.mapSize.set(1024,1024); sun.shadow.map?.dispose(); sun.shadow.map = null; } }
   renderer.render(scene, camera);
   requestAnimationFrame(loop);
 }
