@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-19T02:37",
+  "actualizado": "2026-11-19T03:00",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -352,19 +352,19 @@
     }
   },
   "ideas": {
-    "total": 48,
+    "total": 49,
     "por_estado": {
       "en_curso": 25,
       "nueva": 17,
       "hecha": 1,
-      "aprobada": 5
+      "aprobada": 6
     },
     "por_area": {
       "porque": 11,
       "historia": 3,
       "perros": 9,
       "dios": 3,
-      "fabrica": 8,
+      "fabrica": 9,
       "oficina": 5,
       "finanzas": 1,
       "dropshipping": 2,
