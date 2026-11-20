@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T14:15",
+  "actualizado": "2026-11-20T15:19",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -448,6 +448,39 @@
       "luz": "ambar"
     }
   ],
+  "incidentes": {
+    "abiertos": [
+      {
+        "fecha": "2026-11-20T15:18",
+        "tipo": "sin_publicar",
+        "cuenta": "elporquesecreto",
+        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
+        "accion": "solo revisión"
+      },
+      {
+        "fecha": "2026-11-20T15:18",
+        "tipo": "sin_publicar",
+        "cuenta": "patasarriba.historias",
+        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
+        "accion": "solo revisión"
+      },
+      {
+        "fecha": "2026-11-20T15:18",
+        "tipo": "sin_publicar",
+        "cuenta": "enlamejorparte",
+        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
+        "accion": "solo revisión"
+      }
+    ],
+    "resueltos_hoy": 0,
+    "semana": {
+      "por_tipo": {
+        "sin_publicar": 3
+      },
+      "abiertos": 3,
+      "revisado": "2026-11-20T15:18"
+    }
+  },
   "analiticas_avisos": [],
   "enlaces": {
     "publicar_ya": "https://github.com/Corosean/fabrica-contenido/actions/workflows/publicar.yml",

@@ -64,6 +64,11 @@ nav.tabs button:hover:not(.on){background:#151c2e}
 #metas a{color:#9fb4ff}
 #metas .vacio{color:var(--tenue)}
 @media(max-width:900px){#metas{display:none}}
+#agt11{margin:-2px 0 8px;padding:7px 9px;border-radius:9px;background:#121726;border:1px solid var(--linea);font-size:11.5px}
+#agt11 b{color:#fff}
+#agt11 .ok{color:#35d07f}#agt11 .mal{color:#ffb020}
+#agt11 .inc{margin-top:5px;color:#b9c1d0;line-height:1.35}
+#agt11 .inc small{display:block;color:var(--tenue)}
 #ana{position:fixed;right:12px;bottom:52px;width:min(380px,calc(100vw - 24px));padding:12px 14px;z-index:4;font-size:12px;max-height:calc(100vh - var(--top,110px) - 70px);overflow:auto}
 #ana h4{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#cfd6e4;margin-bottom:8px;font-weight:800}
 #ana h4 button{background:#1b2133;border:1px solid var(--linea);border-radius:6px;width:24px;height:22px;color:#cfd6e4}
@@ -168,7 +173,7 @@ td small{color:var(--tenue);display:block;font-size:10.5px;margin-top:2px}
 
 <div id="toast"></div>
 <div id="follow" class="glass"><span class="dot" id="f-dot" style="width:12px;height:12px"></span><div><b id="f-name"></b><small id="f-role"></small></div><button class="ghost" id="f-x">Volver a planta</button></div>
-<div id="log" class="glass"><h4>Últimos movimientos</h4><div id="log-l"><div>Cargando datos…</div></div></div>
+<div id="log" class="glass"><h4>Últimos movimientos</h4><div id="agt11"></div><div id="log-l"><div>Cargando datos…</div></div></div>
 <div id="metas" class="glass"><h4><span>🎯 Metas de compra</span><button id="metas-x" title="Plegar">–</button></h4><div id="metas-l"><div class="vacio">Cargando…</div></div></div>
 <div id="ana" class="glass"><h4><span>📊 Analíticas · Instagram</span><button id="ana-x" title="Plegar">–</button></h4><div id="ana-l"><div class="vacio">Cargando…</div></div></div>
 <div id="fresh" class="glass"><span class="dot" id="fr-dot"></span><span id="fr-t">sin datos</span></div>
@@ -809,6 +814,7 @@ function hud() {
   if (followAg) { const b = followAg.bub.sp.userData.text; $('#f-role').textContent = followAg.role + (b ? ' — ' + b : ''); }
   renderAna();
   pintaMetas(D.E?.metas || []);
+  pintaAgt11(D.E?.incidentes);
   if (mode === 'control') renderControl();
   setTop();
 }
@@ -1048,6 +1054,20 @@ function pintaMetas(M){
   }).join('');
 }
 
+
+function pintaAgt11(I){
+  var el = document.querySelector('#agt11'); if(!el) return;
+  if(!I){ el.innerHTML = '<span style="color:var(--tenue)">🛠 AGT-11 Solucionador: sin datos aún</span>'; return; }
+  var ab = I.abiertos || [], ok = I.resueltos_hoy || 0;
+  var TIP = {sin_publicar:'Sin publicar', ejecucion_fallida:'Ejecución fallida', plan_desincronizado:'Plan desincronizado',
+             cola_baja:'Cola baja', cuenta_frenada:'Cuenta frenada', token:'Token', oficina_vieja:'Oficina sin actualizar', vigilante:'Vigilante'};
+  var cab = '🛠 <b>AGT-11 Solucionador</b> · ' + (ab.length ? '<span class="mal">' + ab.length + ' abierto' + (ab.length>1?'s':'') + '</span>' : '<span class="ok">todo en orden</span>') +
+            (ok ? ' · <span class="ok">' + ok + ' arreglado' + (ok>1?'s':'') + ' hoy</span>' : '');
+  var det = ab.slice(-3).reverse().map(function(x){
+    return '<div class="inc">' + (TIP[x.tipo]||x.tipo) + (x.cuenta ? ' · @' + x.cuenta : '') + '<small>' + x.accion + '</small></div>';
+  }).join('');
+  el.innerHTML = cab + det;
+}
 </script>
 </body>
 </html>
