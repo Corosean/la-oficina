@@ -157,7 +157,11 @@ td small{color:var(--tenue);display:block;font-size:10.5px;margin-top:2px}
     <button data-v="ideas">Banco de Ideas</button>
   </nav>
   <div class="kpis" id="kpis"></div>
-  <button class="ghost" id="b-fab" style="color:#35d07f;border-color:rgba(53,208,127,.45)" title="Copia la orden para el equipo y abre Claude">✦ Fabricar contenido</button>
+  <div class="dd"><button class="ghost" data-dd="m-fab" id="b-fab" style="color:#35d07f;border-color:rgba(53,208,127,.45)">✦ Fabricación ▾</button><div class="menu glass" id="m-fab">
+    <button data-fab="videos"><i style="background:#35d07f"></i><div>Hacer los vídeos<small>Fabrica los siguientes sin publicar</small></div></button>
+    <button data-fab="guiones"><i style="background:#9fb4ff"></i><div>Hacer guiones<small>Encarga al equipo los que faltan</small></div></button>
+    <button data-fab="ver"><i style="background:#ffb020"></i><div>Ver vídeos<small>Los últimos fabricados, para revisar</small></div></button>
+  </div></div>
   <button class="primary" id="b-subir">▶ Subir vídeo ya</button>
   <button class="ghost" id="b-ajustes" title="Ajustes del botón">⚙</button>
 </div>
@@ -257,10 +261,26 @@ async function leerRun() {
     D.run = w ? { activo: w.status === 'in_progress' || w.status === 'queued', estado:w.status, conclusion:w.conclusion, url:w.html_url, fecha:w.created_at } : null;
   } catch(e) { D.run = { error:'red' }; }
 }
-async function lanzar() {
+async function lanzar(inputs = { ya:'true' }) {
   const tok = getTok();
-  const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, { method:'POST', headers:{ Authorization:`Bearer ${tok}`, Accept:'application/vnd.github+json', 'Content-Type':'application/json' }, body:JSON.stringify({ ref:'main', inputs:{ ya:'true' } }) });
+  const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, { method:'POST', headers:{ Authorization:`Bearer ${tok}`, Accept:'application/vnd.github+json', 'Content-Type':'application/json' }, body:JSON.stringify({ ref:'main', inputs }) });
   return r.status;
+}
+/* la última fabricación de prueba que terminó bien, con su enlace de descarga */
+async function ultimaPrueba() {
+  const tok = getTok(); if (!tok) return null;
+  try {
+    const h = { Authorization:`Bearer ${tok}`, Accept:'application/vnd.github+json' };
+    const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&status=success&per_page=10`, { headers:h });
+    if (!r.ok) return null;
+    for (const w of (await r.json()).workflow_runs || []) {
+      const a = await fetch(`https://api.github.com/repos/${REPO}/actions/runs/${w.id}/artifacts`, { headers:h });
+      if (!a.ok) continue;
+      const art = ((await a.json()).artifacts || []).find(x => x.name === 'videos-de-prueba' && !x.expired);
+      if (art) return { run:w.html_url, zip:`https://github.com/${REPO}/actions/runs/${w.id}/artifacts/${art.id}`, fecha:w.created_at, mb:(art.size_in_bytes/1e6).toFixed(0) };
+    }
+  } catch(e) {}
+  return null;
 }
 
 try { await Promise.race([Promise.all([document.fonts.load('900 40px Archivo'),document.fonts.load('700 30px "JetBrains Mono"')]), new Promise(r=>setTimeout(r,1800))]); } catch(e){}
@@ -875,14 +895,44 @@ Jefe de la Fábrica: en el repo Corosean/fabrica-contenido mira oficina/estado.j
 3. Que revisa los compruebe (datos verificables, anti-IA, JSON válido).
 4. Súbelos a motor/guiones/ en el repo y dime en 5 líneas qué has hecho y hasta qué día está cubierta cada cuenta.`;
 }
-$('#b-fab').onclick = async () => {
+async function fabGuiones() {
   const t = ordenFabricar(); let ok = false;
   try { await navigator.clipboard.writeText(t); ok = true; } catch(e) {}
   modal(`<h3>✦ Fabricar contenido</h3><p>${ok ? '<b>Orden copiada.</b> Pégala (Ctrl+V) en el proyecto «FÁBRICA DE CONTENIDO» de Claude y envía.' : '<b>Copia esta orden</b> y pégala en Claude, en el proyecto «FÁBRICA DE CONTENIDO»:'}</p>
     <pre style="white-space:pre-wrap;font:11.5px 'JetBrains Mono',monospace;color:#cfe9da;background:#0d1322;border:1px solid var(--linea);border-radius:8px;padding:10px;max-height:40vh;overflow:auto;user-select:all">${esc(t)}</pre>
     <div class="row"><a class="primary btn" href="https://claude.ai/projects" target="_blank" rel="noopener">Abrir Claude ↗</a><button class="ghost" id="m-no">Cerrar</button></div>`);
   $('#m-no').onclick = cerrarModal;
-};
+}
+const ACTIONS_URL = `https://github.com/${REPO}/actions/workflows/${WORKFLOW}`;
+async function fabVideos() {
+  if (!getTok()) {
+    modal(`<h3>🎬 Hacer los vídeos</h3><p>Abre GitHub y pulsa <b>Run workflow</b> marcando la casilla <b>prueba</b>. Fabrica los siguientes vídeos de cada cuenta <b>sin publicarlos</b> y en unos 10 minutos los tienes en «Ver vídeos».</p>
+      <p style="color:#9aa3ad">Con el token del botón ⚙ esto se hace con un solo clic desde aquí.</p>
+      <div class="row"><a class="primary btn" href="${ACTIONS_URL}" target="_blank" rel="noopener">Abrir GitHub ↗</a><button class="ghost" id="m-no">Cerrar</button></div>`);
+    $('#m-no').onclick = cerrarModal; return;
+  }
+  modal('<h3>🎬 Hacer los vídeos</h3><p>Lanzando la fabricación…</p>');
+  const st = await lanzar({ prueba:'true' });
+  modal(`<h3>🎬 Hacer los vídeos</h3><p>${st === 204 ? '<b>En marcha.</b> Se están fabricando los siguientes vídeos de cada cuenta, sin publicar. Tardan unos 10 minutos; luego ábrelos desde «Ver vídeos».' : `<span style="color:#ff6b6b">GitHub respondió ${st}.</span> Revisa el token en ⚙.`}</p>
+    <div class="row"><a class="ghost btn" href="${ACTIONS_URL}" target="_blank" rel="noopener">Ver el progreso ↗</a><button class="primary" id="m-no">Vale</button></div>`);
+  $('#m-no').onclick = cerrarModal;
+}
+async function fabVer() {
+  modal('<h3>👁 Ver vídeos</h3><p>Buscando la última fabricación…</p>');
+  const u = await ultimaPrueba();
+  if (!u) {
+    modal(`<h3>👁 Ver vídeos</h3><p>${getTok() ? 'No encuentro ninguna fabricación de prueba reciente. Pulsa antes «Hacer los vídeos».' : 'Abre GitHub, entra en la última ejecución marcada como <b>workflow_dispatch</b> y baja hasta <b>Artifacts → videos-de-prueba</b>.'}</p>
+      <div class="row"><a class="primary btn" href="${ACTIONS_URL}" target="_blank" rel="noopener">Abrir GitHub ↗</a><button class="ghost" id="m-no">Cerrar</button></div>`);
+    $('#m-no').onclick = cerrarModal; return;
+  }
+  modal(`<h3>👁 Ver vídeos</h3><p>Última fabricación: <b>${new Date(u.fecha).toLocaleString('es-ES')}</b> · ${u.mb} MB.</p>
+    <div class="row"><a class="primary btn" href="${u.zip}" target="_blank" rel="noopener">Descargar los vídeos ↓</a><a class="ghost btn" href="${u.run}" target="_blank" rel="noopener">Ver ejecución ↗</a><button class="ghost" id="m-no">Cerrar</button></div>`);
+  $('#m-no').onclick = cerrarModal;
+}
+$('#m-fab').querySelectorAll('[data-fab]').forEach(b => b.onclick = e => {
+  e.stopPropagation(); document.querySelectorAll('.menu').forEach(x => x.classList.remove('open'));
+  ({ videos:fabVideos, guiones:fabGuiones, ver:fabVer })[b.dataset.fab]();
+});
 $('#b-ajustes').onclick = () => {
   const tok = getTok();
   modal(`<h3>⚙ Botón directo (opcional)</h3>
