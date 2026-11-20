@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T15:33",
+  "actualizado": "2026-11-20T21:16",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 27,
+      "banco": 26,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_luna_horizonte",
+        "video": "porque_palomitas",
         "fecha": "2026-11-20",
-        "hora": "15:26",
-        "enlace": "https://www.instagram.com/reel/Df93fVvIdGt/",
+        "hora": "21:12",
+        "enlace": "https://www.instagram.com/reel/Df-e-xikU0-/",
         "via": "api"
       },
-      "publicados_ig": 13,
+      "publicados_ig": 14,
       "proximas": [
-        {
-          "video": "porque_palomitas",
-          "fecha": "2026-11-20",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_pierna_dormida",
           "fecha": "2026-11-21",
@@ -56,6 +50,12 @@
           "video": "porque_teclado_qwerty",
           "fecha": "2026-11-22",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_voz_grabada",
+          "fecha": "2026-11-22",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -112,24 +112,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 29,
+      "banco": 28,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "perros_dolor_senales",
+        "video": "perros_dormir_mas",
         "fecha": "2026-11-20",
-        "hora": "15:28",
-        "enlace": "https://www.instagram.com/reel/Df93q3MIFli/",
+        "hora": "21:14",
+        "enlace": "https://www.instagram.com/reel/Df-fNG6D0pv/",
         "via": "api"
       },
-      "publicados_ig": 11,
+      "publicados_ig": 12,
       "proximas": [
-        {
-          "video": "perros_dormir_mas",
-          "fecha": "2026-11-20",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "perros_frio_mayor",
           "fecha": "2026-11-21",
@@ -152,6 +146,12 @@
           "video": "perros_paseos_cortos",
           "fecha": "2026-11-22",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_bruno_p1",
+          "fecha": "2026-11-22",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 27,
+      "banco": 26,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_audio_p5",
+        "video": "historia_audio_p6",
         "fecha": "2026-11-20",
-        "hora": "15:29",
-        "enlace": "https://www.instagram.com/reel/Df931dGoU62/",
+        "hora": "21:16",
+        "enlace": "https://www.instagram.com/reel/Df-fjAfGAWu/",
         "via": "api"
       },
-      "publicados_ig": 13,
+      "publicados_ig": 14,
       "proximas": [
-        {
-          "video": "historia_audio_p6",
-          "fecha": "2026-11-20",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_vecina_p1",
           "fecha": "2026-11-21",
@@ -248,6 +242,12 @@
           "video": "historia_vecina_p4",
           "fecha": "2026-11-22",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_vecina_p5",
+          "fecha": "2026-11-22",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -449,36 +449,15 @@
     }
   ],
   "incidentes": {
-    "abiertos": [
-      {
-        "fecha": "2026-11-20T15:18",
-        "tipo": "sin_publicar",
-        "cuenta": "elporquesecreto",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
-        "accion": "solo revisión"
-      },
-      {
-        "fecha": "2026-11-20T15:18",
-        "tipo": "sin_publicar",
-        "cuenta": "patasarriba.historias",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
-        "accion": "solo revisión"
-      },
-      {
-        "fecha": "2026-11-20T15:18",
-        "tipo": "sin_publicar",
-        "cuenta": "enlamejorparte",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
-        "accion": "solo revisión"
-      }
-    ],
-    "resueltos_hoy": 0,
+    "abiertos": [],
+    "resueltos_hoy": 4,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 3
+        "sin_publicar": 3,
+        "oficina_vieja": 1
       },
-      "abiertos": 3,
-      "revisado": "2026-11-20T15:20"
+      "abiertos": 0,
+      "revisado": "2026-11-20T20:27"
     }
   },
   "analiticas_avisos": [],
