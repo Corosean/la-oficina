@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T10:35",
+  "actualizado": "2026-11-20T13:05",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -430,10 +430,29 @@
       }
     ]
   },
+  "metas": [
+    {
+      "id": "pc-2027",
+      "nombre": "PC nuevo para producir",
+      "para": "Editar Reels y YouTube, mover los sistemas con Claude y abrir la puerta al vídeo con IA en local",
+      "objetivo": 1700.0,
+      "ahorrado": 0.0,
+      "falta": 1700.0,
+      "pct": 0,
+      "moneda": "€",
+      "fecha_limite": "2027-03-15",
+      "dias": 115,
+      "por_semana": 103,
+      "doc": "https://claude.ai/artifact/QBWL9irnSjMsqrVZinyvEH",
+      "notas": "Sobremesa todo nuevo: RTX 5060 Ti 16 GB + 32 GB DDR5 + 1 TB NVMe. Lista de la compra con enlaces en el doc.",
+      "luz": "ambar"
+    }
+  ],
   "analiticas_avisos": [],
   "enlaces": {
     "publicar_ya": "https://github.com/Corosean/fabrica-contenido/actions/workflows/publicar.yml",
     "analiticas": "https://github.com/Corosean/fabrica-contenido/actions/workflows/analiticas.yml",
-    "ideas": "https://github.com/Corosean/fabrica-contenido/blob/main/oficina/IDEAS.md"
+    "ideas": "https://github.com/Corosean/fabrica-contenido/blob/main/oficina/IDEAS.md",
+    "metas": "https://github.com/Corosean/fabrica-contenido/blob/main/oficina/metas.json"
   }
 }

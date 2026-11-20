@@ -47,6 +47,23 @@ nav.tabs button:hover:not(.on){background:#151c2e}
 #log h4,.side h4{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--tenue);margin-bottom:5px;font-weight:700}
 #log div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-family:'JetBrains Mono',monospace}
 #log a{color:#9fb4ff}
+#metas{position:fixed;left:12px;bottom:52px;width:min(330px,calc(100vw - 24px));padding:12px 14px;z-index:4;font-size:12px}
+#metas h4{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#cfd6e4;margin-bottom:8px;font-weight:800}
+#metas h4 button{background:#1b2133;border:1px solid var(--linea);border-radius:6px;width:24px;height:22px;color:#cfd6e4}
+#metas.min #metas-l{display:none}
+#metas .m{border-top:1px solid var(--linea);padding:9px 0 4px}
+#metas .m:first-child{border-top:0;padding-top:0}
+#metas .m .h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+#metas .m .h b{font-size:13px;color:#fff}
+#metas .m .h span{color:var(--tenue);font:11px 'JetBrains Mono',monospace}
+#metas .bar{height:9px;background:#1c2232;border-radius:5px;overflow:hidden;margin:7px 0 5px}
+#metas .bar i{display:block;height:100%;border-radius:5px;transition:width .6s cubic-bezier(.22,1,.36,1)}
+#metas .cifras{display:flex;gap:10px;flex-wrap:wrap;color:#b9c1d0;font:11px 'JetBrains Mono',monospace}
+#metas .ritmo{margin-top:5px;color:var(--tenue);font-size:11px}
+#metas .ritmo b{color:#ffd48a}
+#metas a{color:#9fb4ff}
+#metas .vacio{color:var(--tenue)}
+@media(max-width:900px){#metas{display:none}}
 #ana{position:fixed;right:12px;bottom:52px;width:min(380px,calc(100vw - 24px));padding:12px 14px;z-index:4;font-size:12px;max-height:calc(100vh - var(--top,110px) - 70px);overflow:auto}
 #ana h4{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#cfd6e4;margin-bottom:8px;font-weight:800}
 #ana h4 button{background:#1b2133;border:1px solid var(--linea);border-radius:6px;width:24px;height:22px;color:#cfd6e4}
@@ -123,6 +140,7 @@ td small{color:var(--tenue);display:block;font-size:10.5px;margin-top:2px}
 </style>
 <script type="importmap">
 {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+
 </script>
 </head>
 <body>
@@ -147,6 +165,7 @@ td small{color:var(--tenue);display:block;font-size:10.5px;margin-top:2px}
 <div id="toast"></div>
 <div id="follow" class="glass"><span class="dot" id="f-dot" style="width:12px;height:12px"></span><div><b id="f-name"></b><small id="f-role"></small></div><button class="ghost" id="f-x">Volver a planta</button></div>
 <div id="log" class="glass"><h4>Últimos movimientos</h4><div id="log-l"><div>Cargando datos…</div></div></div>
+<div id="metas" class="glass"><h4><span>🎯 Metas de compra</span><button id="metas-x" title="Plegar">–</button></h4><div id="metas-l"><div class="vacio">Cargando…</div></div></div>
 <div id="ana" class="glass"><h4><span>📊 Analíticas · Instagram</span><button id="ana-x" title="Plegar">–</button></h4><div id="ana-l"><div class="vacio">Cargando…</div></div></div>
 <div id="fresh" class="glass"><span class="dot" id="fr-dot"></span><span id="fr-t">sin datos</span></div>
 
@@ -769,6 +788,7 @@ function hud() {
   $('#log-l').innerHTML = ev.length ? ev.slice(0,7).map(e => `<div>${e.h}</div>`).join('') : '<div>Sin movimientos todavía.</div>';
   if (followAg) { const b = followAg.bub.sp.userData.text; $('#f-role').textContent = followAg.role + (b ? ' — ' + b : ''); }
   renderAna();
+  pintaMetas(D.E?.metas || []);
   if (mode === 'control') renderControl();
   setTop();
 }
@@ -792,6 +812,7 @@ function renderAna() {
         ${t ? `<div class="top">🏆 <a href="${esc(t.enlace)}" target="_blank" rel="noopener">${esc(t.video)}</a> · ${f(t.vistas)} vistas${t.retencion != null ? ' · '+Number(t.retencion).toFixed(0)+' %' : ''}</div>` : ''}</div>`; }).join('') +
     `<div class="top" style="margin-top:6px">Medido ${med ? med.replace('T',' ') : '—'} · ⏱ retención: rojo &lt;35 %, ámbar &lt;50 %, verde ≥50 %</div>`;
 }
+$('#metas-x').onclick = () => { const m = $('#metas'); m.classList.toggle('min'); $('#metas-x').textContent = m.classList.contains('min') ? '+' : '\u2013'; };
 $('#ana-x').onclick = () => { const a = $('#ana'); a.classList.toggle('min'); a.classList.toggle('open-m'); $('#ana-x').textContent = a.classList.contains('min') ? '+' : '–'; };
 function renderControl() {
   const C = cuentas(), dias = Math.max(0, Math.ceil((FIN - new Date())/864e5)), en = D.E?.enlaces || {};
@@ -954,6 +975,29 @@ loop();
 $('#loading').style.opacity = 0; setTimeout(() => $('#loading').remove(), 600);
 await cargar();
 setInterval(cargar, REFRESCO_MS);
+
+function pintaMetas(M){
+  var cont = document.querySelector('#metas-l'); if(!cont) return;
+  if(!M || !M.length){ cont.innerHTML = '<div class="vacio">Sin metas activas.</div>'; return; }
+  var col = {verde:'#44d07b', ambar:'#f2b23c', roja:'#ef5f5f'};
+  cont.innerHTML = M.map(function(m){
+    var c = col[m.luz] || '#f2b23c';
+    var mo = m.moneda || '\u20ac';
+    var eur = function(n){ return Math.round(n).toLocaleString('es-ES') + ' ' + mo; };
+    var ritmo = '';
+    if (m.pct >= 100) ritmo = '<div class="ritmo"><b>\u00a1Conseguida!</b></div>';
+    else if (m.por_semana) ritmo = '<div class="ritmo">Hacen falta <b>' + eur(m.por_semana) + '/semana</b> durante ' + m.dias + ' d\u00edas</div>';
+    else if (m.dias !== null && m.dias <= 0) ritmo = '<div class="ritmo"><b>Fecha pasada</b></div>';
+    return '<div class="m">' +
+      '<div class="h"><b>' + m.nombre + '</b><span>' + m.pct + '%</span></div>' +
+      '<div class="bar"><i style="width:' + Math.min(100, m.pct) + '%;background:' + c + '"></i></div>' +
+      '<div class="cifras"><span>' + eur(m.ahorrado) + ' de ' + eur(m.objetivo) + '</span><span>faltan ' + eur(m.falta) + '</span></div>' +
+      ritmo +
+      (m.doc ? '<div class="ritmo"><a href="' + m.doc + '" target="_blank" rel="noopener">Ver la lista de la compra \u2192</a></div>' : '') +
+      '</div>';
+  }).join('');
+}
+
 </script>
 </body>
 </html>
