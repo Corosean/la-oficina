@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T13:05",
+  "actualizado": "2026-11-20T14:15",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -16,7 +16,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 7,
+      "banco": 28,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
@@ -112,7 +112,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 9,
+      "banco": 30,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
@@ -208,7 +208,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 7,
+      "banco": 28,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
