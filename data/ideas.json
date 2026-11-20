@@ -9,7 +9,9 @@
       "descripcion": "Gancho de miedo suave: si la comida sienta mal, que no caigan los dos. Norma habitual de las aerolíneas. Citar fuente antes de grabar.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto: suma vistas, no ingresos directos con 6 seguidores."
     },
     {
       "id": "I-002",
@@ -19,7 +21,9 @@
       "descripcion": "QWERTY nació en las máquinas de escribir del s. XIX para separar letras que se atascaban. Icono: mano.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto de curiosidad."
     },
     {
       "id": "I-003",
@@ -29,7 +33,9 @@
       "descripcion": "Es una ilusión óptica: mide lo mismo. Truco final: mírala con un tubo de papel y 'encoge'.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto de curiosidad."
     },
     {
       "id": "I-004",
@@ -39,7 +45,9 @@
       "descripcion": "El agua del grano se convierte en vapor y revienta la cáscara. Serie 'Ciencia en tu cocina' (cebolla, palomitas, hielo).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Serie corta de curiosidad; algo más de retorno al perfil, sin vía de cobro."
     },
     {
       "id": "I-005",
@@ -49,7 +57,9 @@
       "descripcion": "El conductor no para en tu parada y los demás pasajeros no se mueven. Cliffhanger en cada capítulo.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Serie con cliffhanger: hace volver al perfil y sube seguidores, base de toda monetización."
     },
     {
       "id": "I-006",
@@ -59,7 +69,9 @@
       "descripcion": "Te llega un audio de WhatsApp a las 3:07… y la voz es la tuya. Encaja con la escena 'movil' del motor.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Serie con cliffhanger, ya en marcha."
     },
     {
       "id": "I-007",
@@ -69,7 +81,9 @@
       "descripcion": "Llegan paquetes a tu nombre que no has pedido, siempre del 4º. Usa escalera, puerta y mirilla.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Serie con cliffhanger."
     },
     {
       "id": "I-008",
@@ -79,7 +93,9 @@
       "descripcion": "Lamerse una pata, levantarse despacio, evitar escaleras… Cierre: 'consúltalo con tu veterinario'. Alto potencial de guardados.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Útil y compartible; abre la puerta a afiliados de productos para perros mayores."
     },
     {
       "id": "I-009",
@@ -89,7 +105,9 @@
       "descripcion": "Puede ser calor o ejercicio, pero si es de golpe hay que ir al veterinario. Útil y compartible.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Útil, pero sin producto asociado."
     },
     {
       "id": "I-010",
@@ -99,7 +117,9 @@
       "descripcion": "Alfombra olfativa casera con una toalla. Puente natural a afiliados/dropshipping (I-027).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Puente directo a afiliados (I-027)."
     },
     {
       "id": "I-011",
@@ -109,7 +129,9 @@
       "descripcion": "Historias tiernas de perros mayores adoptados (inventadas y marcadas como ficción, o enviadas por seguidores con permiso).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Emotivo, sin vía de cobro."
     },
     {
       "id": "I-012",
@@ -119,7 +141,9 @@
       "descripcion": "Un versículo por día (Filipenses 4:6-7, Mateo 6:34, 1 Pedro 5:7…), cita literal y referencia al final.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Sin cuenta de Instagram activa para este tema; solo TikTok."
     },
     {
       "id": "I-013",
@@ -129,7 +153,9 @@
       "descripcion": "Serie de 6 capítulos: cada Reel explica una línea del salmo más buscado.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Sin cuenta de Instagram activa para este tema."
     },
     {
       "id": "I-014",
@@ -139,7 +165,9 @@
       "descripcion": "Salmo 13: '¿Hasta cuándo, Señor?'. Gancho para quien está en un mal momento; tono de compañía, no de sermón.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Sin cuenta de Instagram activa para este tema."
     },
     {
       "id": "I-015",
@@ -149,7 +177,9 @@
       "descripcion": "Unir 2 capítulos o añadir escenas de 'dato extra' para pasar del minuto (requisito de Creator Rewards y premia retención larga). · HECHO 17 nov: workflow \"TikTok semana\" (domingos) une 2-3 guiones en vídeos de 61+ s, 1/día por cuenta, incluida Dios en el Caos para TikTok.",
       "origen": "claude",
       "estado": "hecha",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Requisito de Creator Rewards de TikTok (pago por vistas)."
     },
     {
       "id": "I-016",
@@ -159,7 +189,9 @@
       "descripcion": "No solo En La Mejor Parte: 'Parte 2 mañana' hace volver al perfil y sube seguidores.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Series en todas las cuentas = más seguidores recurrentes."
     },
     {
       "id": "I-017",
@@ -169,7 +201,9 @@
       "descripcion": "Mismo vídeo con 2 primeras frases distintas (IG un día, TikTok otro); el analista compara retención y vistas.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Mejora la retención de todo lo que se publica; efecto multiplicador."
     },
     {
       "id": "I-018",
@@ -179,7 +213,9 @@
       "descripcion": "Cada noche: vistas, guardados, compartidos, seguidores y retención → analiticas.json. Código hecho; falta el token con instagram_manage_insights.",
       "origen": "juan",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Mide, no genera dinero; ya casi hecho."
     },
     {
       "id": "I-019",
@@ -189,7 +225,9 @@
       "descripcion": "La API de YouTube permite subir vídeos sin coste dentro de su cuota diaria. Mismos vídeos, tercera plataforma.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Tercera plataforma gratis con los mismos vídeos; más alcance."
     },
     {
       "id": "I-020",
@@ -199,7 +237,9 @@
       "descripcion": "Que el motor saque una portada por Reel con el mismo estilo para que el perfil parezca una marca.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 3
+      "prioridad": 3,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Imagen de marca; efecto indirecto."
     },
     {
       "id": "I-021",
@@ -209,7 +249,9 @@
       "descripcion": "Hermes con cerebro gratis: 'apunta esta idea', '¿cómo va el banco?', 'publica ya'. Instalador listo en el PC.",
       "origen": "juan",
       "estado": "aprobada",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Comodidad interna, no genera ingresos."
     },
     {
       "id": "I-022",
@@ -219,7 +261,9 @@
       "descripcion": "Corosean/la-oficina leyendo oficina/estado.json. Prototipo ya hecho en el chat 'Oficina 3D'.",
       "origen": "juan",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Herramienta interna (y escaparate), sin cobro directo."
     },
     {
       "id": "I-023",
@@ -229,7 +273,9 @@
       "descripcion": "Un sitio con todo lo que sabe La Oficina (reglas, ideas, analíticas, decisiones) para que cualquier herramienta lo lea sin repetirlo.",
       "origen": "juan",
       "estado": "en_curso",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Herramienta interna."
     },
     {
       "id": "I-024",
@@ -239,7 +285,9 @@
       "descripcion": "Pizarra con las ideas por estado y prioridad, leída de estado.json.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Herramienta interna."
     },
     {
       "id": "I-025",
@@ -249,7 +297,9 @@
       "descripcion": "Dirección: leer analíticas, aprobar 7 ideas por cuenta, programar TikTok. Ver Plan Maestro.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Organización: ahorra tiempo, no genera dinero por sí sola."
     },
     {
       "id": "I-026",
@@ -259,7 +309,9 @@
       "descripcion": "Hoja de ingresos y gastos por vía (agencia, afiliados, plataformas), objetivo del mes y alerta si alguna herramienta empieza a cobrar.",
       "origen": "juan",
       "estado": "aprobada",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Mide ingresos; no los crea. Útil cuando haya ingresos."
     },
     {
       "id": "I-027",
@@ -269,7 +321,9 @@
       "descripcion": "Rampas, camas ortopédicas, alfombrillas antideslizantes, arneses de apoyo. Empezar con afiliados (sin stock) y validar antes de abrir tienda.",
       "origen": "juan",
       "estado": "aprobada",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Primera vía de cobro de las cuentas, pero con 3 seguidores en Patas Arriba aún es poco."
     },
     {
       "id": "I-028",
@@ -279,7 +333,9 @@
       "descripcion": "Problema real (suelo resbala, sofá alto) → solución → enlace en bio. Medir clics antes de invertir nada.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Valida afiliados midiendo clics antes de invertir."
     },
     {
       "id": "I-029",
@@ -289,7 +345,9 @@
       "descripcion": "12 Reels/mes hechos con la Fábrica (plato, local, reseñas). Oferta piloto: primer mes a precio reducido a cambio de caso de estudio.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 3,
+      "impacto_motivo": "Cobro directo a negocios (cuota mensual) usando la Fábrica que ya existe."
     },
     {
       "id": "I-030",
@@ -299,7 +357,9 @@
       "descripcion": "Producto de entrada de Juan como consultor de marca: diagnóstico, 10 mejoras y 3 automatizaciones. Abre la puerta a la cuota mensual.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 3,
+      "impacto_motivo": "Producto de entrada más rápido de vender: cobro en días, abre clientes de agencia."
     },
     {
       "id": "I-031",
@@ -309,7 +369,9 @@
       "descripcion": "Borradores con su tono, Juan o el cliente aprueban. Barato de producir, se nota en la ficha.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 3,
+      "impacto_motivo": "Cobro directo, barato de producir y fácil de explicar."
     },
     {
       "id": "I-032",
@@ -319,7 +381,9 @@
       "descripcion": "Mensajes de recordatorio y respuestas frecuentes. Validar con 2 peluquerías del barrio.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 3
+      "prioridad": 3,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Cobro directo, pero hay que validar y montar integración de WhatsApp."
     },
     {
       "id": "I-033",
@@ -329,7 +393,9 @@
       "descripcion": "La propia Fábrica como portfolio de Corosean para vender a negocios: cifras reales de las 4 cuentas.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 3,
+      "impacto_motivo": "Herramienta de venta de la agencia: convierte la Fábrica en prueba de que funciona."
     },
     {
       "id": "I-034",
@@ -339,7 +405,9 @@
       "descripcion": "Un post por semana contando qué aprende la Fábrica. Trae clientes de agencia sin pagar anuncios.",
       "origen": "claude",
       "estado": "nueva",
-      "prioridad": 3
+      "prioridad": 3,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Trae clientes de agencia gratis, pero tarda semanas."
     },
     {
       "id": "I-035",
@@ -349,7 +417,9 @@
       "descripcion": "Cada domingo el analista propone 3 'repetir' y 3 'quitar' y los apunta aquí con origen analista.",
       "origen": "claude",
       "estado": "aprobada",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Repetir lo que funciona sube vistas de forma sostenida."
     },
     {
       "id": "I-036",
@@ -359,7 +429,9 @@
       "descripcion": "Guion porque_hielo_flota (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-037",
@@ -369,7 +441,9 @@
       "descripcion": "Guion porque_rayo_trueno (18 nov). Regla: segundos/3 = km.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-038",
@@ -379,7 +453,9 @@
       "descripcion": "Guion porque_arcoiris_curvo (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-039",
@@ -389,7 +465,9 @@
       "descripcion": "Guion porque_caracola_mar (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-040",
@@ -399,7 +477,9 @@
       "descripcion": "Guion porque_voz_grabada (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-041",
@@ -409,7 +489,9 @@
       "descripcion": "Guion porque_pierna_dormida (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-042",
@@ -419,7 +501,9 @@
       "descripcion": "Guion porque_atardecer_rojo (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-043",
@@ -429,7 +513,9 @@
       "descripcion": "Guion perros_frio_mayor (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-044",
@@ -439,7 +525,9 @@
       "descripcion": "Guion perros_canas_hocico (18 nov). Estudio 2016 canas tempranas y estrés.",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-045",
@@ -449,7 +537,9 @@
       "descripcion": "Guion perros_dormir_mas (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-046",
@@ -459,7 +549,9 @@
       "descripcion": "Guion perros_paseos_cortos (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-047",
@@ -469,7 +561,9 @@
       "descripcion": "Guion perros_ojos_azulados (18 nov).",
       "origen": "claude",
       "estado": "en_curso",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Vídeo suelto, ya en cola."
     },
     {
       "id": "I-048",
@@ -479,7 +573,9 @@
       "descripcion": "Empezar cuando se acabe la cola actual (33 guiones al estilo antiguo, dejarlos salir). 1) Agente Director Creativo (showrunner) por encima de escribe/revisa: 3 ganchos por vídeo con nota, re-gancho cada 8-10 s, final que paga, mira analíticas semanales. 2) Participación: Porqué 'adivina antes del segundo 5' + cuenta atrás; Mejor Parte en 2.ª persona y los comentarios eligen A/B el siguiente capítulo; Patas Arriba historia + test '¿tu perro hace esto?'; Dios (TikTok) 'esto es para ti si hoy…'. 3) Animación del motor: cámara viva, personajes que gesticulan, transiciones (chat aparte, por partes). Decidir: motor propio o imágenes IA gratis. 4) Música y efectos: diseño de sonido por escena en el guion, efectos CC0 (Kenney/Freesound), tema propio por cuenta; en TikTok sonidos en tendencia a mano. 5) Medir: retención nueva vs 32 % actual, objetivo 45 %. · 19 nov: motor FASE 1 HECHA (montaje: cámara viva, golpes de zoom, transiciones, gancho, viñeta, bajo, riser, loudnorm). FASE 2 decidida = camino A: animación premium por código (estilo serie animada/Kurzgesagt), NO realista con IA: personajes con volumen, sombras y luz de contorno, parpadeo, respiración, gestos, boca sincronizada con la voz; fondos por capas con parallax, luz ambiental, partículas (lluvia, polvo, luz) y hora del día. Mejorar con el tiempo.",
       "origen": "juan",
       "estado": "aprobada",
-      "prioridad": 1
+      "prioridad": 1,
+      "impacto_dinero": 2,
+      "impacto_motivo": "Más calidad = más retención y vistas en todas las cuentas; tarda en notarse."
     },
     {
       "id": "I-049",
@@ -489,7 +585,9 @@
       "descripcion": "Una carpeta/sala en La Oficina con referencias (capturas, vídeos y cuentas que gustan a Juan, paletas, estilos de personaje, ritmo de montaje, sonidos) para que el Director Creativo y el motor se inspiren y el estilo mejore con el tiempo. Idea de Juan, 19 nov.",
       "origen": "juan",
       "estado": "aprobada",
-      "prioridad": 2
+      "prioridad": 2,
+      "impacto_dinero": 1,
+      "impacto_motivo": "Apoyo interno al salto de calidad."
     }
   ]
 }
