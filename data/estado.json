@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T15:29",
+  "actualizado": "2026-11-20T15:33",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -478,7 +478,7 @@
         "sin_publicar": 3
       },
       "abiertos": 3,
-      "revisado": "2026-11-20T15:18"
+      "revisado": "2026-11-20T15:20"
     }
   },
   "analiticas_avisos": [],
