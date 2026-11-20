@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-20T23:17",
+  "actualizado": "2026-11-21T00:55",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -62,41 +62,41 @@
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
         "seguidores": 6,
-        "vistas_media": 168,
-        "retencion_media_pct": 30.7,
+        "vistas_media": 163,
+        "retencion_media_pct": 27.1,
         "mejor_reel": {
           "video": "porque_aviones",
           "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-          "views": 307
+          "views": 308
         },
-        "medido": "2026-11-20T00:52",
-        "reels_medidos": 11,
-        "vistas_total": 1852,
-        "likes": 65,
-        "compartidos": 45,
+        "medido": "2026-11-21T00:55",
+        "reels_medidos": 14,
+        "vistas_total": 2281,
+        "likes": 80,
+        "compartidos": 51,
         "guardados": 4,
         "comentarios": 0,
         "top": [
           {
             "video": "porque_aviones",
             "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-            "vistas": 307,
-            "retencion": 49.6,
+            "vistas": 308,
+            "retencion": 49.5,
             "compartidos": 8
           },
           {
             "video": "porque_ojos_rojos",
             "enlace": "https://www.instagram.com/reel/Df1j6a3DDh0/",
-            "vistas": 239,
-            "retencion": 43.0,
+            "vistas": 240,
+            "retencion": 42.8,
             "compartidos": 1
           },
           {
-            "video": "porque_etiqueta_pica",
-            "enlace": "https://www.instagram.com/reel/Df5UZjEka4m/",
-            "vistas": 176,
-            "retencion": 32.4,
-            "compartidos": 10
+            "video": "porque_arcoiris_curvo",
+            "enlace": "https://www.instagram.com/reel/Df6udcJlak7/",
+            "vistas": 180,
+            "retencion": 23.8,
+            "compartidos": 9
           }
         ]
       }
@@ -158,17 +158,17 @@
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
         "seguidores": 3,
-        "vistas_media": 159,
-        "retencion_media_pct": 30.4,
+        "vistas_media": 157,
+        "retencion_media_pct": 25.8,
         "mejor_reel": {
           "video": "perros_luna_espera",
           "enlace": "https://www.instagram.com/reel/Df2IYXfCCTI/",
           "views": 213
         },
-        "medido": "2026-11-20T00:52",
-        "reels_medidos": 9,
-        "vistas_total": 1430,
-        "likes": 56,
+        "medido": "2026-11-21T00:55",
+        "reels_medidos": 12,
+        "vistas_total": 1886,
+        "likes": 74,
         "compartidos": 7,
         "guardados": 5,
         "comentarios": 0,
@@ -188,10 +188,10 @@
             "compartidos": 1
           },
           {
-            "video": "perros_nariz",
-            "enlace": "https://www.instagram.com/reel/Df1j-Q8DJMN/",
-            "vistas": 167,
-            "retencion": 40.7,
+            "video": "perros_dormir_mas",
+            "enlace": "https://www.instagram.com/reel/Df-fNG6D0pv/",
+            "vistas": 179,
+            "retencion": 18.4,
             "compartidos": 0
           }
         ]
@@ -254,17 +254,17 @@
       "tiktok_programado_hasta": "2026-11-19",
       "analiticas": {
         "seguidores": 6,
-        "vistas_media": 160,
-        "retencion_media_pct": 28.4,
+        "vistas_media": 156,
+        "retencion_media_pct": 25.6,
         "mejor_reel": {
           "video": "historia_llamada_p2",
           "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
           "views": 221
         },
-        "medido": "2026-11-20T00:52",
-        "reels_medidos": 11,
-        "vistas_total": 1756,
-        "likes": 53,
+        "medido": "2026-11-21T00:55",
+        "reels_medidos": 14,
+        "vistas_total": 2191,
+        "likes": 63,
         "compartidos": 27,
         "guardados": 0,
         "comentarios": 1,
@@ -318,31 +318,31 @@
       "proximas": [
         {
           "video": "dios_r2_ansiedad",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-21",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-21",
           "hora": "14:00",
           "via": "manual"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-20",
+          "fecha": "2026-11-21",
           "hora": "20:00",
           "via": "manual"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-22",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r6_puertas",
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-22",
           "hora": "14:00",
           "via": "manual"
         }
@@ -441,8 +441,8 @@
       "pct": 0,
       "moneda": "€",
       "fecha_limite": "2027-03-15",
-      "dias": 115,
-      "por_semana": 103,
+      "dias": 114,
+      "por_semana": 104,
       "doc": "https://claude.ai/artifact/QBWL9irnSjMsqrVZinyvEH",
       "notas": "Sobremesa todo nuevo: RTX 5060 Ti 16 GB + 32 GB DDR5 + 1 TB NVMe. Lista de la compra con enlaces en el doc.",
       "luz": "ambar"
@@ -450,14 +450,14 @@
   ],
   "incidentes": {
     "abiertos": [],
-    "resueltos_hoy": 4,
+    "resueltos_hoy": 0,
     "semana": {
       "por_tipo": {
         "sin_publicar": 3,
         "oficina_vieja": 1
       },
       "abiertos": 0,
-      "revisado": "2026-11-20T23:10"
+      "revisado": "2026-11-21T00:09"
     }
   },
   "analiticas_avisos": [],
