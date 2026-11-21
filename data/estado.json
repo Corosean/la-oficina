@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-21T00:55",
+  "actualizado": "2026-11-21T10:08",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 26,
+      "banco": 25,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_palomitas",
-        "fecha": "2026-11-20",
-        "hora": "21:12",
-        "enlace": "https://www.instagram.com/reel/Df-e-xikU0-/",
+        "video": "porque_pierna_dormida",
+        "fecha": "2026-11-21",
+        "hora": "10:02",
+        "enlace": "https://www.instagram.com/reel/Df_3Ii3Cinn/",
         "via": "api"
       },
-      "publicados_ig": 14,
+      "publicados_ig": 15,
       "proximas": [
-        {
-          "video": "porque_pierna_dormida",
-          "fecha": "2026-11-21",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_piloto_comida",
           "fecha": "2026-11-21",
@@ -56,6 +50,12 @@
           "video": "porque_voz_grabada",
           "fecha": "2026-11-22",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_agua_mar_sed",
+          "fecha": "2026-11-22",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -112,24 +112,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 28,
+      "banco": 27,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "perros_dormir_mas",
-        "fecha": "2026-11-20",
-        "hora": "21:14",
-        "enlace": "https://www.instagram.com/reel/Df-fNG6D0pv/",
+        "video": "perros_frio_mayor",
+        "fecha": "2026-11-21",
+        "hora": "10:05",
+        "enlace": "https://www.instagram.com/reel/Df_3brFCthx/",
         "via": "api"
       },
-      "publicados_ig": 12,
+      "publicados_ig": 13,
       "proximas": [
-        {
-          "video": "perros_frio_mayor",
-          "fecha": "2026-11-21",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "perros_ojos_azulados",
           "fecha": "2026-11-21",
@@ -152,6 +146,12 @@
           "video": "perros_bruno_p1",
           "fecha": "2026-11-22",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_bruno_p2",
+          "fecha": "2026-11-22",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 26,
+      "banco": 25,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_audio_p6",
-        "fecha": "2026-11-20",
-        "hora": "21:16",
-        "enlace": "https://www.instagram.com/reel/Df-fjAfGAWu/",
+        "video": "historia_vecina_p1",
+        "fecha": "2026-11-21",
+        "hora": "10:08",
+        "enlace": "https://www.instagram.com/reel/Df_34Q5iimc/",
         "via": "api"
       },
-      "publicados_ig": 14,
+      "publicados_ig": 15,
       "proximas": [
-        {
-          "video": "historia_vecina_p1",
-          "fecha": "2026-11-21",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_vecina_p2",
           "fecha": "2026-11-21",
@@ -248,6 +242,12 @@
           "video": "historia_vecina_p5",
           "fecha": "2026-11-22",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_armario_p1",
+          "fecha": "2026-11-22",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -450,14 +450,14 @@
   ],
   "incidentes": {
     "abiertos": [],
-    "resueltos_hoy": 0,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
         "sin_publicar": 3,
-        "oficina_vieja": 1
+        "oficina_vieja": 3
       },
       "abiertos": 0,
-      "revisado": "2026-11-21T00:09"
+      "revisado": "2026-11-21T08:37"
     }
   },
   "analiticas_avisos": [],
