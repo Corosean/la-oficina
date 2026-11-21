@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-21T10:26",
+  "actualizado": "2026-11-21T11:39",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -16,7 +16,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 25,
+      "banco": 28,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
@@ -112,7 +112,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 27,
+      "banco": 30,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
@@ -143,13 +143,13 @@
           "via": "automatica"
         },
         {
-          "video": "perros_bruno_p1",
+          "video": "perros_bebe_mucha_agua",
           "fecha": "2026-11-22",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "perros_bruno_p2",
+          "video": "perros_cama_antes_dormir",
           "fecha": "2026-11-22",
           "hora": "20:00",
           "via": "automatica"
@@ -208,7 +208,7 @@
         "14:00",
         "20:00"
       ],
-      "banco": 25,
+      "banco": 34,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
@@ -352,11 +352,11 @@
     }
   },
   "ideas": {
-    "total": 49,
+    "total": 54,
     "por_estado": {
       "en_curso": 25,
-      "nueva": 17,
-      "hecha": 1,
+      "hecha": 2,
+      "nueva": 21,
       "aprobada": 6
     },
     "por_area": {
@@ -364,7 +364,7 @@
       "historia": 3,
       "perros": 9,
       "dios": 3,
-      "fabrica": 9,
+      "fabrica": 14,
       "oficina": 5,
       "finanzas": 1,
       "dropshipping": 2,
@@ -451,35 +451,22 @@
   "incidentes": {
     "abiertos": [
       {
-        "fecha": "2026-11-21T10:08",
-        "tipo": "sin_publicar",
-        "cuenta": "elporquesecreto",
-        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
-        "accion": "el publicador ya está en marcha: espero"
-      },
-      {
-        "fecha": "2026-11-21T10:08",
-        "tipo": "sin_publicar",
+        "fecha": "2026-11-21T11:21",
+        "tipo": "video_apartado",
         "cuenta": "patasarriba.historias",
-        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
-        "accion": "el publicador ya está en marcha: espero"
-      },
-      {
-        "fecha": "2026-11-21T10:08",
-        "tipo": "sin_publicar",
-        "cuenta": "enlamejorparte",
-        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
-        "accion": "el publicador ya está en marcha: espero"
+        "detalle": "perros_bruno_p1 apartado tras 5 intentos: Instagram lo rechaza siempre (HTTP 400 ProcessingFailedError). Apartado a mano el 2026-11-20.",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «perros_bruno» tiene 2 capítulo(s)…"
       }
     ],
-    "resueltos_hoy": 2,
+    "resueltos_hoy": 5,
     "semana": {
       "por_tipo": {
         "sin_publicar": 6,
-        "oficina_vieja": 3
+        "oficina_vieja": 3,
+        "video_apartado": 1
       },
-      "abiertos": 3,
-      "revisado": "2026-11-21T10:08"
+      "abiertos": 1,
+      "revisado": "2026-11-21T11:21"
     }
   },
   "analiticas_avisos": [],

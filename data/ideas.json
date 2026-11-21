@@ -56,7 +56,7 @@
       "titulo": "Serie 'El último bus' (5 capítulos)",
       "descripcion": "El conductor no para en tu parada y los demás pasajeros no se mueven. Cliffhanger en cada capítulo.",
       "origen": "claude",
-      "estado": "nueva",
+      "estado": "hecha",
       "prioridad": 1,
       "impacto_dinero": 2,
       "impacto_motivo": "Serie con cliffhanger: hace volver al perfil y sube seguidores, base de toda monetización."
@@ -588,6 +588,56 @@
       "prioridad": 2,
       "impacto_dinero": 1,
       "impacto_motivo": "Apoyo interno al salto de calidad."
+    },
+    {
+      "id": "I-050",
+      "fecha": "2026-11-21",
+      "area": "fabrica",
+      "titulo": "Bajar los Reels de 52 s a 24-28 s",
+      "descripcion": "DONDE SE VE: nuestros propios datos (analiticas.json, 38 Reels medidos el 21 nov). Reels de 30 s o menos: 22 medidos, retencion media 32,4%. De 44 s o mas: 16 medidos, 17,7%. Son 14,7 puntos (1,83x) y pasa igual en las tres cuentas por separado (+14,9 porque, +16,9 perros, +12,9 historia). Los rangos casi no se solapan: el peor corto 24,1% y el mejor largo 27,0%. Y los cortos tienen MAS vistas (169 de media frente a 141), asi que no es que duren menos porque gusten menos. Los 3 mejores de cada cuenta son de 20-28 s; todos los peores, de 48-52 s. MECANISMO: la tasa de finalizacion y el watch time son la senal mas fuerte del algoritmo (Mosseri, enero 2025, recogido en socialpilot.co/blog/instagram-reels-algorithm). A 52 s lo termina la mitad de la gente. COMO LO HACEMOS: guiones de 6-7 escenas de 4,0 s en vez de 13, con la misma estructura (gancho en el segundo 1, re-gancho en la escena 4, dato fuerte al final, peticion). No hay que tocar el motor: es escribir mas corto. Coste 0. COMO SE MIDE: retencion_media_pct por cuenta. Prueba limpia: 3 videos cortos por cuenta frente a los de 52 s y comparar a los 5 dias. DECISION DE JUAN: el estandar de 13 escenas de 4,0 s se fijo antes de que hubiera datos; cambiarlo es su decision.",
+      "origen": "innova",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-051",
+      "fecha": "2026-11-21",
+      "area": "fabrica",
+      "titulo": "Final A/B con las dos opciones en pantalla, para arrancar los comentarios",
+      "descripcion": "DONDE SE VE: 1 comentario en 38 Reels medidos. La participacion esta rota: 78 compartidos y 8 guardados, pero nadie comenta. Los CTA actuales piden comentar con una pregunta abierta ('¿tu que habrias hecho?'), y una pregunta abierta no se contesta. @quedatealfinal y @historiasinteresantess (REF-002 y REF-003 del documento de referencias) viven de decisiones binarias y relojes en pantalla. COMO LO HACEMOS: la ultima escena muestra las dos opciones escritas, cortas, etiquetadas A y B, y pide 'comenta A o B'. Nuestra ventaja sobre ellos: dibujamos por codigo, asi que la cuenta atras puede llegar a cero de verdad justo cuando aparecen las opciones (montaje.py ya sincroniza el golpe de zoom). Coste 0. Ya va puesto en el capitulo 9 de la serie nueva del bus. COMO SE MIDE: metricas.comments por Reel; ahora la media es 0,03. Objetivo: 5 comentarios en el capitulo del final A/B.",
+      "origen": "innova",
+      "estado": "nueva",
+      "prioridad": 1
+    },
+    {
+      "id": "I-052",
+      "fecha": "2026-11-21",
+      "area": "fabrica",
+      "titulo": "Kit de autobus en el motor (lo pide la serie nueva de En La Mejor Parte)",
+      "descripcion": "DONDE SE VE: la serie nueva 'El ultimo bus' (9 capitulos, historia_bus_p1 a p9, escrita el 21 nov) no tiene escenas de autobus en el motor. Ahora reutiliza escalera (pasillo y siluetas), puerta (puertas del bus), mirilla (ventanilla) y salon_noche (interior), y en pantalla se puede ver raro: un pasillo de bus no es una escalera. COMO LO HACEMOS: anadir a motor/escenas_historia.py tres escenas nuevas dibujadas por codigo (bus_pasillo con filas de asientos y siluetas sentadas, bus_ventanilla con la calle pasando de noche, bus_puertas con las puertas abriendose) y cambiar las escenas de los 9 capitulos. Es trabajo del agente disena. Coste 0. HAY TIEMPO: la serie esta al final de la cola, no se publica hasta diciembre. COMO SE MIDE: retencion de los capitulos del bus frente a la serie del armario y la del inquilino, que usan las escenas de interior de siempre.",
+      "origen": "innova",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-053",
+      "fecha": "2026-11-21",
+      "area": "fabrica",
+      "titulo": "Chip PARTE N y un color por serie en la portada",
+      "descripcion": "DONDE SE VE: REF-002 (@quedatealfinal) y REF-003 (@historiasinteresantess) ponen las dos un chip 'PARTE N' en la portada y un color propio por serie. El documento de referencias ya lo llama 'la mayor fuga': hacemos series de 9 y 12 capitulos sin decir en cual vas, asi que quien cae en el capitulo 6 no sabe que hay cinco antes ni que puede seguir. Estaba apuntado como PENDIENTE en el documento pero no estaba en el banco, asi que no entraba en la cadena de trabajo. COMO LO HACEMOS: el motor ya sabe el nombre del guion (historia_bus_p7), asi que el numero de parte sale del propio nombre sin tocar los guiones: un chip arriba centrado en la primera escena, con el color de la serie definido en un diccionario por prefijo (bus, armario, inquilino, vecina). Tambien una palabra del titular en color de contraste (R12). Hay que tocar motor/montaje.py o motor/motor.py. Coste 0. COMO SE MIDE: vistas y retencion de los capitulos 4 en adelante de cada serie, que son los que ahora pierden al que llega nuevo.",
+      "origen": "innova",
+      "estado": "nueva",
+      "prioridad": 2
+    },
+    {
+      "id": "I-054",
+      "fecha": "2026-11-21",
+      "area": "fabrica",
+      "titulo": "Resaltado multi-palabra en el motor (ARREGLADO el 21 nov, hay que medirlo)",
+      "descripcion": "QUE PASABA: motor.py marcaba la palabra resaltada mirando palabra por palabra (startswith y endswith con asterisco), asi que *dos palabras seguidas* no resaltaba NINGUNA y una comilla pegada al asterisco tampoco. El resaltado dispara el golpe de zoom sincronizado de montaje.py, que es uno de los recursos de retencion del motor: cuando no salta, la escena se queda plana. CUANTO: 88 escenas de 65 guiones se quedaban sin resaltado ni zoom, entre ellas capitulos ya publicados de las series del armario, del audio y de la vecina. ARREGLADO: nueva funcion marcas() en motor/motor.py que marca por posicion entre asteriscos, no palabra por palabra. Probado con casos de una palabra, dos palabras, comillas y puntuacion pegadas. Coste 0 y arregla de golpe todos los guiones, viejos y nuevos, sin reescribir ninguno. COMO SE MIDE: retencion media de los proximos capitulos de armario e inquilino (los que tenian escenas sin resaltar) frente a la que llevaban. Es la unica mejora de esta semana que ya esta puesta en produccion.",
+      "origen": "innova",
+      "estado": "nueva",
+      "prioridad": 2
     }
   ]
 }
