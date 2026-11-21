@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-21T15:41",
+  "actualizado": "2026-11-21T20:57",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 27,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 26,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_piloto_comida",
+        "video": "porque_rayo_trueno",
         "fecha": "2026-11-21",
-        "hora": "15:10",
-        "enlace": "https://www.instagram.com/reel/DgAaZfQE7DL/",
+        "hora": "20:56",
+        "enlace": "https://www.instagram.com/reel/DgBB9kIDilS/",
         "via": "api"
       },
-      "publicados_ig": 16,
+      "publicados_ig": 17,
       "proximas": [
-        {
-          "video": "porque_rayo_trueno",
-          "fecha": "2026-11-21",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_teclado_qwerty",
           "fecha": "2026-11-22",
@@ -56,6 +50,12 @@
           "video": "porque_bostezo_contagio",
           "fecha": "2026-11-23",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_burbujas_fila",
+          "fecha": "2026-11-23",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -112,38 +112,32 @@
         "14:00",
         "20:00"
       ],
-      "banco": 29,
+      "banco": 28,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "perros_ojos_azulados",
+        "video": "perros_olfato_toalla",
         "fecha": "2026-11-21",
-        "hora": "15:41",
-        "enlace": "https://www.instagram.com/reel/DgAd9e3j46-/",
+        "hora": "20:57",
+        "enlace": "https://www.instagram.com/reel/DgBCGwEjr9P/",
         "via": "api"
       },
-      "publicados_ig": 14,
+      "publicados_ig": 15,
       "proximas": [
         {
-          "video": "perros_olfato_toalla",
-          "fecha": "2026-11-21",
-          "hora": "20:00",
-          "via": "automatica"
-        },
-        {
-          "video": "perros_bebe_mucha_agua",
+          "video": "perros_paseos_cortos",
           "fecha": "2026-11-22",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "perros_cama_antes_dormir",
+          "video": "perros_bebe_mucha_agua",
           "fecha": "2026-11-22",
           "hora": "14:00",
           "via": "automatica"
         },
         {
-          "video": "perros_come_hierba",
+          "video": "perros_cama_antes_dormir",
           "fecha": "2026-11-22",
           "hora": "20:00",
           "via": "automatica"
@@ -152,6 +146,12 @@
           "video": "perros_come_hierba",
           "fecha": "2026-11-23",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "perros_confundido_casa",
+          "fecha": "2026-11-23",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -454,8 +454,8 @@
         "fecha": "2026-11-21T11:21",
         "tipo": "video_apartado",
         "cuenta": "patasarriba.historias",
-        "detalle": "perros_bruno_p1 apartado tras 5 intentos: Instagram lo rechaza siempre (HTTP 400 ProcessingFailedError). Apartado a mano el 2026-11-20.",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «perros_bruno» tiene 2 capítulo(s)…"
+        "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
     "resueltos_hoy": 8,
@@ -467,7 +467,7 @@
         "ejecucion_fallida": 1
       },
       "abiertos": 1,
-      "revisado": "2026-11-21T15:18"
+      "revisado": "2026-11-21T20:14"
     }
   },
   "analiticas_avisos": [],
