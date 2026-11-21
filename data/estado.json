@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-21T23:10",
+  "actualizado": "2026-11-22T00:47",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -62,41 +62,41 @@
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
         "seguidores": 6,
-        "vistas_media": 163,
-        "retencion_media_pct": 27.1,
+        "vistas_media": 165,
+        "retencion_media_pct": 26.7,
         "mejor_reel": {
           "video": "porque_aviones",
           "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-          "views": 308
+          "views": 310
         },
-        "medido": "2026-11-21T00:55",
-        "reels_medidos": 14,
-        "vistas_total": 2281,
-        "likes": 80,
-        "compartidos": 51,
+        "medido": "2026-11-22T00:46",
+        "reels_medidos": 17,
+        "vistas_total": 2810,
+        "likes": 92,
+        "compartidos": 59,
         "guardados": 4,
         "comentarios": 0,
         "top": [
           {
             "video": "porque_aviones",
             "enlace": "https://www.instagram.com/reel/DfxEKsIEuIu/",
-            "vistas": 308,
-            "retencion": 49.5,
+            "vistas": 310,
+            "retencion": 49.3,
             "compartidos": 8
           },
           {
             "video": "porque_ojos_rojos",
             "enlace": "https://www.instagram.com/reel/Df1j6a3DDh0/",
-            "vistas": 240,
-            "retencion": 42.8,
+            "vistas": 241,
+            "retencion": 42.6,
             "compartidos": 1
           },
           {
-            "video": "porque_arcoiris_curvo",
-            "enlace": "https://www.instagram.com/reel/Df6udcJlak7/",
-            "vistas": 180,
-            "retencion": 23.8,
-            "compartidos": 9
+            "video": "porque_pierna_dormida",
+            "enlace": "https://www.instagram.com/reel/Df_3Ii3Cinn/",
+            "vistas": 237,
+            "retencion": 17.9,
+            "compartidos": 2
           }
         ]
       }
@@ -253,18 +253,18 @@
       ],
       "tiktok_programado_hasta": "2026-11-19",
       "analiticas": {
-        "seguidores": 6,
-        "vistas_media": 156,
-        "retencion_media_pct": 25.6,
+        "seguidores": 7,
+        "vistas_media": 160,
+        "retencion_media_pct": 24.6,
         "mejor_reel": {
           "video": "historia_llamada_p2",
           "enlace": "https://www.instagram.com/reel/Df0AVeCjiY5/",
           "views": 221
         },
-        "medido": "2026-11-21T00:55",
-        "reels_medidos": 14,
-        "vistas_total": 2191,
-        "likes": 63,
+        "medido": "2026-11-22T00:46",
+        "reels_medidos": 17,
+        "vistas_total": 2720,
+        "likes": 79,
         "compartidos": 27,
         "guardados": 0,
         "comentarios": 1,
@@ -284,11 +284,11 @@
             "compartidos": 0
           },
           {
-            "video": "historia_mirilla_p1",
-            "enlace": "https://www.instagram.com/reel/Df4JoAvCX_E/",
-            "vistas": 194,
-            "retencion": 29.8,
-            "compartidos": 6
+            "video": "historia_vecina_p1",
+            "enlace": "https://www.instagram.com/reel/Df_34Q5iimc/",
+            "vistas": 205,
+            "retencion": 20.0,
+            "compartidos": 0
           }
         ]
       }
@@ -318,31 +318,31 @@
       "proximas": [
         {
           "video": "dios_r2_ansiedad",
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-22",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-22",
           "hora": "14:00",
           "via": "manual"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-21",
+          "fecha": "2026-11-22",
           "hora": "20:00",
           "via": "manual"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-22",
+          "fecha": "2026-11-23",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r6_puertas",
-          "fecha": "2026-11-22",
+          "fecha": "2026-11-23",
           "hora": "14:00",
           "via": "manual"
         }
@@ -441,8 +441,8 @@
       "pct": 0,
       "moneda": "€",
       "fecha_limite": "2027-03-15",
-      "dias": 114,
-      "por_semana": 104,
+      "dias": 113,
+      "por_semana": 105,
       "doc": "https://claude.ai/artifact/QBWL9irnSjMsqrVZinyvEH",
       "notas": "Sobremesa todo nuevo: RTX 5060 Ti 16 GB + 32 GB DDR5 + 1 TB NVMe. Lista de la compra con enlaces en el doc.",
       "luz": "ambar"
@@ -456,21 +456,30 @@
         "cuenta": "patasarriba.historias",
         "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
+      },
+      {
+        "fecha": "2026-11-22T00:00",
+        "tipo": "video_apartado",
+        "cuenta": "patasarriba.historias",
+        "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 8,
+    "resueltos_hoy": 0,
     "semana": {
       "por_tipo": {
         "sin_publicar": 8,
         "oficina_vieja": 3,
-        "video_apartado": 1,
+        "video_apartado": 2,
         "ejecucion_fallida": 1
       },
-      "abiertos": 1,
-      "revisado": "2026-11-21T23:00"
+      "abiertos": 2,
+      "revisado": "2026-11-22T00:00"
     }
   },
-  "analiticas_avisos": [],
+  "analiticas_avisos": [
+    "@patasarriba.historias: el token no ve esta cuenta (¿Página vinculada y marcada al crear el token?)."
+  ],
   "enlaces": {
     "publicar_ya": "https://github.com/Corosean/fabrica-contenido/actions/workflows/publicar.yml",
     "analiticas": "https://github.com/Corosean/fabrica-contenido/actions/workflows/analiticas.yml",
