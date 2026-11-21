@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-21T10:08",
+  "actualizado": "2026-11-21T10:26",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "verde",
   "cuentas": {
@@ -449,15 +449,37 @@
     }
   ],
   "incidentes": {
-    "abiertos": [],
+    "abiertos": [
+      {
+        "fecha": "2026-11-21T10:08",
+        "tipo": "sin_publicar",
+        "cuenta": "elporquesecreto",
+        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
+        "accion": "el publicador ya está en marcha: espero"
+      },
+      {
+        "fecha": "2026-11-21T10:08",
+        "tipo": "sin_publicar",
+        "cuenta": "patasarriba.historias",
+        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
+        "accion": "el publicador ya está en marcha: espero"
+      },
+      {
+        "fecha": "2026-11-21T10:08",
+        "tipo": "sin_publicar",
+        "cuenta": "enlamejorparte",
+        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
+        "accion": "el publicador ya está en marcha: espero"
+      }
+    ],
     "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 3,
+        "sin_publicar": 6,
         "oficina_vieja": 3
       },
-      "abiertos": 0,
-      "revisado": "2026-11-21T08:37"
+      "abiertos": 3,
+      "revisado": "2026-11-21T10:08"
     }
   },
   "analiticas_avisos": [],
