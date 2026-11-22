@@ -1,9 +1,9 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-22T00:47",
+  "actualizado": "2026-11-22T10:08",
   "zona_horaria": "Europe/Madrid",
-  "luz_general": "verde",
+  "luz_general": "roja",
   "cuentas": {
     "elporquesecreto": {
       "nombre": "El Porqué Secreto",
@@ -17,8 +17,8 @@
         "20:00"
       ],
       "banco": 26,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "porque_rayo_trueno",
         "fecha": "2026-11-21",
@@ -113,8 +113,8 @@
         "20:00"
       ],
       "banco": 28,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
       "ultimo_publicado": {
         "video": "perros_olfato_toalla",
         "fecha": "2026-11-21",
@@ -209,8 +209,8 @@
         "20:00"
       ],
       "banco": 32,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "historia_vecina_p3",
         "fecha": "2026-11-21",
@@ -474,7 +474,7 @@
         "ejecucion_fallida": 1
       },
       "abiertos": 2,
-      "revisado": "2026-11-22T00:00"
+      "revisado": "2026-11-22T08:38"
     }
   },
   "analiticas_avisos": [
