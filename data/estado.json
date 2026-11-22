@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-22T10:41",
+  "actualizado": "2026-11-22T11:41",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -29,31 +29,31 @@
       "publicados_ig": 17,
       "proximas": [
         {
-          "video": "porque_teclado_qwerty",
-          "fecha": "2026-11-22",
-          "hora": "09:00",
-          "via": "automatica"
-        },
-        {
           "video": "porque_voz_grabada",
           "fecha": "2026-11-22",
-          "hora": "14:00",
+          "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "porque_agua_mar_sed",
           "fecha": "2026-11-22",
-          "hora": "20:00",
+          "hora": "14:00",
           "via": "automatica"
         },
         {
           "video": "porque_bostezo_contagio",
+          "fecha": "2026-11-22",
+          "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_burbujas_fila",
           "fecha": "2026-11-23",
           "hora": "09:00",
           "via": "automatica"
         },
         {
-          "video": "porque_burbujas_fila",
+          "video": "porque_cosquillas_solo",
           "fecha": "2026-11-23",
           "hora": "14:00",
           "via": "automatica"
@@ -214,8 +214,8 @@
       "ultimo_publicado": {
         "video": "historia_vecina_p4",
         "fecha": "2026-11-22",
-        "hora": "10:41",
-        "enlace": "https://www.instagram.com/reel/DgCgXbLCdLm/",
+        "hora": "11:41",
+        "enlace": "https://www.instagram.com/reel/DgCnQGnlfTv/",
         "via": "api"
       },
       "publicados_ig": 18,
