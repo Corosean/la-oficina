@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-22T15:26",
+  "actualizado": "2026-11-22T15:35",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 25,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 24,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_voz_grabada",
+        "video": "porque_agua_mar_sed",
         "fecha": "2026-11-22",
-        "hora": "13:13",
-        "enlace": "https://www.instagram.com/reel/DgCxxV8AaGf/",
+        "hora": "15:35",
+        "enlace": "https://www.instagram.com/reel/DgDCF5Jk0KS/",
         "via": "api"
       },
-      "publicados_ig": 18,
+      "publicados_ig": 19,
       "proximas": [
-        {
-          "video": "porque_agua_mar_sed",
-          "fecha": "2026-11-22",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_bostezo_contagio",
           "fecha": "2026-11-22",
@@ -56,6 +50,12 @@
           "video": "porque_deja_vu",
           "fecha": "2026-11-23",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_espejo_invierte",
+          "fecha": "2026-11-24",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
@@ -496,22 +496,22 @@
         "fecha": "2026-11-22T14:23",
         "tipo": "sin_publicar",
         "cuenta": "elporquesecreto",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora.",
+        "detalle": "Lleva 1 de 2 publicaciones a esta hora. Último error: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFa…",
         "accion": "ya relancé 2 veces hoy y sigue sin salir: necesita una persona"
       }
     ],
-    "resueltos_hoy": 6,
+    "resueltos_hoy": 7,
     "semana": {
       "por_tipo": {
         "sin_publicar": 13,
         "oficina_vieja": 3,
         "video_apartado": 3,
-        "ejecucion_fallida": 4,
+        "ejecucion_fallida": 5,
         "cuenta_frenada": 1,
         "token": 1
       },
       "abiertos": 7,
-      "revisado": "2026-11-22T14:23"
+      "revisado": "2026-11-22T15:17"
     }
   },
   "analiticas_avisos": [
