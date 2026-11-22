@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-22T15:35",
+  "actualizado": "2026-11-22T21:07",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 24,
+      "banco": 23,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_agua_mar_sed",
+        "video": "porque_bostezo_contagio",
         "fecha": "2026-11-22",
-        "hora": "15:35",
-        "enlace": "https://www.instagram.com/reel/DgDCF5Jk0KS/",
+        "hora": "21:02",
+        "enlace": "https://www.instagram.com/reel/DgDnhfzDJT2/",
         "via": "api"
       },
-      "publicados_ig": 19,
+      "publicados_ig": 20,
       "proximas": [
-        {
-          "video": "porque_bostezo_contagio",
-          "fecha": "2026-11-22",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_burbujas_fila",
           "fecha": "2026-11-23",
@@ -56,6 +50,12 @@
           "video": "porque_espejo_invierte",
           "fecha": "2026-11-24",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_estornudo_ojos",
+          "fecha": "2026-11-24",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 30,
+      "banco": 29,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_vecina_p5",
+        "video": "historia_armario_p1",
         "fecha": "2026-11-22",
-        "hora": "13:18",
-        "enlace": "https://www.instagram.com/reel/DgCyUlRAbhq/",
+        "hora": "21:07",
+        "enlace": "https://www.instagram.com/reel/DgDoAz8INFU/",
         "via": "api"
       },
-      "publicados_ig": 19,
+      "publicados_ig": 20,
       "proximas": [
-        {
-          "video": "historia_armario_p1",
-          "fecha": "2026-11-22",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_armario_p2",
           "fecha": "2026-11-23",
@@ -248,6 +242,12 @@
           "video": "historia_armario_p5",
           "fecha": "2026-11-24",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_armario_p6",
+          "fecha": "2026-11-24",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -491,16 +491,9 @@
         "cuenta": "elporquesecreto",
         "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
-      {
-        "fecha": "2026-11-22T14:23",
-        "tipo": "sin_publicar",
-        "cuenta": "elporquesecreto",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora. Último error: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFa…",
-        "accion": "ya relancé 2 veces hoy y sigue sin salir: necesita una persona"
       }
     ],
-    "resueltos_hoy": 7,
+    "resueltos_hoy": 8,
     "semana": {
       "por_tipo": {
         "sin_publicar": 13,
@@ -510,8 +503,8 @@
         "cuenta_frenada": 1,
         "token": 1
       },
-      "abiertos": 7,
-      "revisado": "2026-11-22T15:17"
+      "abiertos": 6,
+      "revisado": "2026-11-22T20:15"
     }
   },
   "analiticas_avisos": [
