@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-22T21:07",
+  "actualizado": "2026-11-22T21:26",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -491,20 +491,34 @@
         "cuenta": "elporquesecreto",
         "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
+      },
+      {
+        "fecha": "2026-11-22T21:07",
+        "tipo": "sin_publicar",
+        "cuenta": "elporquesecreto",
+        "detalle": "Lleva 2 de 3 publicaciones a esta hora.",
+        "accion": "el publicador está en marcha pero lleva 67 min: lo vigilo"
+      },
+      {
+        "fecha": "2026-11-22T21:07",
+        "tipo": "sin_publicar",
+        "cuenta": "enlamejorparte",
+        "detalle": "Lleva 2 de 3 publicaciones a esta hora.",
+        "accion": "el publicador está en marcha pero lleva 67 min: lo vigilo"
       }
     ],
     "resueltos_hoy": 8,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 13,
+        "sin_publicar": 15,
         "oficina_vieja": 3,
         "video_apartado": 3,
         "ejecucion_fallida": 5,
         "cuenta_frenada": 1,
         "token": 1
       },
-      "abiertos": 6,
-      "revisado": "2026-11-22T20:15"
+      "abiertos": 8,
+      "revisado": "2026-11-22T21:07"
     }
   },
   "analiticas_avisos": [
