@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-23T10:58",
+  "actualizado": "2026-11-23T15:35",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 22,
+      "banco": 21,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_burbujas_fila",
+        "video": "porque_cosquillas_solo",
         "fecha": "2026-11-23",
-        "hora": "10:05",
-        "enlace": "https://www.instagram.com/reel/DgFBEG0kVq3/",
+        "hora": "14:55",
+        "enlace": "https://www.instagram.com/reel/DgFiNNagk0C/",
         "via": "api"
       },
-      "publicados_ig": 21,
+      "publicados_ig": 22,
       "proximas": [
-        {
-          "video": "porque_cosquillas_solo",
-          "fecha": "2026-11-23",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_deja_vu",
           "fecha": "2026-11-23",
@@ -56,6 +50,12 @@
           "video": "porque_fotos_serias",
           "fecha": "2026-11-24",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_helado_cabeza",
+          "fecha": "2026-11-25",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 28,
+      "banco": 27,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_armario_p2",
+        "video": "historia_armario_p3",
         "fecha": "2026-11-23",
-        "hora": "10:06",
-        "enlace": "https://www.instagram.com/reel/DgFBNqdkSAu/",
+        "hora": "15:35",
+        "enlace": "https://www.instagram.com/reel/DgFmz7njkja/",
         "via": "api"
       },
-      "publicados_ig": 21,
+      "publicados_ig": 22,
       "proximas": [
-        {
-          "video": "historia_armario_p3",
-          "fecha": "2026-11-23",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_armario_p4",
           "fecha": "2026-11-23",
@@ -248,6 +242,12 @@
           "video": "historia_armario_p7",
           "fecha": "2026-11-24",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_armario_p8",
+          "fecha": "2026-11-25",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
@@ -482,7 +482,7 @@
         "fecha": "2026-11-23T00:02",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 0 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 1 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -507,10 +507,10 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 1,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 16,
+        "sin_publicar": 17,
         "oficina_vieja": 3,
         "video_apartado": 5,
         "ejecucion_fallida": 5,
@@ -518,7 +518,7 @@
         "token": 2
       },
       "abiertos": 10,
-      "revisado": "2026-11-23T09:52"
+      "revisado": "2026-11-23T14:46"
     }
   },
   "analiticas_avisos": [
