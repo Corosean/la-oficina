@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-23T15:46",
+  "actualizado": "2026-11-23T21:16",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 21,
+      "banco": 20,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_cosquillas_solo",
+        "video": "porque_deja_vu",
         "fecha": "2026-11-23",
-        "hora": "14:55",
-        "enlace": "https://www.instagram.com/reel/DgFiNNagk0C/",
+        "hora": "21:14",
+        "enlace": "https://www.instagram.com/reel/DgGNpy-kpG2/",
         "via": "api"
       },
-      "publicados_ig": 22,
+      "publicados_ig": 23,
       "proximas": [
-        {
-          "video": "porque_deja_vu",
-          "fecha": "2026-11-23",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_espejo_invierte",
           "fecha": "2026-11-24",
@@ -56,6 +50,12 @@
           "video": "porque_helado_cabeza",
           "fecha": "2026-11-25",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_hipo",
+          "fecha": "2026-11-25",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 27,
+      "banco": 26,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_armario_p3",
+        "video": "historia_armario_p4",
         "fecha": "2026-11-23",
-        "hora": "15:35",
-        "enlace": "https://www.instagram.com/reel/DgFmz7njkja/",
+        "hora": "21:16",
+        "enlace": "https://www.instagram.com/reel/DgGN6z9EvWj/",
         "via": "api"
       },
-      "publicados_ig": 22,
+      "publicados_ig": 23,
       "proximas": [
-        {
-          "video": "historia_armario_p4",
-          "fecha": "2026-11-23",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_armario_p5",
           "fecha": "2026-11-24",
@@ -248,6 +242,12 @@
           "video": "historia_armario_p8",
           "fecha": "2026-11-25",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_armario_p9",
+          "fecha": "2026-11-25",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -451,13 +451,6 @@
   "incidentes": {
     "abiertos": [
       {
-        "fecha": "2026-11-22T10:08",
-        "tipo": "sin_publicar",
-        "cuenta": "patasarriba.historias",
-        "detalle": "Lleva 0 de 1 publicaciones a esta hora.",
-        "accion": "el publicador está en marcha pero lleva 68 min: lo vigilo"
-      },
-      {
         "fecha": "2026-11-22T11:08",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
@@ -505,20 +498,27 @@
         "cuenta": "elporquesecreto",
         "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
+      },
+      {
+        "fecha": "2026-11-23T20:26",
+        "tipo": "sin_publicar",
+        "cuenta": "elporquesecreto",
+        "detalle": "Lleva 2 de 3 publicaciones a esta hora.",
+        "accion": "ya relancé 2 veces hoy y sigue sin salir: necesita una persona"
       }
     ],
-    "resueltos_hoy": 2,
+    "resueltos_hoy": 3,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 17,
+        "sin_publicar": 19,
         "oficina_vieja": 3,
         "video_apartado": 5,
         "ejecucion_fallida": 5,
         "cuenta_frenada": 2,
         "token": 2
       },
-      "abiertos": 10,
-      "revisado": "2026-11-23T14:46"
+      "abiertos": 11,
+      "revisado": "2026-11-23T20:26"
     }
   },
   "analiticas_avisos": [
