@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-24T15:30",
+  "actualizado": "2026-11-24T15:44",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 19,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 18,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_espejo_invierte",
+        "video": "porque_estornudo_ojos",
         "fecha": "2026-11-24",
-        "hora": "10:14",
-        "enlace": "https://www.instagram.com/reel/DgHm579jmsp/",
+        "hora": "15:44",
+        "enlace": "https://www.instagram.com/reel/DgIMng7Dvd3/",
         "via": "api"
       },
-      "publicados_ig": 24,
+      "publicados_ig": 25,
       "proximas": [
-        {
-          "video": "porque_estornudo_ojos",
-          "fecha": "2026-11-24",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_fotos_serias",
           "fecha": "2026-11-24",
@@ -56,6 +50,12 @@
           "video": "porque_huellas_dedos",
           "fecha": "2026-11-25",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_miel_eterna",
+          "fecha": "2026-11-26",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
