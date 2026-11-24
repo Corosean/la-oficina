@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-24T10:16",
+  "actualizado": "2026-11-24T10:47",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -482,7 +482,7 @@
         "fecha": "2026-11-24T00:16",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 1 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 2 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -518,7 +518,7 @@
         "token": 3
       },
       "abiertos": 14,
-      "revisado": "2026-11-24T08:47"
+      "revisado": "2026-11-24T10:35"
     }
   },
   "analiticas_avisos": [
