@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-24T15:44",
+  "actualizado": "2026-11-24T21:12",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 18,
+      "banco": 17,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_estornudo_ojos",
+        "video": "porque_fotos_serias",
         "fecha": "2026-11-24",
-        "hora": "15:44",
-        "enlace": "https://www.instagram.com/reel/DgIMng7Dvd3/",
+        "hora": "20:38",
+        "enlace": "https://www.instagram.com/reel/DgIuSirkfhL/",
         "via": "api"
       },
-      "publicados_ig": 25,
+      "publicados_ig": 26,
       "proximas": [
-        {
-          "video": "porque_fotos_serias",
-          "fecha": "2026-11-24",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_helado_cabeza",
           "fecha": "2026-11-25",
@@ -56,6 +50,12 @@
           "video": "porque_miel_eterna",
           "fecha": "2026-11-26",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_monedas_borde",
+          "fecha": "2026-11-26",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -209,8 +209,8 @@
         "20:00"
       ],
       "banco": 24,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "historia_armario_p6",
         "fecha": "2026-11-24",
@@ -507,10 +507,10 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 1,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 20,
+        "sin_publicar": 21,
         "oficina_vieja": 3,
         "video_apartado": 7,
         "ejecucion_fallida": 5,
@@ -518,7 +518,7 @@
         "token": 3
       },
       "abiertos": 14,
-      "revisado": "2026-11-24T14:43"
+      "revisado": "2026-11-24T20:26"
     }
   },
   "analiticas_avisos": [
