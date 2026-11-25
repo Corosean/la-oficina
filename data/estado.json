@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-25T10:24",
+  "actualizado": "2026-11-25T11:08",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 17,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 16,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_fotos_serias",
-        "fecha": "2026-11-24",
-        "hora": "20:38",
-        "enlace": "https://www.instagram.com/reel/DgIuSirkfhL/",
+        "video": "porque_helado_cabeza",
+        "fecha": "2026-11-25",
+        "hora": "10:53",
+        "enlace": "https://www.instagram.com/reel/DgKQI62T0_T/",
         "via": "api"
       },
-      "publicados_ig": 26,
+      "publicados_ig": 27,
       "proximas": [
-        {
-          "video": "porque_helado_cabeza",
-          "fecha": "2026-11-25",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_hipo",
           "fecha": "2026-11-25",
@@ -56,6 +50,12 @@
           "video": "porque_monedas_borde",
           "fecha": "2026-11-26",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_musica_escalofrios",
+          "fecha": "2026-11-26",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -209,8 +209,8 @@
         "20:00"
       ],
       "banco": 22,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "historia_armario_p8",
         "fecha": "2026-11-25",
@@ -482,7 +482,7 @@
         "fecha": "2026-11-25T00:15",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 2 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 3 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -507,18 +507,18 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 0,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 21,
+        "sin_publicar": 22,
         "oficina_vieja": 3,
         "video_apartado": 9,
-        "ejecucion_fallida": 5,
+        "ejecucion_fallida": 6,
         "cuenta_frenada": 4,
         "token": 4
       },
       "abiertos": 18,
-      "revisado": "2026-11-25T08:51"
+      "revisado": "2026-11-25T10:39"
     }
   },
   "analiticas_avisos": [
