@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-25T15:48",
+  "actualizado": "2026-11-25T21:09",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 15,
+      "banco": 14,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_hipo",
+        "video": "porque_huellas_dedos",
         "fecha": "2026-11-25",
-        "hora": "15:33",
-        "enlace": "https://www.instagram.com/reel/DgKwP4Zozii/",
+        "hora": "20:33",
+        "enlace": "https://www.instagram.com/reel/DgLSjI-hC8U/",
         "via": "api"
       },
-      "publicados_ig": 28,
+      "publicados_ig": 29,
       "proximas": [
-        {
-          "video": "porque_huellas_dedos",
-          "fecha": "2026-11-25",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_miel_eterna",
           "fecha": "2026-11-26",
@@ -56,6 +50,12 @@
           "video": "porque_nudillos",
           "fecha": "2026-11-27",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_olor_lluvia",
+          "fecha": "2026-11-27",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 21,
+      "banco": 20,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_armario_p9",
+        "video": "historia_inquilino_p1",
         "fecha": "2026-11-25",
-        "hora": "15:35",
-        "enlace": "https://www.instagram.com/reel/DgKwdhxI5Qc/",
+        "hora": "21:09",
+        "enlace": "https://www.instagram.com/reel/DgLWuUph2ur/",
         "via": "api"
       },
-      "publicados_ig": 28,
+      "publicados_ig": 29,
       "proximas": [
-        {
-          "video": "historia_inquilino_p1",
-          "fecha": "2026-11-25",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_inquilino_p2",
           "fecha": "2026-11-26",
@@ -248,6 +242,12 @@
           "video": "historia_inquilino_p5",
           "fecha": "2026-11-27",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_inquilino_p6",
+          "fecha": "2026-11-27",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -507,10 +507,10 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 3,
+    "resueltos_hoy": 4,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 22,
+        "sin_publicar": 23,
         "oficina_vieja": 3,
         "video_apartado": 9,
         "ejecucion_fallida": 7,
@@ -518,7 +518,7 @@
         "token": 4
       },
       "abiertos": 18,
-      "revisado": "2026-11-25T15:37"
+      "revisado": "2026-11-25T20:21"
     }
   },
   "analiticas_avisos": [
