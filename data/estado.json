@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-26T10:21",
+  "actualizado": "2026-11-26T10:59",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 14,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 13,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_huellas_dedos",
-        "fecha": "2026-11-25",
-        "hora": "20:33",
-        "enlace": "https://www.instagram.com/reel/DgLSjI-hC8U/",
+        "video": "porque_miel_eterna",
+        "fecha": "2026-11-26",
+        "hora": "10:57",
+        "enlace": "https://www.instagram.com/reel/DgM1XJNzcJL/",
         "via": "api"
       },
-      "publicados_ig": 29,
+      "publicados_ig": 30,
       "proximas": [
-        {
-          "video": "porque_miel_eterna",
-          "fecha": "2026-11-26",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_monedas_borde",
           "fecha": "2026-11-26",
@@ -56,6 +50,12 @@
           "video": "porque_olor_lluvia",
           "fecha": "2026-11-27",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_pan_tostado",
+          "fecha": "2026-11-27",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -214,8 +214,8 @@
       "ultimo_publicado": {
         "video": "historia_inquilino_p2",
         "fecha": "2026-11-26",
-        "hora": "10:21",
-        "enlace": "https://www.instagram.com/reel/DgMxQ3tu_no/",
+        "hora": "10:59",
+        "enlace": "https://www.instagram.com/reel/DgM1owazuk4/",
         "via": "api"
       },
       "publicados_ig": 30,
