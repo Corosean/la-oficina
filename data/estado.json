@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-26T21:30",
+  "actualizado": "2026-11-26T23:30",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -452,6 +452,13 @@
     "abiertos": [
       {
         "fecha": "2026-11-25T00:15",
+        "tipo": "cuenta_frenada",
+        "cuenta": "patasarriba.historias",
+        "detalle": "Frenada hace 3 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
+      },
+      {
+        "fecha": "2026-11-25T00:15",
         "tipo": "token",
         "cuenta": "patasarriba.historias",
         "detalle": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
@@ -498,16 +505,9 @@
         "cuenta": "elporquesecreto",
         "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
-      {
-        "fecha": "2026-11-26T20:27",
-        "tipo": "sin_publicar",
-        "cuenta": "elporquesecreto",
-        "detalle": "Lleva 2 de 3 publicaciones a esta hora.",
-        "accion": "ya relancé 2 veces hoy y sigue sin salir: necesita una persona"
       }
     ],
-    "resueltos_hoy": 4,
+    "resueltos_hoy": 5,
     "semana": {
       "por_tipo": {
         "sin_publicar": 27,
@@ -517,8 +517,8 @@
         "cuenta_frenada": 5,
         "token": 5
       },
-      "abiertos": 23,
-      "revisado": "2026-11-26T20:27"
+      "abiertos": 22,
+      "revisado": "2026-11-26T23:19"
     }
   },
   "analiticas_avisos": [
