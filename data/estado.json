@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-26T10:59",
+  "actualizado": "2026-11-26T11:03",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -482,7 +482,7 @@
         "fecha": "2026-11-26T00:16",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 3 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 4 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -507,18 +507,18 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 0,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 23,
+        "sin_publicar": 24,
         "oficina_vieja": 3,
         "video_apartado": 11,
-        "ejecucion_fallida": 7,
+        "ejecucion_fallida": 8,
         "cuenta_frenada": 5,
         "token": 5
       },
       "abiertos": 22,
-      "revisado": "2026-11-26T08:49"
+      "revisado": "2026-11-26T10:36"
     }
   },
   "analiticas_avisos": [
