@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T01:04",
+  "actualizado": "2026-11-27T10:21",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 11,
+      "banco": 10,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_musica_escalofrios",
-        "fecha": "2026-11-26",
-        "hora": "20:38",
-        "enlace": "https://www.instagram.com/reel/DgN34P4vXyQ/",
+        "video": "porque_nudillos",
+        "fecha": "2026-11-27",
+        "hora": "10:17",
+        "enlace": "https://www.instagram.com/reel/DgPVokfhTYN/",
         "via": "api"
       },
-      "publicados_ig": 32,
+      "publicados_ig": 33,
       "proximas": [
-        {
-          "video": "porque_nudillos",
-          "fecha": "2026-11-27",
-          "hora": "09:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_olor_lluvia",
           "fecha": "2026-11-27",
@@ -56,6 +50,12 @@
           "video": "porque_piel_gallina",
           "fecha": "2026-11-28",
           "hora": "14:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_sal_hielo",
+          "fecha": "2026-11-28",
+          "hora": "20:00",
           "via": "automatica"
         }
       ],
@@ -209,8 +209,8 @@
         "20:00"
       ],
       "banco": 17,
-      "luz": "verde",
-      "motivo": "Publica sola.",
+      "luz": "roja",
+      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
       "ultimo_publicado": {
         "video": "historia_inquilino_p4",
         "fecha": "2026-11-26",
@@ -518,7 +518,7 @@
         "token": 6
       },
       "abiertos": 26,
-      "revisado": "2026-11-27T00:18"
+      "revisado": "2026-11-27T08:50"
     }
   },
   "analiticas_avisos": [
