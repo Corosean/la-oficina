@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T21:11",
+  "actualizado": "2026-11-27T21:32",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -452,13 +452,6 @@
     "abiertos": [
       {
         "fecha": "2026-11-26T00:16",
-        "tipo": "token",
-        "cuenta": "patasarriba.historias",
-        "detalle": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
-        "accion": "renueva el token de Meta (GUIA_AGT10_PUBLICADOR.txt) y pulsa «activar» en Actions"
-      },
-      {
-        "fecha": "2026-11-26T00:16",
         "tipo": "video_apartado",
         "cuenta": "patasarriba.historias",
         "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
@@ -504,7 +497,14 @@
         "tipo": "video_apartado",
         "cuenta": "enlamejorparte",
         "detalle": "historia_inquilino_p5 apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 6 capít…"
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 5 capít…"
+      },
+      {
+        "fecha": "2026-11-27T21:20",
+        "tipo": "cola_baja",
+        "cuenta": null,
+        "detalle": "@elporquesecreto: 8 vídeos (2.7 días)",
+        "accion": "marcada para la tarea semanal de guiones; si urge, botón Fabricación → Hacer guiones"
       }
     ],
     "resueltos_hoy": 7,
@@ -515,10 +515,11 @@
         "video_apartado": 14,
         "ejecucion_fallida": 11,
         "cuenta_frenada": 6,
-        "token": 6
+        "token": 6,
+        "cola_baja": 1
       },
-      "abiertos": 27,
-      "revisado": "2026-11-27T20:23"
+      "abiertos": 28,
+      "revisado": "2026-11-27T21:20"
     }
   },
   "analiticas_avisos": [
