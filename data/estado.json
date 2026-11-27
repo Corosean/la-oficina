@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T10:21",
+  "actualizado": "2026-11-27T11:02",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 10,
+      "banco": 9,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_nudillos",
+        "video": "porque_olor_lluvia",
         "fecha": "2026-11-27",
-        "hora": "10:17",
-        "enlace": "https://www.instagram.com/reel/DgPVokfhTYN/",
+        "hora": "10:47",
+        "enlace": "https://www.instagram.com/reel/DgPZFhIOBpD/",
         "via": "api"
       },
-      "publicados_ig": 33,
+      "publicados_ig": 34,
       "proximas": [
-        {
-          "video": "porque_olor_lluvia",
-          "fecha": "2026-11-27",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_pan_tostado",
           "fecha": "2026-11-27",
@@ -56,6 +50,12 @@
           "video": "porque_sal_hielo",
           "fecha": "2026-11-28",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_tripa_ruido",
+          "fecha": "2026-11-29",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
@@ -482,7 +482,7 @@
         "fecha": "2026-11-27T00:18",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 4 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 5 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -507,18 +507,18 @@
         "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
       }
     ],
-    "resueltos_hoy": 0,
+    "resueltos_hoy": 2,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 27,
+        "sin_publicar": 28,
         "oficina_vieja": 3,
         "video_apartado": 13,
-        "ejecucion_fallida": 8,
+        "ejecucion_fallida": 9,
         "cuenta_frenada": 6,
         "token": 6
       },
       "abiertos": 26,
-      "revisado": "2026-11-27T08:50"
+      "revisado": "2026-11-27T10:35"
     }
   },
   "analiticas_avisos": [
