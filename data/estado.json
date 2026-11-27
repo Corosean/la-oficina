@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T15:43",
+  "actualizado": "2026-11-27T21:11",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -16,24 +16,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 9,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 8,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "porque_olor_lluvia",
+        "video": "porque_pan_tostado",
         "fecha": "2026-11-27",
-        "hora": "10:47",
-        "enlace": "https://www.instagram.com/reel/DgPZFhIOBpD/",
+        "hora": "20:34",
+        "enlace": "https://www.instagram.com/reel/DgQcPGaO43_/",
         "via": "api"
       },
-      "publicados_ig": 34,
+      "publicados_ig": 35,
       "proximas": [
-        {
-          "video": "porque_pan_tostado",
-          "fecha": "2026-11-27",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "porque_papel_amarillea",
           "fecha": "2026-11-28",
@@ -56,6 +50,12 @@
           "video": "porque_tripa_ruido",
           "fecha": "2026-11-29",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "porque_estelas_avion",
+          "fecha": "2026-11-29",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 15,
+      "banco": 14,
       "luz": "verde",
       "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_inquilino_p6",
+        "video": "historia_inquilino_p7",
         "fecha": "2026-11-27",
-        "hora": "15:43",
-        "enlace": "https://www.instagram.com/reel/DgP66HPqz6k/",
+        "hora": "21:11",
+        "enlace": "https://www.instagram.com/reel/DgQgccDtVp-/",
         "via": "api"
       },
-      "publicados_ig": 34,
+      "publicados_ig": 35,
       "proximas": [
-        {
-          "video": "historia_inquilino_p7",
-          "fecha": "2026-11-27",
-          "hora": "20:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_inquilino_p8",
           "fecha": "2026-11-28",
@@ -248,6 +242,12 @@
           "video": "historia_inquilino_p11",
           "fecha": "2026-11-29",
           "hora": "09:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_inquilino_p12",
+          "fecha": "2026-11-29",
+          "hora": "14:00",
           "via": "automatica"
         }
       ],
@@ -452,6 +452,13 @@
     "abiertos": [
       {
         "fecha": "2026-11-26T00:16",
+        "tipo": "token",
+        "cuenta": "patasarriba.historias",
+        "detalle": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "accion": "renueva el token de Meta (GUIA_AGT10_PUBLICADOR.txt) y pulsa «activar» en Actions"
+      },
+      {
+        "fecha": "2026-11-26T00:16",
         "tipo": "video_apartado",
         "cuenta": "patasarriba.historias",
         "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
@@ -494,31 +501,24 @@
       },
       {
         "fecha": "2026-11-27T14:42",
-        "tipo": "sin_publicar",
-        "cuenta": "enlamejorparte",
-        "detalle": "Lleva 1 de 2 publicaciones a esta hora. Último error: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFa…",
-        "accion": "ya relancé 2 veces hoy y sigue sin salir: necesita una persona"
-      },
-      {
-        "fecha": "2026-11-27T14:42",
         "tipo": "video_apartado",
         "cuenta": "enlamejorparte",
         "detalle": "historia_inquilino_p5 apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 7 capít…"
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 6 capít…"
       }
     ],
-    "resueltos_hoy": 5,
+    "resueltos_hoy": 7,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 30,
+        "sin_publicar": 31,
         "oficina_vieja": 3,
         "video_apartado": 14,
         "ejecucion_fallida": 11,
         "cuenta_frenada": 6,
         "token": 6
       },
-      "abiertos": 28,
-      "revisado": "2026-11-27T14:42"
+      "abiertos": 27,
+      "revisado": "2026-11-27T20:23"
     }
   },
   "analiticas_avisos": [
