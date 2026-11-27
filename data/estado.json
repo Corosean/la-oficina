@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T23:29",
+  "actualizado": "2026-11-28T00:58",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -62,19 +62,19 @@
       "tiktok_programado_hasta": "2026-11-21",
       "analiticas": {
         "seguidores": 13,
-        "vistas_media": 219,
-        "retencion_media_pct": 30.8,
+        "vistas_media": 201,
+        "retencion_media_pct": 29.3,
         "mejor_reel": {
           "video": "porque_fotos_serias",
           "enlace": "https://www.instagram.com/reel/DgIuSirkfhL/",
           "views": 547
         },
-        "medido": "2026-11-27T01:04",
+        "medido": "2026-11-28T00:58",
         "reels_medidos": 20,
-        "vistas_total": 4372,
-        "likes": 120,
-        "compartidos": 10,
-        "guardados": 6,
+        "vistas_total": 4019,
+        "likes": 106,
+        "compartidos": 1,
+        "guardados": 7,
         "comentarios": 0,
         "top": [
           {
@@ -85,17 +85,17 @@
             "compartidos": 0
           },
           {
-            "video": "porque_pierna_dormida",
-            "enlace": "https://www.instagram.com/reel/Df_3Ii3Cinn/",
-            "vistas": 493,
-            "retencion": 19.5,
-            "compartidos": 2
-          },
-          {
             "video": "porque_helado_cabeza",
             "enlace": "https://www.instagram.com/reel/DgKQI62T0_T/",
             "vistas": 287,
             "retencion": 36.8,
+            "compartidos": 0
+          },
+          {
+            "video": "porque_bostezo_contagio",
+            "enlace": "https://www.instagram.com/reel/DgDnhfzDJT2/",
+            "vistas": 280,
+            "retencion": 21.0,
             "compartidos": 0
           }
         ]
@@ -126,31 +126,31 @@
       "proximas": [
         {
           "video": "perros_paseos_cortos",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "perros_bebe_mucha_agua",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "14:00",
           "via": "automatica"
         },
         {
           "video": "perros_cama_antes_dormir",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "20:00",
           "via": "automatica"
         },
         {
           "video": "perros_come_hierba",
-          "fecha": "2026-11-28",
+          "fecha": "2026-11-29",
           "hora": "09:00",
           "via": "automatica"
         },
         {
           "video": "perros_confundido_casa",
-          "fecha": "2026-11-28",
+          "fecha": "2026-11-29",
           "hora": "14:00",
           "via": "automatica"
         }
@@ -253,20 +253,20 @@
       ],
       "tiktok_programado_hasta": "2026-11-19",
       "analiticas": {
-        "seguidores": 7,
-        "vistas_media": 183,
-        "retencion_media_pct": 19.6,
+        "seguidores": 9,
+        "vistas_media": 179,
+        "retencion_media_pct": 19.5,
         "mejor_reel": {
           "video": "historia_armario_p2",
           "enlace": "https://www.instagram.com/reel/DgFBNqdkSAu/",
           "views": 322
         },
-        "medido": "2026-11-27T01:04",
+        "medido": "2026-11-28T00:58",
         "reels_medidos": 20,
-        "vistas_total": 3656,
-        "likes": 84,
+        "vistas_total": 3581,
+        "likes": 73,
         "compartidos": 5,
-        "guardados": 3,
+        "guardados": 4,
         "comentarios": 1,
         "top": [
           {
@@ -284,10 +284,10 @@
             "compartidos": 0
           },
           {
-            "video": "historia_vecina_p1",
-            "enlace": "https://www.instagram.com/reel/Df_34Q5iimc/",
-            "vistas": 222,
-            "retencion": 19.0,
+            "video": "subido a mano",
+            "enlace": "https://www.instagram.com/reel/DgM0BNgBAmc/",
+            "vistas": 210,
+            "retencion": null,
             "compartidos": 0
           }
         ]
@@ -318,31 +318,31 @@
       "proximas": [
         {
           "video": "dios_r2_ansiedad",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r3_susurro",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "14:00",
           "via": "manual"
         },
         {
           "video": "dios_r4_confia",
-          "fecha": "2026-11-27",
+          "fecha": "2026-11-28",
           "hora": "20:00",
           "via": "manual"
         },
         {
           "video": "dios_r5_compania",
-          "fecha": "2026-11-28",
+          "fecha": "2026-11-29",
           "hora": "09:00",
           "via": "manual"
         },
         {
           "video": "dios_r6_puertas",
-          "fecha": "2026-11-28",
+          "fecha": "2026-11-29",
           "hora": "14:00",
           "via": "manual"
         }
@@ -441,8 +441,8 @@
       "pct": 0,
       "moneda": "€",
       "fecha_limite": "2027-03-15",
-      "dias": 108,
-      "por_semana": 110,
+      "dias": 107,
+      "por_semana": 111,
       "doc": "https://claude.ai/artifact/QBWL9irnSjMsqrVZinyvEH",
       "notas": "Sobremesa todo nuevo: RTX 5060 Ti 16 GB + 32 GB DDR5 + 1 TB NVMe. Lista de la compra con enlaces en el doc.",
       "luz": "ambar"
@@ -450,48 +450,6 @@
   ],
   "incidentes": {
     "abiertos": [
-      {
-        "fecha": "2026-11-26T00:16",
-        "tipo": "video_apartado",
-        "cuenta": "patasarriba.historias",
-        "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
-      {
-        "fecha": "2026-11-26T00:16",
-        "tipo": "video_apartado",
-        "cuenta": "elporquesecreto",
-        "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
-      {
-        "fecha": "2026-11-27T00:18",
-        "tipo": "cuenta_frenada",
-        "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 5 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
-        "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
-      },
-      {
-        "fecha": "2026-11-27T00:18",
-        "tipo": "token",
-        "cuenta": "patasarriba.historias",
-        "detalle": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
-        "accion": "renueva el token de Meta (GUIA_AGT10_PUBLICADOR.txt) y pulsa «activar» en Actions"
-      },
-      {
-        "fecha": "2026-11-27T00:18",
-        "tipo": "video_apartado",
-        "cuenta": "patasarriba.historias",
-        "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
-      {
-        "fecha": "2026-11-27T00:18",
-        "tipo": "video_apartado",
-        "cuenta": "elporquesecreto",
-        "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
-      },
       {
         "fecha": "2026-11-27T14:42",
         "tipo": "video_apartado",
@@ -505,21 +463,63 @@
         "cuenta": null,
         "detalle": "@elporquesecreto: 8 vídeos (2.7 días)",
         "accion": "marcada para la tarea semanal de guiones; si urge, botón Fabricación → Hacer guiones"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "cola_baja",
+        "cuenta": null,
+        "detalle": "@elporquesecreto: 8 vídeos (2.7 días)",
+        "accion": "marcada para la tarea semanal de guiones; si urge, botón Fabricación → Hacer guiones"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "cuenta_frenada",
+        "cuenta": "patasarriba.historias",
+        "detalle": "Frenada hace 5 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "token",
+        "cuenta": "patasarriba.historias",
+        "detalle": "El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "accion": "renueva el token de Meta (GUIA_AGT10_PUBLICADOR.txt) y pulsa «activar» en Actions"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "video_apartado",
+        "cuenta": "patasarriba.historias",
+        "detalle": "perros_ojos_azulados apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedErr…",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "video_apartado",
+        "cuenta": "elporquesecreto",
+        "detalle": "porque_teclado_qwerty apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad"
+      },
+      {
+        "fecha": "2026-11-28T00:15",
+        "tipo": "video_apartado",
+        "cuenta": "enlamejorparte",
+        "detalle": "historia_inquilino_p5 apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 5 capít…"
       }
     ],
-    "resueltos_hoy": 7,
+    "resueltos_hoy": 0,
     "semana": {
       "por_tipo": {
-        "sin_publicar": 31,
-        "oficina_vieja": 3,
-        "video_apartado": 14,
+        "oficina_vieja": 2,
+        "sin_publicar": 28,
+        "video_apartado": 17,
         "ejecucion_fallida": 11,
-        "cuenta_frenada": 6,
-        "token": 6,
-        "cola_baja": 1
+        "cuenta_frenada": 7,
+        "token": 7,
+        "cola_baja": 2
       },
-      "abiertos": 28,
-      "revisado": "2026-11-27T23:18"
+      "abiertos": 34,
+      "revisado": "2026-11-28T00:15"
     }
   },
   "analiticas_avisos": [
