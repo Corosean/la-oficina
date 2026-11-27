@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-27T15:31",
+  "actualizado": "2026-11-27T15:43",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -208,24 +208,18 @@
         "14:00",
         "20:00"
       ],
-      "banco": 16,
-      "luz": "roja",
-      "motivo": "Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedError', 'message': 'Request processing failed'}} ",
+      "banco": 15,
+      "luz": "verde",
+      "motivo": "Publica sola.",
       "ultimo_publicado": {
-        "video": "historia_inquilino_p5",
+        "video": "historia_inquilino_p6",
         "fecha": "2026-11-27",
-        "hora": "12:30",
-        "enlace": "https://www.instagram.com/reel/DgPkz7CR3nc/",
+        "hora": "15:43",
+        "enlace": "https://www.instagram.com/reel/DgP66HPqz6k/",
         "via": "api"
       },
-      "publicados_ig": 33,
+      "publicados_ig": 34,
       "proximas": [
-        {
-          "video": "historia_inquilino_p6",
-          "fecha": "2026-11-27",
-          "hora": "14:00",
-          "via": "automatica"
-        },
         {
           "video": "historia_inquilino_p7",
           "fecha": "2026-11-27",
@@ -248,6 +242,12 @@
           "video": "historia_inquilino_p10",
           "fecha": "2026-11-28",
           "hora": "20:00",
+          "via": "automatica"
+        },
+        {
+          "video": "historia_inquilino_p11",
+          "fecha": "2026-11-29",
+          "hora": "09:00",
           "via": "automatica"
         }
       ],
