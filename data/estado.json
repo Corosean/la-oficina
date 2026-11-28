@@ -1,7 +1,7 @@
 {
   "_formato": "Ver oficina/README.md. Sin tokens ni datos privados.",
   "version": 1,
-  "actualizado": "2026-11-28T10:05",
+  "actualizado": "2026-11-28T10:32",
   "zona_horaria": "Europe/Madrid",
   "luz_general": "roja",
   "cuentas": {
@@ -468,14 +468,14 @@
         "fecha": "2026-11-28T00:15",
         "tipo": "cola_baja",
         "cuenta": null,
-        "detalle": "@elporquesecreto: 8 vídeos (2.7 días)",
+        "detalle": "@elporquesecreto: 7 vídeos (2.3 días)",
         "accion": "marcada para la tarea semanal de guiones; si urge, botón Fabricación → Hacer guiones"
       },
       {
         "fecha": "2026-11-28T00:15",
         "tipo": "cuenta_frenada",
         "cuenta": "patasarriba.historias",
-        "detalle": "Frenada hace 5 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
+        "detalle": "Frenada hace 6 días: El token no da acceso a @patasarriba.historias. ¿Está vinculada a su Página y la marcaste al generar el token?",
         "accion": "no la toco: abre la app de Instagram en el móvil y mira si hay aviso o apelación"
       },
       {
@@ -504,7 +504,7 @@
         "tipo": "video_apartado",
         "cuenta": "enlamejorparte",
         "detalle": "historia_inquilino_p5 apartado tras 3 intentos: Subida rechazada (HTTP 400): {'debug_info': {'retriable': False, 'type': 'ProcessingFailedEr…",
-        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 5 capít…"
+        "accion": "la cola lo salta; hay que fabricarlo a mano y pasarle control-calidad · ojo: la serie «historia_inquilino» tiene 4 capít…"
       }
     ],
     "resueltos_hoy": 0,
@@ -519,7 +519,7 @@
         "cola_baja": 2
       },
       "abiertos": 34,
-      "revisado": "2026-11-28T08:40"
+      "revisado": "2026-11-28T10:13"
     }
   },
   "analiticas_avisos": [
